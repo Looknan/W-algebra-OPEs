@@ -1,0 +1,656 @@
+primaryWF[0, 2, 1][1] = opWF[0, 2, 1][1]
+ 
+primaryWF[0, 2, 1][2] = opWF[0, 2, 1][2]
+ 
+primaryWF[0, 2, 1][3] = opWF[0, 2, 1][3]
+ 
+primaryWF[0, 2, 1][4] = opWF[0, 2, 1][4]
+ 
+primaryWF[0, 2, 1][5] = opWF[0, 2, 1][5]
+ 
+primaryWF[0, 2, 1][6] = opWF[0, 2, 1][6]
+ 
+primaryWF[0, 2, 1][7] = opWF[0, 2, 1][7]
+ 
+primaryWF[0, 2, 1][8] = opWF[0, 2, 1][8]
+ 
+primaryWF[0, 2, 1][9] = opWF[0, 2, 1][9]
+ 
+primaryWF[1, 1, 1][1] = opWF[1, 1, 1][1]
+ 
+primaryWF[1, 1, 1][2] = -NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]/8 + 
+    opWF[1, 1, 1][2]
+ 
+primaryWF[1, 1, 1][3] = 
+   NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]/24 - 
+    NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]/2 + opWF[1, 1, 1][3]
+ 
+primaryWF[1, 1, 1][4] = 
+   (3*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][1]]])/
+     80 - NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]/40 - 
+    (3*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][1]]]])/256 + 
+    (3*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]])/16 - 
+    (3*NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]])/4 + opWF[1, 1, 1][4]
+ 
+primaryWF[1, 1, 1][5] = 
+   (-3*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]])/56 + 
+    (3*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][2]]])/
+     14 + NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+       opWF[1, 1, 1][1]]]/28 - NO[Derivative[2][opWF[1, 1, 1][1]], 
+      opWF[1, 1, 1][2]]/7 + NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+       NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]]/320 - 
+    NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+        opWF[1, 1, 1][2]]]]/16 + 
+    (3*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]]])/8 - 
+    (3*NO[opWF[1, 1, 1][1], Derivative[2][opWF[1, 1, 1][2]]])/70 - 
+    NO[opWF[1, 1, 1][1], opWF[1, 1, 1][4]] + opWF[1, 1, 1][5]
+ 
+primaryWF[1, 1, 1][6] = 
+   (5*NO[Derivative[1][opWF[1, 1, 1][1]], NO[Derivative[1][opWF[1, 1, 1][1]], 
+        NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]])/128 - 
+    (5*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][2]]])/48 - 
+    (5*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[1][opWF[1, 1, 1][2]]]])/24 + 
+    (5*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][3]]])/
+     12 - (5*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]])/192 + 
+    (5*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        opWF[1, 1, 1][2]]])/24 - 
+    (5*NO[Derivative[2][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][1]]])/
+     252 - (5*NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][3]])/12 + 
+    (5*NO[Derivative[3][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][1]]])/
+     252 - NO[Derivative[4][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]/504 - 
+    (5*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]]])/
+     6144 + (5*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]]])/256 - 
+    (5*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][3]]]])/32 + 
+    NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[2][
+        opWF[1, 1, 1][2]]]]/24 + 
+    (5*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][4]]])/8 - 
+    (5*NO[opWF[1, 1, 1][1], Derivative[2][opWF[1, 1, 1][3]]])/84 - 
+    (5*NO[opWF[1, 1, 1][1], opWF[1, 1, 1][5]])/4 + opWF[1, 1, 1][6]
+ 
+primaryWF[1, 1, 1][7] = 
+   (-15*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]])/704 + 
+    (45*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][2]]]])/352 - 
+    (45*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][3]]])/176 + 
+    (45*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], Derivative[1][opWF[1, 1, 1][2]]]]])/352 - 
+    (45*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[1][opWF[1, 1, 1][3]]]])/88 + 
+    (15*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][4]]])/
+     22 + NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[3][
+       opWF[1, 1, 1][2]]]/22 + (5*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]])/88 + 
+    (5*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]])/352 - 
+    (15*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]])/88 + 
+    (15*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        opWF[1, 1, 1][3]]])/22 - 
+    (3*NO[Derivative[2][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][2]]])/
+     22 - (10*NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][4]])/11 - 
+    (5*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]])/88 + 
+    (5*NO[Derivative[3][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][2]]])/
+     44 + NO[Derivative[4][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+       opWF[1, 1, 1][1]]]/176 - NO[Derivative[4][opWF[1, 1, 1][1]], 
+      opWF[1, 1, 1][2]]/44 + 
+    (3*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+            opWF[1, 1, 1][1]]]]]]])/14336 - 
+    (3*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]]]])/
+     512 + (15*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]]]]])/256 - 
+    (9*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         Derivative[2][opWF[1, 1, 1][2]]]]])/352 - 
+    (5*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][4]]]])/16 + 
+    (45*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[2][
+         opWF[1, 1, 1][3]]]])/616 + 
+    (15*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][5]]])/16 - 
+    (5*NO[opWF[1, 1, 1][1], Derivative[2][opWF[1, 1, 1][4]]])/66 - 
+    NO[opWF[1, 1, 1][1], Derivative[4][opWF[1, 1, 1][2]]]/308 - 
+    (3*NO[opWF[1, 1, 1][1], opWF[1, 1, 1][6]])/2 + opWF[1, 1, 1][7]
+ 
+primaryWF[1, 1, 1][8] = 
+   (-945*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], 
+        NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][
+          opWF[1, 1, 1][1]]]]])/73216 + 
+    (525*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]]])/
+     53248 - (315*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]]])/3328 + 
+    (315*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][3]]]])/832 + 
+    (63*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][2]]]])/
+     2288 - (105*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][4]]])/208 - 
+    (105*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[1][
+           opWF[1, 1, 1][2]]]]]])/1664 + 
+    (315*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], Derivative[1][opWF[1, 1, 1][3]]]]])/832 - 
+    (105*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[1][opWF[1, 1, 1][4]]]])/104 - 
+    (189*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[3][opWF[1, 1, 1][2]]]])/2288 + 
+    (105*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][
+        opWF[1, 1, 1][5]]])/104 + 
+    (45*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[3][opWF[1, 1, 1][3]]])/
+     572 + (315*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], 
+        NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]]])/18304 - 
+    (105*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][2]]]])/
+     2288 - (105*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][1]]]])/1408 + 
+    (35*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][2]]])/176 - 
+    (175*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+           opWF[1, 1, 1][1]]]]]])/26624 + 
+    (175*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]]])/
+     1664 - (525*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]]]])/832 + 
+    (525*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[2][opWF[1, 1, 1][2]]]])/2288 + 
+    (175*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        opWF[1, 1, 1][4]]])/104 - 
+    (45*NO[Derivative[2][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][3]]])/
+     143 - (175*NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][5]])/104 + 
+    (315*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][1]]]])/4576 - 
+    (105*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][2]]])/572 - 
+    (105*NO[Derivative[3][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[1][opWF[1, 1, 1][2]]]])/572 + 
+    (105*NO[Derivative[3][opWF[1, 1, 1][1]], Derivative[1][
+        opWF[1, 1, 1][3]]])/286 + 
+    (175*NO[Derivative[3][opWF[1, 1, 1][1]], Derivative[3][
+        opWF[1, 1, 1][1]]])/13728 - 
+    (63*NO[Derivative[4][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]])/9152 + 
+    (63*NO[Derivative[4][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        opWF[1, 1, 1][2]]])/1144 - 
+    (35*NO[Derivative[4][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][1]]])/
+     2288 - (63*NO[Derivative[4][opWF[1, 1, 1][1]], opWF[1, 1, 1][3]])/572 + 
+    (7*NO[Derivative[5][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][1]]])/
+     2288 - NO[Derivative[6][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]/6864 - 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+            NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]]]]])/131072 + 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+            opWF[1, 1, 1][2]]]]]]])/4096 - 
+    (21*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]]]]]])/
+     1024 + (21*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[2][
+           opWF[1, 1, 1][2]]]]]])/1664 + 
+    (35*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], opWF[1, 1, 1][4]]]]])/256 - 
+    (45*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         Derivative[2][opWF[1, 1, 1][3]]]]])/832 - 
+    (35*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][5]]]])/64 + 
+    (35*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[2][
+         opWF[1, 1, 1][4]]]])/312 + 
+    (27*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[4][
+         opWF[1, 1, 1][2]]]])/4576 + 
+    (21*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][6]]])/16 - 
+    (105*NO[opWF[1, 1, 1][1], Derivative[2][opWF[1, 1, 1][5]]])/1144 - 
+    (5*NO[opWF[1, 1, 1][1], Derivative[4][opWF[1, 1, 1][3]]])/1144 - 
+    (7*NO[opWF[1, 1, 1][1], opWF[1, 1, 1][7]])/4 + opWF[1, 1, 1][8]
+ 
+primaryWF[1, 1, 1][9] = 
+   (21*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], 
+        NO[Derivative[1][opWF[1, 1, 1][1]], 
+         NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]]]])/832 - 
+    (21*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], 
+        NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][
+          opWF[1, 1, 1][2]]]]])/208 - 
+    (21*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+            opWF[1, 1, 1][1]]]]]]])/5120 + 
+    (7*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]]]])/
+     128 - (21*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]]]]])/64 - 
+    (21*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         Derivative[2][opWF[1, 1, 1][2]]]]])/1040 + 
+    (7*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][4]]]])/8 + 
+    (3*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][3]]]])/
+     26 - (7*NO[Derivative[1][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][5]]])/8 + 
+    (7*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+           Derivative[1][opWF[1, 1, 1][2]]]]]]])/256 - 
+    (7*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[1][
+           opWF[1, 1, 1][3]]]]]])/32 + 
+    (7*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], Derivative[1][opWF[1, 1, 1][4]]]]])/8 + 
+    (21*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], Derivative[3][opWF[1, 1, 1][2]]]]])/260 - 
+    (7*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[1][opWF[1, 1, 1][5]]]])/4 - 
+    (9*NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[3][opWF[1, 1, 1][3]]]])/52 + 
+    (7*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][6]]])/
+     5 + (14*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[3][
+        opWF[1, 1, 1][4]]])/117 + 
+    (9*NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[5][opWF[1, 1, 1][2]]])/
+     1430 - (7*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], 
+        NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+          opWF[1, 1, 1][1]]]]])/208 + 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], 
+        NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][2]]]])/104 + 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         Derivative[1][opWF[1, 1, 1][2]]]]])/52 - 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][3]]]])/
+     26 + (7*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]])/104 - 
+    (21*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][2]]]])/52 + 
+    (49*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][1]]]])/
+     1287 + (21*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][3]]])/26 + 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+           NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]]]])/2560 - 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+           opWF[1, 1, 1][2]]]]]])/128 + 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]]]]])/16 - 
+    (119*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], Derivative[2][opWF[1, 1, 1][2]]]]])/520 - 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], opWF[1, 1, 1][4]]]])/4 + 
+    (8*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[2][opWF[1, 1, 1][3]]]])/13 + 
+    (7*NO[Derivative[2][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        opWF[1, 1, 1][5]]])/2 - (70*NO[Derivative[2][opWF[1, 1, 1][1]], 
+       Derivative[2][opWF[1, 1, 1][4]]])/117 - 
+    (6*NO[Derivative[2][opWF[1, 1, 1][1]], Derivative[4][opWF[1, 1, 1][2]]])/
+     143 - (14*NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][6]])/5 - 
+    (35*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]])/624 + 
+    (35*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][2]]]])/104 - 
+    (35*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][3]]])/52 - 
+    (49*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][1]]]])/
+     858 - (161*NO[Derivative[3][opWF[1, 1, 1][1]], 
+       NO[Derivative[3][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]])/3432 + 
+    (35*NO[Derivative[3][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], Derivative[1][opWF[1, 1, 1][2]]]]])/208 - 
+    (35*NO[Derivative[3][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        Derivative[1][opWF[1, 1, 1][3]]]])/52 + 
+    (35*NO[Derivative[3][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][4]]])/
+     39 + (14*NO[Derivative[3][opWF[1, 1, 1][1]], Derivative[3][
+        opWF[1, 1, 1][2]]])/143 + 
+    (49*NO[Derivative[4][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][1]]]])/
+     2860 + (133*NO[Derivative[4][opWF[1, 1, 1][1]], 
+       NO[Derivative[2][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]])/2145 + 
+    (7*NO[Derivative[4][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]])/
+     1248 - (7*NO[Derivative[4][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]])/104 + 
+    (7*NO[Derivative[4][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+        opWF[1, 1, 1][3]]])/26 - 
+    (63*NO[Derivative[4][opWF[1, 1, 1][1]], Derivative[2][opWF[1, 1, 1][2]]])/
+     715 - (14*NO[Derivative[4][opWF[1, 1, 1][1]], opWF[1, 1, 1][4]])/39 - 
+    (21*NO[Derivative[5][opWF[1, 1, 1][1]], 
+       NO[Derivative[1][opWF[1, 1, 1][1]], opWF[1, 1, 1][1]]])/1430 + 
+    (21*NO[Derivative[5][opWF[1, 1, 1][1]], Derivative[1][opWF[1, 1, 1][2]]])/
+     715 + NO[Derivative[6][opWF[1, 1, 1][1]], NO[opWF[1, 1, 1][1], 
+       opWF[1, 1, 1][1]]]/1430 - 
+    (2*NO[Derivative[6][opWF[1, 1, 1][1]], opWF[1, 1, 1][2]])/715 + 
+    NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+           NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][1]]]]]]]]]/
+     73728 - NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+       NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+          NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][2]]]]]]]]/
+     2048 + (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+           NO[opWF[1, 1, 1][1], opWF[1, 1, 1][3]]]]]]])/1024 - 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[2][
+            opWF[1, 1, 1][2]]]]]]])/1280 - 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][4]]]]]])/
+     128 + NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+        NO[opWF[1, 1, 1][1], Derivative[2][opWF[1, 1, 1][3]]]]]]/32 + 
+    (35*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         NO[opWF[1, 1, 1][1], opWF[1, 1, 1][5]]]]])/128 - 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         Derivative[2][opWF[1, 1, 1][4]]]]])/72 - 
+    (3*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         Derivative[4][opWF[1, 1, 1][2]]]]])/520 - 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], 
+         opWF[1, 1, 1][6]]]])/8 + 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[2][
+         opWF[1, 1, 1][5]]]])/44 + 
+    NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], Derivative[4][
+        opWF[1, 1, 1][3]]]]/104 + 
+    (7*NO[opWF[1, 1, 1][1], NO[opWF[1, 1, 1][1], opWF[1, 1, 1][7]]])/4 - 
+    (7*NO[opWF[1, 1, 1][1], Derivative[2][opWF[1, 1, 1][6]]])/65 - 
+    (7*NO[opWF[1, 1, 1][1], Derivative[4][opWF[1, 1, 1][4]]])/1287 - 
+    NO[opWF[1, 1, 1][1], Derivative[6][opWF[1, 1, 1][2]]]/4290 - 
+    2*NO[opWF[1, 1, 1][1], opWF[1, 1, 1][8]] + opWF[1, 1, 1][9]
+ 
+primaryWF[2, 0, 1][1] = opWF[2, 0, 1][1]
+ 
+primaryWF[2, 0, 1][2] = opWF[2, 0, 1][2]
+ 
+primaryWF[2, 0, 1][3] = opWF[2, 0, 1][3]
+ 
+primaryWF[2, 0, 1][4] = opWF[2, 0, 1][4]
+ 
+primaryWF[2, 0, 1][5] = opWF[2, 0, 1][5]
+ 
+primaryWF[2, 0, 1][6] = opWF[2, 0, 1][6]
+ 
+primaryWF[2, 0, 1][7] = opWF[2, 0, 1][7]
+ 
+primaryWF[2, 0, 1][8] = opWF[2, 0, 1][8]
+ 
+primaryWF[2, 0, 1][9] = opWF[2, 0, 1][9]
+ 
+primaryWF[1] = opWF[1]
+ 
+primaryWF[2] = -NO[opWF[1], opWF[1]]/(2*N) + opWF[2]
+ 
+primaryWF[3] = (2*NO[opWF[1], NO[opWF[1], opWF[1]]])/(3*N^2) - 
+    (2*NO[opWF[1], opWF[2]])/N + opWF[3]
+ 
+primaryWF[4] = (-3*NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[1]]]])/(4*N^3) + 
+    (3*NO[opWF[1], NO[opWF[1], opWF[2]]])/N^2 - (3*NO[opWF[1], opWF[3]])/N + 
+    (3*NO[Derivative[1][opWF[1]], Derivative[1][opWF[1]]])/(20*N) - 
+    NO[Derivative[2][opWF[1]], opWF[1]]/(10*N) + opWF[4]
+ 
+primaryWF[5] = 
+   (4*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[1]]]]])/(5*N^4) - 
+    (4*NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[2]]]])/N^3 + 
+    (6*NO[opWF[1], NO[opWF[1], opWF[3]]])/N^2 - (4*NO[opWF[1], opWF[4]])/N - 
+    (6*NO[opWF[1], Derivative[2][opWF[2]]])/(35*N) - 
+    (6*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], opWF[1]]])/
+     (7*N^2) + (6*NO[Derivative[1][opWF[1]], Derivative[1][opWF[2]]])/(7*N) + 
+    (4*NO[Derivative[2][opWF[1]], NO[opWF[1], opWF[1]]])/(7*N^2) - 
+    (4*NO[Derivative[2][opWF[1]], opWF[2]])/(7*N) + opWF[5]
+ 
+primaryWF[6] = 
+   (-5*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], opWF[1]]]]]])/(6*N^5) + 
+    (5*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[2]]]]])/N^4 - 
+    (10*NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[3]]]])/N^3 + 
+    (10*NO[opWF[1], NO[opWF[1], opWF[4]]])/N^2 + 
+    (2*NO[opWF[1], NO[opWF[1], Derivative[2][opWF[2]]]])/(3*N^2) - 
+    (5*NO[opWF[1], opWF[5]])/N - (5*NO[opWF[1], Derivative[2][opWF[3]]])/
+     (21*N) - (10*NO[Derivative[1][opWF[1]], NO[opWF[1], 
+        Derivative[1][opWF[2]]]])/(3*N^2) + 
+    (5*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], opWF[1]]]])/(2*N^3) - 
+    (5*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], opWF[2]]])/
+     (3*N^2) + (5*NO[Derivative[1][opWF[1]], Derivative[1][opWF[3]]])/(3*N) - 
+    (5*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], opWF[1]]]])/
+     (3*N^3) + (10*NO[Derivative[2][opWF[1]], NO[opWF[1], opWF[2]]])/
+     (3*N^2) - (5*NO[Derivative[2][opWF[1]], opWF[3]])/(3*N) - 
+    (5*NO[Derivative[2][opWF[1]], Derivative[2][opWF[1]]])/(63*N) + 
+    (5*NO[Derivative[3][opWF[1]], Derivative[1][opWF[1]]])/(63*N) - 
+    NO[Derivative[4][opWF[1]], opWF[1]]/(126*N) + opWF[6]
+ 
+primaryWF[7] = 
+   (6*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+           NO[opWF[1], opWF[1]]]]]]])/(7*N^6) - 
+    (6*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], opWF[2]]]]]])/N^5 + 
+    (15*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[3]]]]])/N^4 - 
+    (20*NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[4]]]])/N^3 - 
+    (18*NO[opWF[1], NO[opWF[1], NO[opWF[1], Derivative[2][opWF[2]]]]])/
+     (11*N^3) + (15*NO[opWF[1], NO[opWF[1], opWF[5]]])/N^2 + 
+    (90*NO[opWF[1], NO[opWF[1], Derivative[2][opWF[3]]]])/(77*N^2) - 
+    (6*NO[opWF[1], opWF[6]])/N - (10*NO[opWF[1], Derivative[2][opWF[4]]])/
+     (33*N) - NO[opWF[1], Derivative[4][opWF[2]]]/(77*N) + 
+    (90*NO[Derivative[1][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         Derivative[1][opWF[2]]]]])/(11*N^3) - 
+    (90*NO[Derivative[1][opWF[1]], NO[opWF[1], Derivative[1][opWF[3]]]])/
+     (11*N^2) - (60*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], opWF[1]]]]])/(11*N^4) + 
+    (90*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], opWF[2]]]])/(11*N^3) - 
+    (45*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], opWF[3]]])/
+     (11*N^2) + (30*NO[Derivative[1][opWF[1]], Derivative[1][opWF[4]]])/
+     (11*N) + (2*NO[Derivative[1][opWF[1]], Derivative[3][opWF[2]]])/(11*N) + 
+    (40*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], opWF[1]]]]])/(11*N^4) - 
+    (120*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], opWF[2]]]])/
+     (11*N^3) + (120*NO[Derivative[2][opWF[1]], NO[opWF[1], opWF[3]]])/
+     (11*N^2) + (10*NO[Derivative[2][opWF[1]], NO[Derivative[2][opWF[1]], 
+        opWF[1]]])/(11*N^2) - (40*NO[Derivative[2][opWF[1]], opWF[4]])/
+     (11*N) - (6*NO[Derivative[2][opWF[1]], Derivative[2][opWF[2]]])/(11*N) - 
+    (10*NO[Derivative[3][opWF[1]], NO[Derivative[1][opWF[1]], opWF[1]]])/
+     (11*N^2) + (5*NO[Derivative[3][opWF[1]], Derivative[1][opWF[2]]])/
+     (11*N) + NO[Derivative[4][opWF[1]], NO[opWF[1], opWF[1]]]/(11*N^2) - 
+    NO[Derivative[4][opWF[1]], opWF[2]]/(11*N) + opWF[7]
+ 
+primaryWF[8] = 
+   (-7*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[1]]]]]]]])/(8*N^7) + 
+    (7*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], NO[opWF[1], opWF[2]]]]]]])/N^6 - 
+    (21*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], opWF[3]]]]]])/N^5 + 
+    (35*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[4]]]]])/N^4 + 
+    (42*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          Derivative[2][opWF[2]]]]]])/(13*N^4) - 
+    (35*NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[5]]]])/N^3 - 
+    (45*NO[opWF[1], NO[opWF[1], NO[opWF[1], Derivative[2][opWF[3]]]]])/
+     (13*N^3) + (21*NO[opWF[1], NO[opWF[1], opWF[6]]])/N^2 + 
+    (70*NO[opWF[1], NO[opWF[1], Derivative[2][opWF[4]]]])/(39*N^2) + 
+    (27*NO[opWF[1], NO[opWF[1], Derivative[4][opWF[2]]]])/(286*N^2) - 
+    (7*NO[opWF[1], opWF[7]])/N - (105*NO[opWF[1], Derivative[2][opWF[5]]])/
+     (286*N) - (5*NO[opWF[1], Derivative[4][opWF[3]]])/(286*N) - 
+    (210*NO[Derivative[1][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], Derivative[1][opWF[2]]]]]])/(13*N^4) + 
+    (315*NO[Derivative[1][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         Derivative[1][opWF[3]]]]])/(13*N^3) - 
+    (210*NO[Derivative[1][opWF[1]], NO[opWF[1], Derivative[1][opWF[4]]]])/
+     (13*N^2) - (189*NO[Derivative[1][opWF[1]], NO[opWF[1], 
+        Derivative[3][opWF[2]]]])/(143*N^2) + 
+    (525*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[1]]]]]])/(52*N^5) - 
+    (315*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], opWF[2]]]]])/(13*N^4) + 
+    (315*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], opWF[3]]]])/(13*N^3) - 
+    (945*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[Derivative[1][opWF[1]], Derivative[1][opWF[1]]]]])/(1144*N^3) - 
+    (105*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], opWF[4]]])/
+     (13*N^2) + (63*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        Derivative[2][opWF[2]]]])/(143*N^2) + 
+    (105*NO[Derivative[1][opWF[1]], Derivative[1][opWF[5]]])/(26*N) + 
+    (45*NO[Derivative[1][opWF[1]], Derivative[3][opWF[3]]])/(143*N) - 
+    (175*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], NO[opWF[1], opWF[1]]]]]])/(26*N^5) + 
+    (350*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], opWF[2]]]]])/(13*N^4) - 
+    (525*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], opWF[3]]]])/
+     (13*N^3) + (350*NO[Derivative[2][opWF[1]], NO[opWF[1], opWF[4]]])/
+     (13*N^2) + (525*NO[Derivative[2][opWF[1]], NO[opWF[1], 
+        Derivative[2][opWF[2]]]])/(143*N^2) + 
+    (315*NO[Derivative[2][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[Derivative[1][opWF[1]], opWF[1]]]])/(286*N^3) - 
+    (105*NO[Derivative[2][opWF[1]], NO[Derivative[1][opWF[1]], 
+        Derivative[1][opWF[2]]]])/(143*N^2) - 
+    (105*NO[Derivative[2][opWF[1]], NO[Derivative[2][opWF[1]], 
+        NO[opWF[1], opWF[1]]]])/(22*N^3) + 
+    (35*NO[Derivative[2][opWF[1]], NO[Derivative[2][opWF[1]], opWF[2]]])/
+     (11*N^2) - (175*NO[Derivative[2][opWF[1]], opWF[5]])/(26*N) - 
+    (180*NO[Derivative[2][opWF[1]], Derivative[2][opWF[3]]])/(143*N) - 
+    (420*NO[Derivative[3][opWF[1]], NO[opWF[1], Derivative[1][opWF[2]]]])/
+     (143*N^2) + (630*NO[Derivative[3][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], opWF[1]]]])/(143*N^3) - 
+    (420*NO[Derivative[3][opWF[1]], NO[Derivative[1][opWF[1]], opWF[2]]])/
+     (143*N^2) + (210*NO[Derivative[3][opWF[1]], Derivative[1][opWF[3]]])/
+     (143*N) + (175*NO[Derivative[3][opWF[1]], Derivative[3][opWF[1]]])/
+     (3432*N) - (63*NO[Derivative[4][opWF[1]], NO[opWF[1], 
+        NO[opWF[1], opWF[1]]]])/(143*N^3) + 
+    (126*NO[Derivative[4][opWF[1]], NO[opWF[1], opWF[2]]])/(143*N^2) - 
+    (63*NO[Derivative[4][opWF[1]], opWF[3]])/(143*N) - 
+    (35*NO[Derivative[4][opWF[1]], Derivative[2][opWF[1]]])/(572*N) + 
+    (7*NO[Derivative[5][opWF[1]], Derivative[1][opWF[1]]])/(572*N) - 
+    NO[Derivative[6][opWF[1]], opWF[1]]/(1716*N) + opWF[8]
+ 
+primaryWF[9] = 
+   (8*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+           NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[1]]]]]]]]])/(9*N^8) - 
+    (8*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[2]]]]]]]])/N^7 + 
+    (28*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], NO[opWF[1], opWF[3]]]]]]])/N^6 - 
+    (56*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], opWF[4]]]]]])/N^5 - 
+    (28*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+          NO[opWF[1], Derivative[2][opWF[2]]]]]]])/(5*N^5) + 
+    (70*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[5]]]]])/N^4 + 
+    (8*NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], Derivative[2][
+           opWF[3]]]]]])/N^4 - 
+    (56*NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[6]]]])/N^3 - 
+    (56*NO[opWF[1], NO[opWF[1], NO[opWF[1], Derivative[2][opWF[4]]]]])/
+     (9*N^3) - (24*NO[opWF[1], NO[opWF[1], NO[opWF[1], 
+         Derivative[4][opWF[2]]]]])/(65*N^3) + 
+    (28*NO[opWF[1], NO[opWF[1], opWF[7]]])/N^2 + 
+    (28*NO[opWF[1], NO[opWF[1], Derivative[2][opWF[5]]]])/(11*N^2) + 
+    (2*NO[opWF[1], NO[opWF[1], Derivative[4][opWF[3]]]])/(13*N^2) - 
+    (8*NO[opWF[1], opWF[8]])/N - (28*NO[opWF[1], Derivative[2][opWF[6]]])/
+     (65*N) - (28*NO[opWF[1], Derivative[4][opWF[4]]])/(1287*N) - 
+    (2*NO[opWF[1], Derivative[6][opWF[2]]])/(2145*N) + 
+    (28*NO[Derivative[1][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], NO[opWF[1], Derivative[1][opWF[2]]]]]]])/N^5 - 
+    (56*NO[Derivative[1][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], Derivative[1][opWF[3]]]]]])/N^4 + 
+    (56*NO[Derivative[1][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         Derivative[1][opWF[4]]]]])/N^3 + 
+    (336*NO[Derivative[1][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         Derivative[3][opWF[2]]]]])/(65*N^3) - 
+    (28*NO[Derivative[1][opWF[1]], NO[opWF[1], Derivative[1][opWF[5]]]])/
+     N^2 - (36*NO[Derivative[1][opWF[1]], NO[opWF[1], 
+        Derivative[3][opWF[3]]]])/(13*N^2) - 
+    (84*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[1]]]]]]])/
+     (5*N^6) + (56*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[2]]]]]])/N^5 - 
+    (84*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], opWF[3]]]]])/N^4 + 
+    (56*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], opWF[4]]]])/N^3 - 
+    (84*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], Derivative[2][opWF[2]]]]])/(65*N^3) + 
+    (84*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], opWF[1]]]]])/
+     (13*N^4) - (84*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[Derivative[1][opWF[1]], Derivative[1][opWF[2]]]]])/(13*N^3) - 
+    (14*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], opWF[5]]])/
+     N^2 + (24*NO[Derivative[1][opWF[1]], NO[Derivative[1][opWF[1]], 
+        Derivative[2][opWF[3]]]])/(13*N^2) + 
+    (28*NO[Derivative[1][opWF[1]], Derivative[1][opWF[6]]])/(5*N) + 
+    (56*NO[Derivative[1][opWF[1]], Derivative[3][opWF[4]]])/(117*N) + 
+    (18*NO[Derivative[1][opWF[1]], Derivative[5][opWF[2]]])/(715*N) + 
+    (56*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], NO[opWF[1], NO[opWF[1], opWF[1]]]]]]])/(5*N^6) - 
+    (56*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], NO[opWF[1], opWF[2]]]]]])/N^5 + 
+    (112*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         NO[opWF[1], opWF[3]]]]])/N^4 - 
+    (112*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], opWF[4]]]])/N^3 - 
+    (952*NO[Derivative[2][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         Derivative[2][opWF[2]]]]])/(65*N^3) + 
+    (56*NO[Derivative[2][opWF[1]], NO[opWF[1], opWF[5]]])/N^2 + 
+    (128*NO[Derivative[2][opWF[1]], NO[opWF[1], Derivative[2][opWF[3]]]])/
+     (13*N^2) + (112*NO[Derivative[2][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], Derivative[1][opWF[2]]]]])/(13*N^3) - 
+    (112*NO[Derivative[2][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[Derivative[1][opWF[1]], NO[opWF[1], opWF[1]]]]])/(13*N^4) + 
+    (56*NO[Derivative[2][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[Derivative[1][opWF[1]], opWF[2]]]])/(13*N^3) - 
+    (56*NO[Derivative[2][opWF[1]], NO[Derivative[1][opWF[1]], 
+        Derivative[1][opWF[3]]]])/(13*N^2) + 
+    (224*NO[Derivative[2][opWF[1]], NO[Derivative[2][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], opWF[1]]]]])/(13*N^4) - 
+    (336*NO[Derivative[2][opWF[1]], NO[Derivative[2][opWF[1]], 
+        NO[opWF[1], opWF[2]]]])/(13*N^3) + 
+    (168*NO[Derivative[2][opWF[1]], NO[Derivative[2][opWF[1]], opWF[3]]])/
+     (13*N^2) + (784*NO[Derivative[2][opWF[1]], NO[Derivative[2][opWF[1]], 
+        Derivative[2][opWF[1]]]])/(1287*N^2) - 
+    (56*NO[Derivative[2][opWF[1]], opWF[6]])/(5*N) - 
+    (280*NO[Derivative[2][opWF[1]], Derivative[2][opWF[4]]])/(117*N) - 
+    (24*NO[Derivative[2][opWF[1]], Derivative[4][opWF[2]]])/(143*N) + 
+    (140*NO[Derivative[3][opWF[1]], NO[opWF[1], NO[opWF[1], 
+         Derivative[1][opWF[2]]]]])/(13*N^3) - 
+    (140*NO[Derivative[3][opWF[1]], NO[opWF[1], Derivative[1][opWF[3]]]])/
+     (13*N^2) - (560*NO[Derivative[3][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], NO[opWF[1], opWF[1]]]]])/(39*N^4) + 
+    (280*NO[Derivative[3][opWF[1]], NO[Derivative[1][opWF[1]], 
+        NO[opWF[1], opWF[2]]]])/(13*N^3) - 
+    (140*NO[Derivative[3][opWF[1]], NO[Derivative[1][opWF[1]], opWF[3]]])/
+     (13*N^2) - (392*NO[Derivative[3][opWF[1]], NO[Derivative[2][opWF[1]], 
+        Derivative[1][opWF[1]]]])/(429*N^2) - 
+    (322*NO[Derivative[3][opWF[1]], NO[Derivative[3][opWF[1]], opWF[1]]])/
+     (429*N^2) + (140*NO[Derivative[3][opWF[1]], Derivative[1][opWF[4]]])/
+     (39*N) + (56*NO[Derivative[3][opWF[1]], Derivative[3][opWF[2]]])/
+     (143*N) + (56*NO[Derivative[4][opWF[1]], NO[opWF[1], 
+        NO[opWF[1], NO[opWF[1], opWF[1]]]]])/(39*N^4) - 
+    (56*NO[Derivative[4][opWF[1]], NO[opWF[1], NO[opWF[1], opWF[2]]]])/
+     (13*N^3) + (56*NO[Derivative[4][opWF[1]], NO[opWF[1], opWF[3]]])/
+     (13*N^2) + (196*NO[Derivative[4][opWF[1]], NO[Derivative[1][opWF[1]], 
+        Derivative[1][opWF[1]]]])/(715*N^2) + 
+    (2128*NO[Derivative[4][opWF[1]], NO[Derivative[2][opWF[1]], opWF[1]]])/
+     (2145*N^2) - (56*NO[Derivative[4][opWF[1]], opWF[4]])/(39*N) - 
+    (252*NO[Derivative[4][opWF[1]], Derivative[2][opWF[2]]])/(715*N) - 
+    (168*NO[Derivative[5][opWF[1]], NO[Derivative[1][opWF[1]], opWF[1]]])/
+     (715*N^2) + (84*NO[Derivative[5][opWF[1]], Derivative[1][opWF[2]]])/
+     (715*N) + (8*NO[Derivative[6][opWF[1]], NO[opWF[1], opWF[1]]])/
+     (715*N^2) - (8*NO[Derivative[6][opWF[1]], opWF[2]])/(715*N) + opWF[9]

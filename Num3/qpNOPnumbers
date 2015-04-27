@@ -1,0 +1,41 @@
+qpnumber[0, 2, 2] = 0
+ 
+qpnumber[0, 2, 3] = 1
+ 
+qpnumber[0, 2, 4] = 3
+ 
+qpnumber[0, 2, 5] = 7
+ 
+qpnumber[0, 2, 6] = 24
+ 
+qpnumber[0, 2, 7] = 58
+ 
+qpnumber[1, 1, 2] = 1
+ 
+qpnumber[1, 1, 3] = 2
+ 
+qpnumber[1, 1, 4] = 7
+ 
+qpnumber[1, 1, 5] = 13
+ 
+qpnumber[1, 1, 6] = 33
+ 
+qpnumber[1, 1, 7] = 72
+ 
+qpnumber[2, 0, 2] = 0
+ 
+qpnumber[2, 0, 3] = 1
+ 
+qpnumber[2, 0, 4] = 3
+ 
+qpnumber[2, 0, 5] = 7
+ 
+qpnumber[2, 0, 6] = 24
+ 
+qpnumber[2, 0, 7] = 57
+ 
+qpnumber[1, 1, a_] = 0
+ 
+qpnumber[2, 0, a_] = 0
+ 
+qpnumber[0, 2, a_] = 0

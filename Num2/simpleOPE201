@@ -1,0 +1,2465 @@
+"(highestknownspin=11;OPE[opWF[1,1,1][1],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF\
+[1,1,1][2],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[1,1,1][3],opWF[2,0,1][1]]=Mak\
+eOPE[{}];OPE[opWF[1,1,1][4],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[1,1,1][5],op\
+WF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[1,1,1][6],opWF[2,0,1][1]]=MakeOPE[{}];OPE[\
+opWF[1,1,1][7],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[1,1,1][8],opWF[2,0,1][1]]\
+=MakeOPE[{}];OPE[opWF[1,1,1][9],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[1,1,1][1\
+0],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[1,1,1][11],opWF[2,0,1][1]]=MakeOPE[{}\
+];OPE[opWF[1,1,1][1],opWF[2,0,1][2]]=MakeOPE[{2*opWF[2, 0, \
+1][2]}];OPE[opWF[1,1,1][2],opWF[2,0,1][2]]=MakeOPE[{2*opWF[2, 0, 1][2], \
+Derivative[1][opWF[2, 0, \
+1][2]]}];OPE[opWF[1,1,1][3],opWF[2,0,1][2]]=MakeOPE[{(8*opWF[2, 0, 1][2])/3, \
+2*Derivative[1][opWF[2, 0, 1][2]], (4*Derivative[2][opWF[2, 0, 1][2]])/5 + \
+2*opWF[2, 0, 1][4]}];OPE[opWF[1,1,1][4],opWF[2,0,1][2]]=MakeOPE[{(21*opWF[2, \
+0, 1][2])/5, (21*Derivative[1][opWF[2, 0, 1][2]])/5, \
+(21*Derivative[2][opWF[2, 0, 1][2]])/10 + 4*opWF[2, 0, 1][4], \
+3*Derivative[1][opWF[2, 0, 1][4]] + (7*Derivative[3][opWF[2, 0, \
+1][2]])/10}];OPE[opWF[1,1,1][5],opWF[2,0,1][2]]=MakeOPE[{(264*opWF[2, 0, \
+1][2])/35, (66*Derivative[1][opWF[2, 0, 1][2]])/7, (198*Derivative[2][opWF[2, \
+0, 1][2]])/35 + (64*opWF[2, 0, 1][4])/7, 8*Derivative[1][opWF[2, 0, 1][4]] + \
+(11*Derivative[3][opWF[2, 0, 1][2]])/5, (32*Derivative[2][opWF[2, 0, \
+1][4]])/9 + (22*Derivative[4][opWF[2, 0, 1][2]])/35 + 2*opWF[2, 0, \
+1][6]}];OPE[opWF[1,1,1][6],opWF[2,0,1][2]]=MakeOPE[{(320*opWF[2, 0, \
+1][2])/21, (160*Derivative[1][opWF[2, 0, 1][2]])/7, 16*Derivative[2][opWF[2, \
+0, 1][2]] + (70*opWF[2, 0, 1][4])/3, (70*Derivative[1][opWF[2, 0, 1][4]])/3 + \
+(64*Derivative[3][opWF[2, 0, 1][2]])/9, (35*Derivative[2][opWF[2, 0, \
+1][4]])/3 + (16*Derivative[4][opWF[2, 0, 1][2]])/7 + 6*opWF[2, 0, 1][6], \
+5*Derivative[1][opWF[2, 0, 1][6]] + (35*Derivative[3][opWF[2, 0, 1][4]])/9 + \
+(4*Derivative[5][opWF[2, 0, \
+1][2]])/7}];OPE[opWF[1,1,1][7],opWF[2,0,1][2]]=MakeOPE[{(240*opWF[2, 0, \
+1][2])/7, 60*Derivative[1][opWF[2, 0, 1][2]], 48*Derivative[2][opWF[2, 0, \
+1][2]] + (720*opWF[2, 0, 1][4])/11, (810*Derivative[1][opWF[2, 0, 1][4]])/11 \
++ 24*Derivative[3][opWF[2, 0, 1][2]], (6*(525*Derivative[2][opWF[2, 0, 1][4]] \
++ 110*Derivative[4][opWF[2, 0, 1][2]] + 252*opWF[2, 0, 1][6]))/77, \
+18*Derivative[1][opWF[2, 0, 1][6]] + 15*Derivative[3][opWF[2, 0, 1][4]] + \
+(33*Derivative[5][opWF[2, 0, 1][2]])/14, (24948*Derivative[2][opWF[2, 0, \
+1][6]] + 12285*Derivative[4][opWF[2, 0, 1][4]] + 1573*Derivative[6][opWF[2, \
+0, 1][2]] + 6006*opWF[2, 0, \
+1][8])/3003}];OPE[opWF[1,1,1][8],opWF[2,0,1][2]]=MakeOPE[{(12180*opWF[2, 0, \
+1][2])/143, (24360*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(21924*Derivative[2][opWF[2, 0, 1][2]])/143 + (28560*opWF[2, 0, 1][4])/143, \
+(35700*Derivative[1][opWF[2, 0, 1][4]])/143 + (12180*Derivative[3][opWF[2, 0, \
+1][2]])/143, (5950*Derivative[2][opWF[2, 0, 1][4]] + \
+1305*Derivative[4][opWF[2, 0, 1][2]] + 2709*opWF[2, 0, 1][6])/39, \
+(5418*Derivative[1][opWF[2, 0, 1][6]] + 4760*Derivative[3][opWF[2, 0, 1][4]] \
++ 783*Derivative[5][opWF[2, 0, 1][2]])/78, (59598*Derivative[2][opWF[2, 0, \
+1][6]] + 30940*Derivative[4][opWF[2, 0, 1][4]] + 4147*Derivative[6][opWF[2, \
+0, 1][2]] + 13728*opWF[2, 0, 1][8])/1716, (180180*Derivative[1][opWF[2, 0, \
+1][8]] + 297990*Derivative[3][opWF[2, 0, 1][6]] + \
+108290*Derivative[5][opWF[2, 0, 1][4]] + 12441*Derivative[7][opWF[2, 0, \
+1][2]])/25740}];OPE[opWF[1,1,1][9],opWF[2,0,1][2]]=MakeOPE[{(33152*opWF[2, 0, \
+1][2])/143, (74592*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(74592*Derivative[2][opWF[2, 0, 1][2]])/143 + (94080*opWF[2, 0, 1][4])/143, \
+(11760*Derivative[1][opWF[2, 0, 1][4]])/13 + (4144*Derivative[3][opWF[2, 0, \
+1][2]])/13, (16*(2450*Derivative[2][opWF[2, 0, 1][4]] + \
+555*Derivative[4][opWF[2, 0, 1][2]] + 1071*opWF[2, 0, 1][6]))/65, \
+(2*(2142*Derivative[1][opWF[2, 0, 1][6]] + 1960*Derivative[3][opWF[2, 0, \
+1][4]] + 333*Derivative[5][opWF[2, 0, 1][2]]))/15, \
+(2*(494802*Derivative[2][opWF[2, 0, 1][6]] + 267540*Derivative[4][opWF[2, 0, \
+1][4]] + 37037*Derivative[6][opWF[2, 0, 1][2]] + 109824*opWF[2, 0, \
+1][8]))/6435, (68640*Derivative[1][opWF[2, 0, 1][8]] + \
+117810*Derivative[3][opWF[2, 0, 1][6]] + 44590*Derivative[5][opWF[2, 0, \
+1][4]] + 5291*Derivative[7][opWF[2, 0, 1][2]])/2145, \
+(2*(823680*Derivative[2][opWF[2, 0, 1][8]] + 801108*Derivative[4][opWF[2, 0, \
+1][6]] + 233240*Derivative[6][opWF[2, 0, 1][4]] + 24531*Derivative[8][opWF[2, \
+0, 1][2]] + 109395*opWF[2, 0, \
+1][10]))/109395}];OPE[opWF[1,1,1][10],opWF[2,0,1][2]]=MakeOPE[{(1669248*opWF[\
+2, 0, 1][2])/2431, (4173120*Derivative[1][opWF[2, 0, 1][2]])/2431, \
+(417312*Derivative[2][opWF[2, 0, 1][2]])/221 + (30240*opWF[2, 0, 1][4])/13, \
+(45360*Derivative[1][opWF[2, 0, 1][4]])/13 + (278208*Derivative[3][opWF[2, 0, \
+1][2]])/221, 2520*Derivative[2][opWF[2, 0, 1][4]] + \
+(9936*Derivative[4][opWF[2, 0, 1][2]])/17 + (18144*opWF[2, 0, 1][6])/17, \
+(21168*Derivative[1][opWF[2, 0, 1][6]])/17 + 1176*Derivative[3][opWF[2, 0, \
+1][4]] + (17388*Derivative[5][opWF[2, 0, 1][2]])/85, \
+(6*(291060*Derivative[2][opWF[2, 0, 1][6]] + 162435*Derivative[4][opWF[2, 0, \
+1][4]] + 23023*Derivative[6][opWF[2, 0, 1][2]] + 62634*opWF[2, 0, \
+1][8]))/2431, (12*(156585*Derivative[1][opWF[2, 0, 1][8]] + \
+277200*Derivative[3][opWF[2, 0, 1][6]] + 108290*Derivative[5][opWF[2, 0, \
+1][4]] + 13156*Derivative[7][opWF[2, 0, 1][2]]))/12155, \
+(2*(469755*Derivative[2][opWF[2, 0, 1][8]] + 471240*Derivative[4][opWF[2, 0, \
+1][6]] + 141610*Derivative[6][opWF[2, 0, 1][4]] + 15249*Derivative[8][opWF[2, \
+0, 1][2]] + 60775*opWF[2, 0, 1][10]))/12155, (109395*Derivative[1][opWF[2, 0, \
+1][10]] + 313170*Derivative[3][opWF[2, 0, 1][8]] + \
+212058*Derivative[5][opWF[2, 0, 1][6]] + 52020*Derivative[7][opWF[2, 0, \
+1][4]] + 5083*Derivative[9][opWF[2, 0, \
+1][2]])/12155}];OPE[opWF[1,1,1][11],opWF[2,0,1][2]]=MakeOPE[{(101606400*opWF[\
+2, 0, 1][2])/46189, (25401600*Derivative[1][opWF[2, 0, 1][2]])/4199, \
+(30481920*Derivative[2][opWF[2, 0, 1][2]])/4199 + (36892800*opWF[2, 0, \
+1][4])/4199, (4611600*Derivative[1][opWF[2, 0, 1][4]])/323 + \
+(1693440*Derivative[3][opWF[2, 0, 1][2]])/323, \
+(11760*(305*Derivative[2][opWF[2, 0, 1][4]] + 72*Derivative[4][opWF[2, 0, \
+1][2]] + 126*opWF[2, 0, 1][6]))/323, (5880*(315*Derivative[1][opWF[2, 0, \
+1][6]] + 305*Derivative[3][opWF[2, 0, 1][4]] + 54*Derivative[5][opWF[2, 0, \
+1][2]]))/323, (480*(339570*Derivative[2][opWF[2, 0, 1][6]] + \
+194285*Derivative[4][opWF[2, 0, 1][4]] + 28028*Derivative[6][opWF[2, 0, \
+1][2]] + 71214*opWF[2, 0, 1][8]))/46189, (4*(534105*Derivative[1][opWF[2, 0, \
+1][8]] + 970200*Derivative[3][opWF[2, 0, 1][6]] + \
+388570*Derivative[5][opWF[2, 0, 1][4]] + 48048*Derivative[7][opWF[2, 0, \
+1][2]]))/2717, (4*(4806945*Derivative[2][opWF[2, 0, 1][8]] + \
+4948020*Derivative[4][opWF[2, 0, 1][6]] + 1524390*Derivative[6][opWF[2, 0, \
+1][4]] + 167076*Derivative[8][opWF[2, 0, 1][2]] + 607750*opWF[2, 0, \
+1][10]))/46189, (121550*Derivative[1][opWF[2, 0, 1][10]] + \
+356070*Derivative[3][opWF[2, 0, 1][8]] + 247401*Derivative[5][opWF[2, 0, \
+1][6]] + 62220*Derivative[7][opWF[2, 0, 1][4]] + 6188*Derivative[9][opWF[2, \
+0, 1][2]])/2431, (2*(11547250*Derivative[2][opWF[2, 0, 1][10]] + \
+18693675*Derivative[4][opWF[2, 0, 1][8]] + 9677745*Derivative[6][opWF[2, 0, \
+1][6]] + 2068815*Derivative[8][opWF[2, 0, 1][4]] + \
+189924*Derivative[10][opWF[2, 0, 1][2]] + 969969*opWF[2, 0, \
+1][12]))/969969}];OPE[opWF[1,1,1][1],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[1,1\
+,1][2],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[1,1,1][3],opWF[2,0,1][3]]=MakeOPE\
+[{}];OPE[opWF[1,1,1][4],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[1,1,1][5],opWF[2\
+,0,1][3]]=MakeOPE[{}];OPE[opWF[1,1,1][6],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF\
+[1,1,1][7],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[1,1,1][8],opWF[2,0,1][3]]=Mak\
+eOPE[{}];OPE[opWF[1,1,1][9],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[1,1,1][10],o\
+pWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[1,1,1][11],opWF[2,0,1][3]]=MakeOPE[{}];OP\
+E[opWF[1,1,1][1],opWF[2,0,1][4]]=MakeOPE[{(12*opWF[2, 0, 1][2])/5, \
+(-3*Derivative[1][opWF[2, 0, 1][2]])/5, 2*opWF[2, 0, \
+1][4]}];OPE[opWF[1,1,1][2],opWF[2,0,1][4]]=MakeOPE[{(21*opWF[2, 0, 1][2])/5, \
+0, 4*opWF[2, 0, 1][4], Derivative[1][opWF[2, 0, \
+1][4]]}];OPE[opWF[1,1,1][3],opWF[2,0,1][4]]=MakeOPE[{(36*opWF[2, 0, 1][2])/5, \
+(9*Derivative[1][opWF[2, 0, 1][2]])/5, (9*Derivative[2][opWF[2, 0, 1][2]])/25 \
++ (136*opWF[2, 0, 1][4])/15, (17*Derivative[1][opWF[2, 0, 1][4]])/5 + \
+(3*Derivative[3][opWF[2, 0, 1][2]])/50, (34*Derivative[2][opWF[2, 0, \
+1][4]])/45 + (3*Derivative[4][opWF[2, 0, 1][2]])/350 + 2*opWF[2, 0, \
+1][6]}];OPE[opWF[1,1,1][4],opWF[2,0,1][4]]=MakeOPE[{(72*opWF[2, 0, 1][2])/5, \
+(36*Derivative[1][opWF[2, 0, 1][2]])/5, (54*Derivative[2][opWF[2, 0, \
+1][2]])/25 + (114*opWF[2, 0, 1][4])/5, (57*Derivative[1][opWF[2, 0, 1][4]])/5 \
++ (12*Derivative[3][opWF[2, 0, 1][2]])/25, (19*Derivative[2][opWF[2, 0, \
+1][4]])/6 + (3*Derivative[4][opWF[2, 0, 1][2]])/35 + 6*opWF[2, 0, 1][6], \
+3*Derivative[1][opWF[2, 0, 1][6]] + (19*Derivative[3][opWF[2, 0, 1][4]])/30 + \
+(9*Derivative[5][opWF[2, 0, \
+1][2]])/700}];OPE[opWF[1,1,1][5],opWF[2,0,1][4]]=MakeOPE[{(1152*opWF[2, 0, \
+1][2])/35, (864*Derivative[1][opWF[2, 0, 1][2]])/35, \
+(1728*Derivative[2][opWF[2, 0, 1][2]])/175 + (2208*opWF[2, 0, 1][4])/35, \
+(276*Derivative[1][opWF[2, 0, 1][4]])/7 + (96*Derivative[3][opWF[2, 0, \
+1][2]])/35, (4*(805*Derivative[2][opWF[2, 0, 1][4]] + \
+36*Derivative[4][opWF[2, 0, 1][2]] + 1197*opWF[2, 0, 1][6]))/245, \
+(5985*Derivative[1][opWF[2, 0, 1][6]] + 1610*Derivative[3][opWF[2, 0, 1][4]] \
++ 54*Derivative[5][opWF[2, 0, 1][2]])/525, (2*(131670*Derivative[2][opWF[2, \
+0, 1][6]] + 20930*Derivative[4][opWF[2, 0, 1][4]] + 572*Derivative[6][opWF[2, \
+0, 1][2]] + 75075*opWF[2, 0, \
+1][8]))/75075}];OPE[opWF[1,1,1][6],opWF[2,0,1][4]]=MakeOPE[{84*opWF[2, 0, \
+1][2], 84*Derivative[1][opWF[2, 0, 1][2]], 42*Derivative[2][opWF[2, 0, 1][2]] \
++ (4000*opWF[2, 0, 1][4])/21, (1000*Derivative[1][opWF[2, 0, 1][4]])/7 + \
+14*Derivative[3][opWF[2, 0, 1][2]], (5000*Derivative[2][opWF[2, 0, 1][4]] + \
+315*Derivative[4][opWF[2, 0, 1][2]] + 6174*opWF[2, 0, 1][6])/90, \
+(12348*Derivative[1][opWF[2, 0, 1][6]] + 4000*Derivative[3][opWF[2, 0, 1][4]] \
++ 189*Derivative[5][opWF[2, 0, 1][2]])/270, (135828*Derivative[2][opWF[2, 0, \
+1][6]] + 26000*Derivative[4][opWF[2, 0, 1][4]] + 1001*Derivative[6][opWF[2, \
+0, 1][2]] + 68640*opWF[2, 0, 1][8])/8580, (128700*Derivative[1][opWF[2, 0, \
+1][8]] + 97020*Derivative[3][opWF[2, 0, 1][6]] + 13000*Derivative[5][opWF[2, \
+0, 1][4]] + 429*Derivative[7][opWF[2, 0, \
+1][2]])/25740}];OPE[opWF[1,1,1][7],opWF[2,0,1][4]]=MakeOPE[{(2592*opWF[2, 0, \
+1][2])/11, (3240*Derivative[1][opWF[2, 0, 1][2]])/11, \
+(1944*Derivative[2][opWF[2, 0, 1][2]])/11 + (48000*opWF[2, 0, 1][4])/77, \
+(6000*Derivative[1][opWF[2, 0, 1][4]])/11 + (756*Derivative[3][opWF[2, 0, \
+1][2]])/11, (4*(10000*Derivative[2][opWF[2, 0, 1][4]] + \
+810*Derivative[4][opWF[2, 0, 1][2]] + 10647*opWF[2, 0, 1][6]))/165, \
+(10647*Derivative[1][opWF[2, 0, 1][6]] + 4000*Derivative[3][opWF[2, 0, 1][4]] \
++ 243*Derivative[5][opWF[2, 0, 1][2]])/55, (45045*Derivative[2][opWF[2, 0, \
+1][6]] + 10000*Derivative[4][opWF[2, 0, 1][4]] + 495*Derivative[6][opWF[2, 0, \
+1][2]] + 20592*opWF[2, 0, 1][8])/605, (54054*Derivative[1][opWF[2, 0, 1][8]] \
++ 45045*Derivative[3][opWF[2, 0, 1][6]] + 7000*Derivative[5][opWF[2, 0, \
+1][4]] + 297*Derivative[7][opWF[2, 0, 1][2]])/2310, \
+(8432424*Derivative[2][opWF[2, 0, 1][8]] + 3981978*Derivative[4][opWF[2, 0, \
+1][6]] + 476000*Derivative[6][opWF[2, 0, 1][4]] + 17901*Derivative[8][opWF[2, \
+0, 1][2]] + 2042040*opWF[2, 0, \
+1][10])/1021020}];OPE[opWF[1,1,1][8],opWF[2,0,1][4]]=MakeOPE[{(102816*opWF[2, \
+0, 1][2])/143, (154224*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(539784*Derivative[2][opWF[2, 0, 1][2]])/715 + (314412*opWF[2, 0, 1][4])/143, \
+(314412*Derivative[1][opWF[2, 0, 1][4]])/143 + (239904*Derivative[3][opWF[2, \
+0, 1][2]])/715, (42*(18715*Derivative[2][opWF[2, 0, 1][4]] + \
+1836*Derivative[4][opWF[2, 0, 1][2]] + 17640*opWF[2, 0, 1][6]))/715, \
+(14*(44100*Derivative[1][opWF[2, 0, 1][6]] + 18715*Derivative[3][opWF[2, 0, \
+1][4]] + 1377*Derivative[5][opWF[2, 0, 1][2]]))/715, \
+(6791400*Derivative[2][opWF[2, 0, 1][6]] + 1703065*Derivative[4][opWF[2, 0, \
+1][4]] + 102102*Derivative[6][opWF[2, 0, 1][2]] + 2851992*opWF[2, 0, \
+1][8])/18590, (10694970*Derivative[1][opWF[2, 0, 1][8]] + \
+9702000*Derivative[3][opWF[2, 0, 1][6]] + 1703065*Derivative[5][opWF[2, 0, \
+1][4]] + 87516*Derivative[7][opWF[2, 0, 1][2]])/92950, \
+(32084910*Derivative[2][opWF[2, 0, 1][8]] + 16493400*Derivative[4][opWF[2, 0, \
+1][6]] + 2227085*Derivative[6][opWF[2, 0, 1][4]] + \
+101439*Derivative[8][opWF[2, 0, 1][2]] + 7293000*opWF[2, 0, 1][10])/729300, \
+(10210200*Derivative[1][opWF[2, 0, 1][10]] + 16636620*Derivative[3][opWF[2, \
+0, 1][8]] + 5772690*Derivative[5][opWF[2, 0, 1][6]] + \
+636310*Derivative[7][opWF[2, 0, 1][4]] + 26299*Derivative[9][opWF[2, 0, \
+1][2]])/1458600}];OPE[opWF[1,1,1][9],opWF[2,0,1][4]]=MakeOPE[{(338688*opWF[2, \
+0, 1][2])/143, (592704*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(2370816*Derivative[2][opWF[2, 0, 1][2]])/715 + (1188992*opWF[2, 0, \
+1][4])/143, (1337616*Derivative[1][opWF[2, 0, 1][4]])/143 + \
+(1185408*Derivative[3][opWF[2, 0, 1][2]])/715, \
+(112*(33175*Derivative[2][opWF[2, 0, 1][4]] + 3780*Derivative[4][opWF[2, 0, \
+1][2]] + 28224*opWF[2, 0, 1][6]))/715, (56*(14112*Derivative[1][opWF[2, 0, \
+1][6]] + 6635*Derivative[3][opWF[2, 0, 1][4]] + 567*Derivative[5][opWF[2, 0, \
+1][2]]))/195, (8*(10866240*Derivative[2][opWF[2, 0, 1][6]] + \
+3018925*Derivative[4][opWF[2, 0, 1][4]] + 210210*Derivative[6][opWF[2, 0, \
+1][2]] + 4241952*opWF[2, 0, 1][8]))/46475, (2*(3181464*Derivative[1][opWF[2, \
+0, 1][8]] + 3104640*Derivative[3][opWF[2, 0, 1][6]] + \
+603785*Derivative[5][opWF[2, 0, 1][4]] + 36036*Derivative[7][opWF[2, 0, \
+1][2]]))/10725, (2*(66810744*Derivative[2][opWF[2, 0, 1][8]] + \
+36945216*Derivative[4][opWF[2, 0, 1][6]] + 5526955*Derivative[6][opWF[2, 0, \
+1][4]] + 292383*Derivative[8][opWF[2, 0, 1][2]] + 14367210*opWF[2, 0, \
+1][10]))/546975, (14367210*Derivative[1][opWF[2, 0, 1][10]] + \
+24744720*Derivative[3][opWF[2, 0, 1][8]] + 9236304*Derivative[5][opWF[2, 0, \
+1][6]] + 1127950*Derivative[7][opWF[2, 0, 1][4]] + \
+54145*Derivative[9][opWF[2, 0, 1][2]])/364650, \
+(2*(545953980*Derivative[2][opWF[2, 0, 1][10]] + \
+519639120*Derivative[4][opWF[2, 0, 1][8]] + 144520992*Derivative[6][opWF[2, \
+0, 1][6]] + 15001735*Derivative[8][opWF[2, 0, 1][4]] + \
+664734*Derivative[10][opWF[2, 0, 1][2]] + 72747675*opWF[2, 0, \
+1][12]))/72747675}];OPE[opWF[1,1,1][10],opWF[2,0,1][4]]=MakeOPE[{(108864*opWF\
+[2, 0, 1][2])/13, (217728*Derivative[1][opWF[2, 0, 1][2]])/13, \
+(979776*Derivative[2][opWF[2, 0, 1][2]])/65 + (81575424*opWF[2, 0, \
+1][4])/2431, (101969280*Derivative[1][opWF[2, 0, 1][4]])/2431 + \
+(108864*Derivative[3][opWF[2, 0, 1][2]])/13, \
+(72*(393400*Derivative[2][opWF[2, 0, 1][4]] + 50490*Derivative[4][opWF[2, 0, \
+1][2]] + 306621*opWF[2, 0, 1][6]))/1105, (72*(306621*Derivative[1][opWF[2, 0, \
+1][6]] + 157360*Derivative[3][opWF[2, 0, 1][4]] + 15147*Derivative[5][opWF[2, \
+0, 1][2]]))/1105, (36*(3372831*Derivative[2][opWF[2, 0, 1][6]] + \
+1022840*Derivative[4][opWF[2, 0, 1][4]] + 80223*Derivative[6][opWF[2, 0, \
+1][2]] + 1235520*opWF[2, 0, 1][8]))/12155, \
+(12*(16216200*Derivative[1][opWF[2, 0, 1][8]] + \
+16864155*Derivative[3][opWF[2, 0, 1][6]] + 3579940*Derivative[5][opWF[2, 0, \
+1][4]] + 240669*Derivative[7][opWF[2, 0, 1][2]]))/60775, \
+(3*(194594400*Derivative[2][opWF[2, 0, 1][8]] + \
+114676254*Derivative[4][opWF[2, 0, 1][6]] + 18725840*Derivative[6][opWF[2, 0, \
+1][4]] + 1115829*Derivative[8][opWF[2, 0, 1][2]] + 39844090*opWF[2, 0, \
+1][10]))/413270, (3*(79688180*Derivative[1][opWF[2, 0, 1][10]] + \
+144144000*Derivative[3][opWF[2, 0, 1][8]] + 57338127*Derivative[5][opWF[2, 0, \
+1][6]] + 7643200*Derivative[7][opWF[2, 0, 1][4]] + \
+413270*Derivative[9][opWF[2, 0, 1][2]]))/1033175, \
+(1514075420*Derivative[2][opWF[2, 0, 1][10]] + \
+1513512000*Derivative[4][opWF[2, 0, 1][8]] + 448586523*Derivative[6][opWF[2, \
+0, 1][6]] + 50827280*Derivative[8][opWF[2, 0, 1][4]] + \
+2536842*Derivative[10][opWF[2, 0, 1][2]] + 193993800*opWF[2, 0, \
+1][12])/16166150, (145495350*Derivative[1][opWF[2, 0, 1][12]] + \
+412929660*Derivative[3][opWF[2, 0, 1][10]] + 272432160*Derivative[5][opWF[2, \
+0, 1][8]] + 64083789*Derivative[7][opWF[2, 0, 1][6]] + \
+6353410*Derivative[9][opWF[2, 0, 1][4]] + 296514*Derivative[11][opWF[2, 0, \
+1][2]])/16166150}];OPE[opWF[1,1,1][11],opWF[2,0,1][4]]=MakeOPE[{(132814080*op\
+WF[2, 0, 1][2])/4199, (298831680*Derivative[1][opWF[2, 0, 1][2]])/4199, \
+(298831680*Derivative[2][opWF[2, 0, 1][2]])/4199 + (6647961600*opWF[2, 0, \
+1][4])/46189, (830995200*Derivative[1][opWF[2, 0, 1][4]])/4199 + \
+(182619360*Derivative[3][opWF[2, 0, 1][2]])/4199, \
+(864*(641200*Derivative[2][opWF[2, 0, 1][4]] + 90585*Derivative[4][opWF[2, 0, \
+1][2]] + 463302*opWF[2, 0, 1][6]))/4199, (36*(926604*Derivative[1][opWF[2, 0, \
+1][6]] + 512960*Derivative[3][opWF[2, 0, 1][4]] + 54351*Derivative[5][opWF[2, \
+0, 1][2]]))/323, (36*(71348508*Derivative[2][opWF[2, 0, 1][6]] + \
+23339680*Derivative[4][opWF[2, 0, 1][4]] + 2015013*Derivative[6][opWF[2, 0, \
+1][2]] + 24710400*opWF[2, 0, 1][8]))/46189, \
+(18*(46332000*Derivative[1][opWF[2, 0, 1][8]] + \
+50963220*Derivative[3][opWF[2, 0, 1][6]] + 11669840*Derivative[5][opWF[2, 0, \
+1][4]] + 863577*Derivative[7][opWF[2, 0, 1][2]]))/46189, \
+(12*(555984000*Derivative[2][opWF[2, 0, 1][8]] + \
+346549896*Derivative[4][opWF[2, 0, 1][6]] + 61042240*Derivative[6][opWF[2, 0, \
+1][4]] + 4003857*Derivative[8][opWF[2, 0, 1][2]] + 108969575*opWF[2, 0, \
+1][10]))/785213, (3*(108969575*Derivative[1][opWF[2, 0, 1][10]] + \
+205920000*Derivative[3][opWF[2, 0, 1][8]] + 86637474*Derivative[5][opWF[2, 0, \
+1][6]] + 12457600*Derivative[7][opWF[2, 0, 1][4]] + \
+741455*Derivative[9][opWF[2, 0, 1][2]]))/230945, \
+(9*(2070421925*Derivative[2][opWF[2, 0, 1][10]] + \
+2162160000*Derivative[4][opWF[2, 0, 1][8]] + 677810826*Derivative[6][opWF[2, \
+0, 1][6]] + 82843040*Derivative[8][opWF[2, 0, 1][4]] + \
+4551393*Derivative[10][opWF[2, 0, 1][2]] + 256071816*opWF[2, 0, \
+1][12]))/30715685, (192053862*Derivative[1][opWF[2, 0, 1][12]] + \
+564660525*Derivative[3][opWF[2, 0, 1][10]] + 389188800*Derivative[5][opWF[2, \
+0, 1][8]] + 96830118*Derivative[7][opWF[2, 0, 1][6]] + \
+10355380*Derivative[9][opWF[2, 0, 1][4]] + 531981*Derivative[11][opWF[2, 0, \
+1][2]])/3233230, (8834477652*Derivative[2][opWF[2, 0, 1][12]] + \
+14116513125*Derivative[4][opWF[2, 0, 1][10]] + \
+7104240000*Derivative[6][opWF[2, 0, 1][8]] + 1465192575*Derivative[8][opWF[2, \
+0, 1][6]] + 140102200*Derivative[10][opWF[2, 0, 1][4]] + \
+6797535*Derivative[12][opWF[2, 0, 1][2]] + 743642900*opWF[2, 0, \
+1][14])/371821450}];OPE[opWF[1,1,1][1],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[1\
+,1,1][2],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[1,1,1][3],opWF[2,0,1][5]]=MakeO\
+PE[{}];OPE[opWF[1,1,1][4],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[1,1,1][5],opWF\
+[2,0,1][5]]=MakeOPE[{}];OPE[opWF[1,1,1][6],opWF[2,0,1][5]]=MakeOPE[{}];OPE[op\
+WF[1,1,1][7],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[1,1,1][8],opWF[2,0,1][5]]=M\
+akeOPE[{}];OPE[opWF[1,1,1][9],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[1,1,1][10]\
+,opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[1,1,1][11],opWF[2,0,1][5]]=MakeOPE[{}];\
+OPE[opWF[1,1,1][1],opWF[2,0,1][6]]=MakeOPE[{(40*opWF[2, 0, 1][2])/7, \
+(-30*Derivative[1][opWF[2, 0, 1][2]])/7, (6*Derivative[2][opWF[2, 0, \
+1][2]])/7 + (80*opWF[2, 0, 1][4])/9, (-10*Derivative[1][opWF[2, 0, 1][4]])/9 \
+- Derivative[3][opWF[2, 0, 1][2]]/21, 2*opWF[2, 0, \
+1][6]}];OPE[opWF[1,1,1][2],opWF[2,0,1][6]]=MakeOPE[{(320*opWF[2, 0, \
+1][2])/21, (-160*Derivative[1][opWF[2, 0, 1][2]])/21, \
+(16*Derivative[2][opWF[2, 0, 1][2]])/21 + (70*opWF[2, 0, 1][4])/3, 0, \
+6*opWF[2, 0, 1][6], Derivative[1][opWF[2, 0, \
+1][6]]}];OPE[opWF[1,1,1][3],opWF[2,0,1][6]]=MakeOPE[{(240*opWF[2, 0, \
+1][2])/7, (-60*Derivative[1][opWF[2, 0, 1][2]])/7, (4000*opWF[2, 0, \
+1][4])/63, (500*Derivative[1][opWF[2, 0, 1][4]])/63, \
+(500*Derivative[2][opWF[2, 0, 1][4]])/567 + (176*opWF[2, 0, 1][6])/9, \
+(44*Derivative[1][opWF[2, 0, 1][6]])/9 + (50*Derivative[3][opWF[2, 0, \
+1][4]])/567, (88*Derivative[2][opWF[2, 0, 1][6]])/117 + \
+(50*Derivative[4][opWF[2, 0, 1][4]])/6237 + 2*opWF[2, 0, \
+1][8]}];OPE[opWF[1,1,1][4],opWF[2,0,1][6]]=MakeOPE[{84*opWF[2, 0, 1][2], 0, \
+(4000*opWF[2, 0, 1][4])/21, (1000*Derivative[1][opWF[2, 0, 1][4]])/21, \
+(500*Derivative[2][opWF[2, 0, 1][4]])/63 + (343*opWF[2, 0, 1][6])/5, \
+(343*Derivative[1][opWF[2, 0, 1][6]])/15 + (200*Derivative[3][opWF[2, 0, \
+1][4]])/189, (343*Derivative[2][opWF[2, 0, 1][6]])/78 + \
+(250*Derivative[4][opWF[2, 0, 1][4]])/2079 + 8*opWF[2, 0, 1][8], \
+3*Derivative[1][opWF[2, 0, 1][8]] + (49*Derivative[3][opWF[2, 0, 1][6]])/78 + \
+(25*Derivative[5][opWF[2, 0, \
+1][4]])/2079}];OPE[opWF[1,1,1][5],opWF[2,0,1][6]]=MakeOPE[{(1600*opWF[2, 0, \
+1][2])/7, (400*Derivative[1][opWF[2, 0, 1][2]])/7, (80*Derivative[2][opWF[2, \
+0, 1][2]])/7 + (30400*opWF[2, 0, 1][4])/49, (11400*Derivative[1][opWF[2, 0, \
+1][4]])/49 + (40*Derivative[3][opWF[2, 0, 1][2]])/21, \
+(8*(4750*Derivative[2][opWF[2, 0, 1][4]] + 25*Derivative[4][opWF[2, 0, 1][2]] \
++ 23688*opWF[2, 0, 1][6]))/735, (47376*Derivative[1][opWF[2, 0, 1][6]] + \
+3800*Derivative[3][opWF[2, 0, 1][4]] + 15*Derivative[5][opWF[2, 0, \
+1][2]])/441, (4690224*Derivative[2][opWF[2, 0, 1][6]] + \
+222300*Derivative[4][opWF[2, 0, 1][4]] + 715*Derivative[6][opWF[2, 0, 1][2]] \
++ 6438432*opWF[2, 0, 1][8])/189189, (5633628*Derivative[1][opWF[2, 0, 1][8]] \
++ 1563408*Derivative[3][opWF[2, 0, 1][6]] + 51870*Derivative[5][opWF[2, 0, \
+1][4]] + 143*Derivative[7][opWF[2, 0, 1][2]])/378378, \
+(112672560*Derivative[2][opWF[2, 0, 1][8]] + 17718624*Derivative[4][opWF[2, \
+0, 1][6]] + 452200*Derivative[6][opWF[2, 0, 1][4]] + \
+1105*Derivative[8][opWF[2, 0, 1][2]] + 64324260*opWF[2, 0, \
+1][10])/32162130}];OPE[opWF[1,1,1][6],opWF[2,0,1][6]]=MakeOPE[{(4800*opWF[2, \
+0, 1][2])/7, (2400*Derivative[1][opWF[2, 0, 1][2]])/7, \
+(720*Derivative[2][opWF[2, 0, 1][2]])/7 + (19600*opWF[2, 0, 1][4])/9, \
+(9800*Derivative[1][opWF[2, 0, 1][4]])/9 + (160*Derivative[3][opWF[2, 0, \
+1][2]])/7, (20*(60025*Derivative[2][opWF[2, 0, 1][4]] + \
+810*Derivative[4][opWF[2, 0, 1][2]] + 205128*opWF[2, 0, 1][6]))/3969, \
+(10*(205128*Derivative[1][opWF[2, 0, 1][6]] + 24010*Derivative[3][opWF[2, 0, \
+1][4]] + 243*Derivative[5][opWF[2, 0, 1][2]]))/3969, \
+(5*(2256408*Derivative[2][opWF[2, 0, 1][6]] + 156065*Derivative[4][opWF[2, 0, \
+1][4]] + 1287*Derivative[6][opWF[2, 0, 1][2]] + 2486484*opWF[2, 0, \
+1][8]))/81081, (2*(65270205*Derivative[1][opWF[2, 0, 1][8]] + \
+22564080*Derivative[3][opWF[2, 0, 1][6]] + 1092455*Derivative[5][opWF[2, 0, \
+1][4]] + 7722*Derivative[7][opWF[2, 0, 1][2]]))/1702701, \
+(391621230*Derivative[2][opWF[2, 0, 1][8]] + 76717872*Derivative[4][opWF[2, \
+0, 1][6]] + 2857190*Derivative[6][opWF[2, 0, 1][4]] + \
+17901*Derivative[8][opWF[2, 0, 1][2]] + 192972780*opWF[2, 0, \
+1][10])/19297278, (192972780*Derivative[1][opWF[2, 0, 1][10]] + \
+145044900*Derivative[3][opWF[2, 0, 1][8]] + 19179468*Derivative[5][opWF[2, 0, \
+1][6]] + 583100*Derivative[7][opWF[2, 0, 1][4]] + 3315*Derivative[9][opWF[2, \
+0, \
+1][2]])/38594556}];OPE[opWF[1,1,1][7],opWF[2,0,1][6]]=MakeOPE[{(172800*opWF[2\
+, 0, 1][2])/77, (129600*Derivative[1][opWF[2, 0, 1][2]])/77, \
+(51840*Derivative[2][opWF[2, 0, 1][2]])/77 + (270400*opWF[2, 0, 1][4])/33, \
+(169000*Derivative[1][opWF[2, 0, 1][4]])/33 + (14400*Derivative[3][opWF[2, 0, \
+1][2]])/77, (40*(207025*Derivative[2][opWF[2, 0, 1][4]] + \
+4860*Derivative[4][opWF[2, 0, 1][2]] + 533988*opWF[2, 0, 1][6]))/4851, \
+(20*(266994*Derivative[1][opWF[2, 0, 1][6]] + 41405*Derivative[3][opWF[2, 0, \
+1][4]] + 729*Derivative[5][opWF[2, 0, 1][2]]))/2079, \
+(40*(451836*Derivative[2][opWF[2, 0, 1][6]] + 41405*Derivative[4][opWF[2, 0, \
+1][4]] + 594*Derivative[6][opWF[2, 0, 1][2]] + 416988*opWF[2, 0, \
+1][8]))/22869, (2*(10945935*Derivative[1][opWF[2, 0, 1][8]] + \
+4518360*Derivative[3][opWF[2, 0, 1][6]] + 289835*Derivative[5][opWF[2, 0, \
+1][4]] + 3564*Derivative[7][opWF[2, 0, 1][2]]))/53361, \
+(10*(32837805*Derivative[2][opWF[2, 0, 1][8]] + 7681212*Derivative[4][opWF[2, \
+0, 1][6]] + 379015*Derivative[6][opWF[2, 0, 1][4]] + \
+4131*Derivative[8][opWF[2, 0, 1][2]] + 14294280*opWF[2, 0, 1][10]))/2721411, \
+(14294280*Derivative[1][opWF[2, 0, 1][10]] + 12162150*Derivative[3][opWF[2, \
+0, 1][8]] + 1920303*Derivative[5][opWF[2, 0, 1][6]] + \
+77350*Derivative[7][opWF[2, 0, 1][4]] + 765*Derivative[9][opWF[2, 0, \
+1][2]])/494802, (1008767760*Derivative[2][opWF[2, 0, 1][10]] + \
+474323850*Derivative[4][opWF[2, 0, 1][8]] + 55801746*Derivative[6][opWF[2, 0, \
+1][6]] + 1910545*Derivative[8][opWF[2, 0, 1][4]] + \
+17442*Derivative[10][opWF[2, 0, 1][2]] + 244432188*opWF[2, 0, \
+1][12])/122216094}];OPE[opWF[1,1,1][8],opWF[2,0,1][6]]=MakeOPE[{(103200*opWF[\
+2, 0, 1][2])/13, (103200*Derivative[1][opWF[2, 0, 1][2]])/13, \
+(51600*Derivative[2][opWF[2, 0, 1][2]])/13 + (4704000*opWF[2, 0, 1][4])/143, \
+(3528000*Derivative[1][opWF[2, 0, 1][4]])/143 + (17200*Derivative[3][opWF[2, \
+0, 1][2]])/13, (20*(68600*Derivative[2][opWF[2, 0, 1][4]] + \
+2365*Derivative[4][opWF[2, 0, 1][2]] + 142002*opWF[2, 0, 1][6]))/143, \
+(20*(284004*Derivative[1][opWF[2, 0, 1][6]] + 54880*Derivative[3][opWF[2, 0, \
+1][4]] + 1419*Derivative[5][opWF[2, 0, 1][2]]))/429, \
+(10*(196814772*Derivative[2][opWF[2, 0, 1][6]] + \
+22473360*Derivative[4][opWF[2, 0, 1][4]] + 473473*Derivative[6][opWF[2, 0, \
+1][2]] + 156835536*opWF[2, 0, 1][8]))/429429, \
+(10*(98022210*Derivative[1][opWF[2, 0, 1][8]] + \
+46860660*Derivative[3][opWF[2, 0, 1][6]] + 3745560*Derivative[5][opWF[2, 0, \
+1][4]] + 67639*Derivative[7][opWF[2, 0, 1][2]]))/429429, \
+(5*(392088840*Derivative[2][opWF[2, 0, 1][8]] + \
+106217496*Derivative[4][opWF[2, 0, 1][6]] + 6530720*Derivative[6][opWF[2, 0, \
+1][4]] + 104533*Derivative[8][opWF[2, 0, 1][2]] + 153493340*opWF[2, 0, \
+1][10]))/2654652, (4144320180*Derivative[1][opWF[2, 0, 1][10]] + \
+3920888400*Derivative[3][opWF[2, 0, 1][8]] + 716968098*Derivative[5][opWF[2, \
+0, 1][6]] + 35985600*Derivative[7][opWF[2, 0, 1][4]] + \
+522665*Derivative[9][opWF[2, 0, 1][2]])/23891868, \
+(3749623020*Derivative[2][opWF[2, 0, 1][10]] + \
+1960444200*Derivative[4][opWF[2, 0, 1][8]] + 267105762*Derivative[6][opWF[2, \
+0, 1][6]] + 11395440*Derivative[8][opWF[2, 0, 1][4]] + \
+152779*Derivative[10][opWF[2, 0, 1][2]] + 838053216*opWF[2, 0, \
+1][12])/69837768, (488864376*Derivative[1][opWF[2, 0, 1][12]] + \
+795374580*Derivative[3][opWF[2, 0, 1][10]] + 274462188*Derivative[5][opWF[2, \
+0, 1][8]] + 29678418*Derivative[7][opWF[2, 0, 1][6]] + \
+1107890*Derivative[9][opWF[2, 0, 1][4]] + 13889*Derivative[11][opWF[2, 0, \
+1][2]])/69837768}];OPE[opWF[1,1,1][9],opWF[2,0,1][6]]=MakeOPE[{(391680*opWF[2\
+, 0, 1][2])/13, (489600*Derivative[1][opWF[2, 0, 1][2]])/13, \
+(293760*Derivative[2][opWF[2, 0, 1][2]])/13 + (20070400*opWF[2, 0, \
+1][4])/143, (17561600*Derivative[1][opWF[2, 0, 1][4]])/143 + \
+(114240*Derivative[3][opWF[2, 0, 1][2]])/13, \
+(128*(548800*Derivative[2][opWF[2, 0, 1][4]] + 25245*Derivative[4][opWF[2, 0, \
+1][2]] + 950796*opWF[2, 0, 1][6]))/1287, (16*(1901592*Derivative[1][opWF[2, \
+0, 1][6]] + 439040*Derivative[3][opWF[2, 0, 1][4]] + \
+15147*Derivative[5][opWF[2, 0, 1][2]]))/429, \
+(80*(146422584*Derivative[2][opWF[2, 0, 1][6]] + \
+19976320*Derivative[4][opWF[2, 0, 1][4]] + 561561*Derivative[6][opWF[2, 0, \
+1][2]] + 103083552*opWF[2, 0, 1][8]))/429429, \
+(8*(193281660*Derivative[1][opWF[2, 0, 1][8]] + \
+104587560*Derivative[3][opWF[2, 0, 1][6]] + 9988160*Derivative[5][opWF[2, 0, \
+1][4]] + 240669*Derivative[7][opWF[2, 0, 1][2]]))/117117, \
+(4*(2319379920*Derivative[2][opWF[2, 0, 1][8]] + \
+711195408*Derivative[4][opWF[2, 0, 1][6]] + 52245760*Derivative[6][opWF[2, 0, \
+1][4]] + 1115829*Derivative[8][opWF[2, 0, 1][2]] + 828168770*opWF[2, 0, \
+1][10]))/1990989, (828168770*Derivative[1][opWF[2, 0, 1][10]] + \
+859029600*Derivative[3][opWF[2, 0, 1][8]] + 177798852*Derivative[5][opWF[2, \
+0, 1][6]] + 10662400*Derivative[7][opWF[2, 0, 1][4]] + \
+206635*Derivative[9][opWF[2, 0, 1][2]])/765765, \
+(15735206630*Derivative[2][opWF[2, 0, 1][10]] + \
+9019810800*Derivative[4][opWF[2, 0, 1][8]] + 1391014548*Derivative[6][opWF[2, \
+0, 1][6]] + 70904960*Derivative[8][opWF[2, 0, 1][4]] + \
+1268421*Derivative[10][opWF[2, 0, 1][2]] + 3274615344*opWF[2, 0, \
+1][12])/43648605, (2455961508*Derivative[1][opWF[2, 0, 1][12]] + \
+4291419990*Derivative[3][opWF[2, 0, 1][10]] + \
+1623565944*Derivative[5][opWF[2, 0, 1][8]] + 198716364*Derivative[7][opWF[2, \
+0, 1][6]] + 8863120*Derivative[9][opWF[2, 0, 1][4]] + \
+148257*Derivative[11][opWF[2, 0, 1][2]])/52378326, \
+(2*(112974229368*Derivative[2][opWF[2, 0, 1][12]] + \
+107285499750*Derivative[4][opWF[2, 0, 1][10]] + \
+29636521200*Derivative[6][opWF[2, 0, 1][8]] + \
+3006892350*Derivative[8][opWF[2, 0, 1][6]] + 119912800*Derivative[10][opWF[2, \
+0, 1][4]] + 1894395*Derivative[12][opWF[2, 0, 1][2]] + 15058768725*opWF[2, 0, \
+1][14]))/15058768725}];OPE[opWF[1,1,1][10],opWF[2,0,1][6]]=MakeOPE[{(2073600*\
+opWF[2, 0, 1][2])/17, (3110400*Derivative[1][opWF[2, 0, 1][2]])/17, \
+(2177280*Derivative[2][opWF[2, 0, 1][2]])/17 + (140169600*opWF[2, 0, \
+1][4])/221, (140169600*Derivative[1][opWF[2, 0, 1][4]])/221 + \
+(967680*Derivative[3][opWF[2, 0, 1][2]])/17, \
+(576*(1338425*Derivative[2][opWF[2, 0, 1][4]] + 77220*Derivative[4][opWF[2, \
+0, 1][2]] + 2000376*opWF[2, 0, 1][6]))/2431, \
+(960*(1000188*Derivative[1][opWF[2, 0, 1][6]] + 267685*Derivative[3][opWF[2, \
+0, 1][4]] + 11583*Derivative[5][opWF[2, 0, 1][2]]))/2431, \
+(240*(2000376*Derivative[2][opWF[2, 0, 1][6]] + 316355*Derivative[4][opWF[2, \
+0, 1][4]] + 11154*Derivative[6][opWF[2, 0, 1][2]] + 1266408*opWF[2, 0, \
+1][8]))/2873, (48*(33243210*Derivative[1][opWF[2, 0, 1][8]] + \
+20003760*Derivative[3][opWF[2, 0, 1][6]] + 2214485*Derivative[5][opWF[2, 0, \
+1][4]] + 66924*Derivative[7][opWF[2, 0, 1][2]]))/20111, \
+(8*(299188890*Derivative[2][opWF[2, 0, 1][8]] + \
+102019176*Derivative[4][opWF[2, 0, 1][6]] + 8687595*Derivative[6][opWF[2, 0, \
+1][4]] + 232713*Derivative[8][opWF[2, 0, 1][2]] + 98552740*opWF[2, 0, \
+1][10]))/78897, (4*(689869180*Derivative[1][opWF[2, 0, 1][10]] + \
+775674900*Derivative[3][opWF[2, 0, 1][8]] + 178533558*Derivative[5][opWF[2, \
+0, 1][6]] + 12410850*Derivative[7][opWF[2, 0, 1][4]] + \
+301665*Derivative[9][opWF[2, 0, 1][2]]))/394485, \
+(3745004120*Derivative[2][opWF[2, 0, 1][10]] + \
+2327024700*Derivative[4][opWF[2, 0, 1][8]] + 399075012*Derivative[6][opWF[2, \
+0, 1][6]] + 23580615*Derivative[8][opWF[2, 0, 1][4]] + \
+529074*Derivative[10][opWF[2, 0, 1][2]] + 731356626*opWF[2, 0, \
+1][12])/1499043, (16089845772*Derivative[1][opWF[2, 0, 1][12]] + \
+29960032960*Derivative[3][opWF[2, 0, 1][10]] + \
+12286690416*Derivative[5][opWF[2, 0, 1][8]] + \
+1672314336*Derivative[7][opWF[2, 0, 1][6]] + 86462255*Derivative[9][opWF[2, \
+0, 1][4]] + 1813968*Derivative[11][opWF[2, 0, 1][2]])/49468419, \
+(370066452756*Derivative[2][opWF[2, 0, 1][12]] + \
+374500412000*Derivative[4][opWF[2, 0, 1][10]] + \
+112140428400*Derivative[6][opWF[2, 0, 1][8]] + \
+12652378200*Derivative[8][opWF[2, 0, 1][6]] + \
+584891725*Derivative[10][opWF[2, 0, 1][4]] + 11589240*Derivative[12][opWF[2, \
+0, 1][2]] + 46849502700*opWF[2, 0, 1][14])/3346393050, \
+(30117537450*Derivative[1][opWF[2, 0, 1][14]] + \
+85399950636*Derivative[3][opWF[2, 0, 1][12]] + \
+56175061800*Derivative[5][opWF[2, 0, 1][10]] + \
+13107322800*Derivative[7][opWF[2, 0, 1][8]] + \
+1265237820*Derivative[9][opWF[2, 0, 1][6]] + 53171975*Derivative[11][opWF[2, \
+0, 1][4]] + 1002915*Derivative[13][opWF[2, 0, \
+1][2]])/3346393050}];OPE[opWF[1,1,1][11],opWF[2,0,1][6]]=MakeOPE[{(169344000*\
+opWF[2, 0, 1][2])/323, (296352000*Derivative[1][opWF[2, 0, 1][2]])/323, \
+(237081600*Derivative[2][opWF[2, 0, 1][2]])/323 + (12707712000*opWF[2, 0, \
+1][4])/4199, (14296176000*Derivative[1][opWF[2, 0, 1][4]])/4199 + \
+(118540800*Derivative[3][opWF[2, 0, 1][2]])/323, \
+(86400*(1011175*Derivative[2][opWF[2, 0, 1][4]] + 70070*Derivative[4][opWF[2, \
+0, 1][2]] + 1333584*opWF[2, 0, 1][6]))/46189, \
+(7200*(1333584*Derivative[1][opWF[2, 0, 1][6]] + 404470*Derivative[3][opWF[2, \
+0, 1][4]] + 21021*Derivative[5][opWF[2, 0, 1][2]]))/4199, \
+(4800*(12002256*Derivative[2][opWF[2, 0, 1][6]] + \
+2151045*Derivative[4][opWF[2, 0, 1][4]] + 91091*Derivative[6][opWF[2, 0, \
+1][2]] + 6929208*opWF[2, 0, 1][8]))/54587, \
+(240*(8661510*Derivative[1][opWF[2, 0, 1][8]] + 5715360*Derivative[3][opWF[2, \
+0, 1][6]] + 717015*Derivative[5][opWF[2, 0, 1][4]] + \
+26026*Derivative[7][opWF[2, 0, 1][2]]))/4199, \
+(40*(2546483940*Derivative[2][opWF[2, 0, 1][8]] + \
+952178976*Derivative[4][opWF[2, 0, 1][6]] + 91888230*Derivative[6][opWF[2, 0, \
+1][4]] + 2956317*Derivative[8][opWF[2, 0, 1][2]] + 781055990*opWF[2, 0, \
+1][10]))/499681, (10*(7029503910*Derivative[1][opWF[2, 0, 1][10]] + \
+8488279800*Derivative[3][opWF[2, 0, 1][8]] + 2142402696*Derivative[5][opWF[2, \
+0, 1][6]] + 168774300*Derivative[7][opWF[2, 0, 1][4]] + \
+4927195*Derivative[9][opWF[2, 0, 1][2]]))/1499043, \
+(80*(44520191430*Derivative[2][opWF[2, 0, 1][10]] + \
+29708979300*Derivative[4][opWF[2, 0, 1][8]] + \
+5587050168*Derivative[6][opWF[2, 0, 1][6]] + 374116365*Derivative[8][opWF[2, \
+0, 1][4]] + 10081799*Derivative[10][opWF[2, 0, 1][2]] + 8212286628*opWF[2, 0, \
+1][12]))/199372719, (5*(60223435272*Derivative[1][opWF[2, 0, 1][12]] + \
+118720510480*Derivative[3][opWF[2, 0, 1][10]] + \
+52287803568*Derivative[5][opWF[2, 0, 1][8]] + \
+7804133568*Derivative[7][opWF[2, 0, 1][6]] + 457253335*Derivative[9][opWF[2, \
+0, 1][4]] + 11522056*Derivative[11][opWF[2, 0, 1][2]]))/129005877, \
+(37398753303912*Derivative[2][opWF[2, 0, 1][12]] + \
+40068172287000*Derivative[4][opWF[2, 0, 1][10]] + \
+12885208736400*Derivative[6][opWF[2, 0, 1][8]] + \
+1594199653200*Derivative[8][opWF[2, 0, 1][6]] + \
+83515976775*Derivative[10][opWF[2, 0, 1][4]] + \
+1987554660*Derivative[12][opWF[2, 0, 1][2]] + 4518374260400*opWF[2, 0, \
+1][14])/44507027565, (645482037200*Derivative[1][opWF[2, 0, 1][14]] + \
+1917884784816*Derivative[3][opWF[2, 0, 1][12]] + \
+1335605742900*Derivative[5][opWF[2, 0, 1][10]] + \
+334680746400*Derivative[7][opWF[2, 0, 1][8]] + \
+35426658960*Derivative[9][opWF[2, 0, 1][6]] + \
+1687191450*Derivative[11][opWF[2, 0, 1][4]] + 38222205*Derivative[13][opWF[2, \
+0, 1][2]])/9369900540, (645482037200*Derivative[2][opWF[2, 0, 1][14]] + \
+1029975162216*Derivative[4][opWF[2, 0, 1][12]] + \
+516434220588*Derivative[6][opWF[2, 0, 1][10]] + \
+105497191800*Derivative[8][opWF[2, 0, 1][8]] + \
+9784505808*Derivative[10][opWF[2, 0, 1][6]] + \
+429197825*Derivative[12][opWF[2, 0, 1][4]] + 9314655*Derivative[14][opWF[2, \
+0, 1][2]] + 54345423132*opWF[2, 0, \
+1][16])/27172711566}];OPE[opWF[1,1,1][1],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF\
+[1,1,1][2],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[1,1,1][3],opWF[2,0,1][7]]=Mak\
+eOPE[{}];OPE[opWF[1,1,1][4],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[1,1,1][5],op\
+WF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[1,1,1][6],opWF[2,0,1][7]]=MakeOPE[{}];OPE[\
+opWF[1,1,1][7],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[1,1,1][8],opWF[2,0,1][7]]\
+=MakeOPE[{}];OPE[opWF[1,1,1][9],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[1,1,1][1\
+0],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[1,1,1][11],opWF[2,0,1][7]]=MakeOPE[{}\
+];OPE[opWF[1,1,1][1],opWF[2,0,1][8]]=MakeOPE[{(3360*opWF[2, 0, 1][2])/143, \
+(-4200*Derivative[1][opWF[2, 0, 1][2]])/143, (1680*(Derivative[2][opWF[2, 0, \
+1][2]] + 5*opWF[2, 0, 1][4]))/143, (-3150*Derivative[1][opWF[2, 0, \
+1][4]])/143 - (280*Derivative[3][opWF[2, 0, 1][2]])/143, \
+(2*(175*Derivative[2][opWF[2, 0, 1][4]] + 10*Derivative[4][opWF[2, 0, 1][2]] \
++ 1386*opWF[2, 0, 1][6]))/143, (-1386*Derivative[1][opWF[2, 0, 1][6]] - \
+70*Derivative[3][opWF[2, 0, 1][4]] - 3*Derivative[5][opWF[2, 0, 1][2]])/858, \
+2*opWF[2, 0, \
+1][8]}];OPE[opWF[1,1,1][2],opWF[2,0,1][8]]=MakeOPE[{(12180*opWF[2, 0, \
+1][2])/143, (-12180*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(3654*Derivative[2][opWF[2, 0, 1][2]])/143 + (28560*opWF[2, 0, 1][4])/143, \
+(-7140*Derivative[1][opWF[2, 0, 1][4]])/143 - (406*Derivative[3][opWF[2, 0, \
+1][2]])/143, (2380*Derivative[2][opWF[2, 0, 1][4]] + 87*Derivative[4][opWF[2, \
+0, 1][2]] + 59598*opWF[2, 0, 1][6])/858, 0, 8*opWF[2, 0, 1][8], \
+Derivative[1][opWF[2, 0, \
+1][8]]}];OPE[opWF[1,1,1][3],opWF[2,0,1][8]]=MakeOPE[{(34720*opWF[2, 0, \
+1][2])/143, (-26040*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(5208*Derivative[2][opWF[2, 0, 1][2]])/143 + (90720*opWF[2, 0, 1][4])/143, \
+(-11340*Derivative[1][opWF[2, 0, 1][4]])/143 - (868*Derivative[3][opWF[2, 0, \
+1][2]])/429, (37044*opWF[2, 0, 1][6])/143, (3087*Derivative[1][opWF[2, 0, \
+1][6]])/143, (3087*Derivative[2][opWF[2, 0, 1][6]])/1859 + (1328*opWF[2, 0, \
+1][8])/39, (83*Derivative[1][opWF[2, 0, 1][8]])/13 + \
+(441*Derivative[3][opWF[2, 0, 1][6]])/3718, (166*Derivative[2][opWF[2, 0, \
+1][8]])/221 + (147*Derivative[4][opWF[2, 0, 1][6]])/18590 + 2*opWF[2, 0, \
+1][10]}];OPE[opWF[1,1,1][4],opWF[2,0,1][8]]=MakeOPE[{(102816*opWF[2, 0, \
+1][2])/143, (-51408*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(25704*Derivative[2][opWF[2, 0, 1][2]])/715 + (314412*opWF[2, 0, 1][4])/143, \
+0, (148176*opWF[2, 0, 1][6])/143, (24696*Derivative[1][opWF[2, 0, \
+1][6]])/143, (37044*Derivative[2][opWF[2, 0, 1][6]])/1859 + (9972*opWF[2, 0, \
+1][8])/65, (2493*Derivative[1][opWF[2, 0, 1][8]])/65 + \
+(3528*Derivative[3][opWF[2, 0, 1][6]])/1859, (2493*Derivative[2][opWF[2, 0, \
+1][8]])/442 + (294*Derivative[4][opWF[2, 0, 1][6]])/1859 + 10*opWF[2, 0, \
+1][10], 3*Derivative[1][opWF[2, 0, 1][10]] + (277*Derivative[3][opWF[2, 0, \
+1][8]])/442 + (441*Derivative[5][opWF[2, 0, \
+1][6]])/37180}];OPE[opWF[1,1,1][5],opWF[2,0,1][8]]=MakeOPE[{(328320*opWF[2, \
+0, 1][2])/143, (-82080*Derivative[1][opWF[2, 0, 1][2]])/143, (1176000*opWF[2, \
+0, 1][4])/143, (147000*Derivative[1][opWF[2, 0, 1][4]])/143, \
+(49000*Derivative[2][opWF[2, 0, 1][4]])/429 + (630336*opWF[2, 0, 1][6])/143, \
+(157584*Derivative[1][opWF[2, 0, 1][6]])/143 + (4900*Derivative[3][opWF[2, 0, \
+1][4]])/429, (315168*Derivative[2][opWF[2, 0, 1][6]])/1859 + \
+(4900*Derivative[4][opWF[2, 0, 1][4]])/4719 + (3651552*opWF[2, 0, \
+1][8])/5005, (228222*Derivative[1][opWF[2, 0, 1][8]])/1001 + \
+(37520*Derivative[3][opWF[2, 0, 1][6]])/1859 + (1225*Derivative[5][opWF[2, 0, \
+1][4]])/14157, (684666*Derivative[2][opWF[2, 0, 1][8]])/17017 + \
+(3752*Derivative[4][opWF[2, 0, 1][6]])/1859 + (1225*Derivative[6][opWF[2, 0, \
+1][4]])/184041 + (4780*opWF[2, 0, 1][10])/91, (239*Derivative[1][opWF[2, 0, \
+1][10]])/13 + (12679*Derivative[3][opWF[2, 0, 1][8]])/2431 + \
+(3283*Derivative[5][opWF[2, 0, 1][6]])/18590 + (175*Derivative[7][opWF[2, 0, \
+1][4]])/368082, (956*Derivative[2][opWF[2, 0, 1][10]])/273 + \
+(25358*Derivative[4][opWF[2, 0, 1][8]])/46189 + (6566*Derivative[6][opWF[2, \
+0, 1][6]])/474045 + (35*Derivative[8][opWF[2, 0, 1][4]])/1104246 + 2*opWF[2, \
+0, 1][12]}];OPE[opWF[1,1,1][6],opWF[2,0,1][8]]=MakeOPE[{(103200*opWF[2, 0, \
+1][2])/13, 0, (4704000*opWF[2, 0, 1][4])/143, (1176000*Derivative[1][opWF[2, \
+0, 1][4]])/143, (196000*Derivative[2][opWF[2, 0, 1][4]])/143 + \
+(2840040*opWF[2, 0, 1][6])/143, (946680*Derivative[1][opWF[2, 0, 1][6]])/143 \
++ (78400*Derivative[3][opWF[2, 0, 1][4]])/429, \
+(20*(27335385*Derivative[2][opWF[2, 0, 1][6]] + 445900*Derivative[4][opWF[2, \
+0, 1][4]] + 78417768*opWF[2, 0, 1][8]))/429429, \
+(20*(29406663*Derivative[1][opWF[2, 0, 1][8]] + 3905055*Derivative[3][opWF[2, \
+0, 1][6]] + 44590*Derivative[5][opWF[2, 0, 1][4]]))/429429, \
+(5*(176439978*Derivative[2][opWF[2, 0, 1][8]] + \
+13277187*Derivative[4][opWF[2, 0, 1][6]] + 116620*Derivative[6][opWF[2, 0, \
+1][4]] + 180902865*opWF[2, 0, 1][10]))/3128697, \
+(723611460*Derivative[1][opWF[2, 0, 1][10]] + 261392560*Derivative[3][opWF[2, \
+0, 1][8]] + 13277187*Derivative[5][opWF[2, 0, 1][6]] + \
+95200*Derivative[7][opWF[2, 0, 1][4]])/6257394, \
+(13748617740*Derivative[2][opWF[2, 0, 1][10]] + \
+2744621880*Derivative[4][opWF[2, 0, 1][8]] + 103874463*Derivative[6][opWF[2, \
+0, 1][6]] + 633080*Derivative[8][opWF[2, 0, 1][4]] + 6657867216*opWF[2, 0, \
+1][12])/554822268, (24967002060*Derivative[1][opWF[2, 0, 1][12]] + \
+18748115100*Derivative[3][opWF[2, 0, 1][10]] + \
+2470159692*Derivative[5][opWF[2, 0, 1][8]] + 74196045*Derivative[7][opWF[2, \
+0, 1][6]] + 395675*Derivative[9][opWF[2, 0, \
+1][4]])/4993400412}];OPE[opWF[1,1,1][7],opWF[2,0,1][8]]=MakeOPE[{(4233600*opW\
+F[2, 0, 1][2])/143, (1058400*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(211680*Derivative[2][opWF[2, 0, 1][2]])/143 + (16934400*opWF[2, 0, \
+1][4])/121, (6350400*Derivative[1][opWF[2, 0, 1][4]])/121 + \
+(35280*Derivative[3][opWF[2, 0, 1][2]])/143, \
+(5040*(3640*Derivative[2][opWF[2, 0, 1][4]] + 11*Derivative[4][opWF[2, 0, \
+1][2]] + 29484*opWF[2, 0, 1][6]))/1573, (210*(294840*Derivative[1][opWF[2, 0, \
+1][6]] + 14560*Derivative[3][opWF[2, 0, 1][4]] + 33*Derivative[5][opWF[2, 0, \
+1][2]]))/1573, (10*(110020680*Derivative[2][opWF[2, 0, 1][6]] + \
+3210480*Derivative[4][opWF[2, 0, 1][4]] + 5929*Derivative[6][opWF[2, 0, \
+1][2]] + 232511136*opWF[2, 0, 1][8]))/121121, \
+(145319460*Derivative[1][opWF[2, 0, 1][8]] + 26195400*Derivative[3][opWF[2, \
+0, 1][6]] + 535080*Derivative[5][opWF[2, 0, 1][4]] + \
+847*Derivative[7][opWF[2, 0, 1][2]])/17303, (581277840*Derivative[2][opWF[2, \
+0, 1][8]] + 59376240*Derivative[4][opWF[2, 0, 1][6]] + \
+932960*Derivative[6][opWF[2, 0, 1][4]] + 1309*Derivative[8][opWF[2, 0, 1][2]] \
++ 489360300*opWF[2, 0, 1][10])/294151, (2642545620*Derivative[1][opWF[2, 0, \
+1][10]] + 1162555680*Derivative[3][opWF[2, 0, 1][8]] + \
+80157924*Derivative[5][opWF[2, 0, 1][6]] + 1028160*Derivative[7][opWF[2, 0, \
+1][4]] + 1309*Derivative[9][opWF[2, 0, 1][2]])/3529812, \
+(1087847946900*Derivative[2][opWF[2, 0, 1][10]] + \
+264481417200*Derivative[4][opWF[2, 0, 1][8]] + \
+13587553980*Derivative[6][opWF[2, 0, 1][6]] + 148140720*Derivative[8][opWF[2, \
+0, 1][4]] + 174097*Derivative[10][opWF[2, 0, 1][2]] + 457856407008*opWF[2, 0, \
+1][12])/6103044948, (38154700584*Derivative[1][opWF[2, 0, 1][12]] + \
+32965089300*Derivative[3][opWF[2, 0, 1][10]] + \
+5289628344*Derivative[5][opWF[2, 0, 1][8]] + 215675460*Derivative[7][opWF[2, \
+0, 1][6]] + 2057510*Derivative[9][opWF[2, 0, 1][4]] + \
+2261*Derivative[11][opWF[2, 0, 1][2]])/1109644536, \
+(15796046041776*Derivative[2][opWF[2, 0, 1][12]] + \
+7417145092500*Derivative[4][opWF[2, 0, 1][10]] + \
+869010370800*Derivative[6][opWF[2, 0, 1][8]] + \
+29371592250*Derivative[8][opWF[2, 0, 1][6]] + \
+250532100*Derivative[10][opWF[2, 0, 1][4]] + 260015*Derivative[12][opWF[2, 0, \
+1][2]] + 3828273649200*opWF[2, 0, \
+1][14])/1914136824600}];OPE[opWF[1,1,1][8],opWF[2,0,1][8]]=MakeOPE[{(16934400\
+*opWF[2, 0, 1][2])/143, (8467200*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(2540160*Derivative[2][opWF[2, 0, 1][2]])/143 + (1172707200*opWF[2, 0, \
+1][4])/1859, (586353600*Derivative[1][opWF[2, 0, 1][4]])/1859 + \
+(564480*Derivative[3][opWF[2, 0, 1][2]])/143, \
+(3360*(533225*Derivative[2][opWF[2, 0, 1][4]] + 4290*Derivative[4][opWF[2, 0, \
+1][2]] + 2878974*opWF[2, 0, 1][6]))/20449, \
+(1680*(2878974*Derivative[1][opWF[2, 0, 1][6]] + 213290*Derivative[3][opWF[2, \
+0, 1][4]] + 1287*Derivative[5][opWF[2, 0, 1][2]]))/20449, \
+(280*(60458454*Derivative[2][opWF[2, 0, 1][6]] + \
+2646735*Derivative[4][opWF[2, 0, 1][4]] + 13013*Derivative[6][opWF[2, 0, \
+1][2]] + 100359831*opWF[2, 0, 1][8]))/265837, \
+(28*(501799155*Derivative[1][opWF[2, 0, 1][8]] + \
+115158960*Derivative[3][opWF[2, 0, 1][6]] + 3528980*Derivative[5][opWF[2, 0, \
+1][4]] + 14872*Derivative[7][opWF[2, 0, 1][2]]))/265837, \
+(42*(1505397465*Derivative[2][opWF[2, 0, 1][8]] + \
+195770232*Derivative[4][opWF[2, 0, 1][6]] + 4614820*Derivative[6][opWF[2, 0, \
+1][4]] + 17238*Derivative[8][opWF[2, 0, 1][2]] + 1074939580*opWF[2, 0, \
+1][10]))/4519229, (14*(4837228110*Derivative[1][opWF[2, 0, 1][10]] + \
+2508995775*Derivative[3][opWF[2, 0, 1][8]] + 220241511*Derivative[5][opWF[2, \
+0, 1][6]] + 4238100*Derivative[7][opWF[2, 0, 1][4]] + \
+14365*Derivative[9][opWF[2, 0, 1][2]]))/13557687, \
+(61271556060*Derivative[2][opWF[2, 0, 1][10]] + \
+17562970425*Derivative[4][opWF[2, 0, 1][8]] + \
+1148710626*Derivative[6][opWF[2, 0, 1][6]] + 18788910*Derivative[8][opWF[2, \
+0, 1][4]] + 58786*Derivative[10][opWF[2, 0, 1][2]] + 22848589764*opWF[2, 0, \
+1][12])/46835646, (251334487404*Derivative[1][opWF[2, 0, 1][12]] + \
+245086224240*Derivative[3][opWF[2, 0, 1][10]] + \
+46366241922*Derivative[5][opWF[2, 0, 1][8]] + \
+2406822264*Derivative[7][opWF[2, 0, 1][6]] + 34446335*Derivative[9][opWF[2, \
+0, 1][4]] + 100776*Derivative[11][opWF[2, 0, 1][2]])/1030384212, \
+(17342079630876*Derivative[2][opWF[2, 0, 1][12]] + \
+9190733409000*Derivative[4][opWF[2, 0, 1][10]] + \
+1269551862150*Derivative[6][opWF[2, 0, 1][8]] + \
+54628531650*Derivative[8][opWF[2, 0, 1][6]] + \
+699057975*Derivative[10][opWF[2, 0, 1][4]] + 1931540*Derivative[12][opWF[2, \
+0, 1][2]] + 3828273649200*opWF[2, 0, 1][14])/273448117800, \
+(11484820947600*Derivative[1][opWF[2, 0, 1][14]] + \
+18676085756328*Derivative[3][opWF[2, 0, 1][12]] + \
+6433513386300*Derivative[5][opWF[2, 0, 1][10]] + \
+692482833900*Derivative[7][opWF[2, 0, 1][8]] + \
+25493314770*Derivative[9][opWF[2, 0, 1][6]] + \
+296570050*Derivative[11][opWF[2, 0, 1][4]] + 780045*Derivative[13][opWF[2, 0, \
+1][2]])/1640688706800}];OPE[opWF[1,1,1][9],opWF[2,0,1][8]]=MakeOPE[{(72253440\
+*opWF[2, 0, 1][2])/143, (54190080*Derivative[1][opWF[2, 0, 1][2]])/143, \
+(21676032*Derivative[2][opWF[2, 0, 1][2]])/143 + (5581578240*opWF[2, 0, \
+1][4])/1859, (3488486400*Derivative[1][opWF[2, 0, 1][4]])/1859 + \
+(6021120*Derivative[3][opWF[2, 0, 1][2]])/143, \
+(322560*(39655*Derivative[2][opWF[2, 0, 1][4]] + 572*Derivative[4][opWF[2, 0, \
+1][2]] + 157689*opWF[2, 0, 1][6]))/20449, \
+(37632*(788445*Derivative[1][opWF[2, 0, 1][6]] + 79310*Derivative[3][opWF[2, \
+0, 1][4]] + 858*Derivative[5][opWF[2, 0, 1][2]]))/20449, \
+(3584*(99344070*Derivative[2][opWF[2, 0, 1][6]] + \
+5904990*Derivative[4][opWF[2, 0, 1][4]] + 52052*Derivative[6][opWF[2, 0, \
+1][2]] + 135412563*opWF[2, 0, 1][8]))/797511, \
+(672*(677062815*Derivative[1][opWF[2, 0, 1][8]] + \
+189226800*Derivative[3][opWF[2, 0, 1][6]] + 7873320*Derivative[5][opWF[2, 0, \
+1][4]] + 59488*Derivative[7][opWF[2, 0, 1][2]]))/1329185, \
+(672*(677062815*Derivative[2][opWF[2, 0, 1][8]] + \
+107228520*Derivative[4][opWF[2, 0, 1][6]] + 3431960*Derivative[6][opWF[2, 0, \
+1][4]] + 22984*Derivative[8][opWF[2, 0, 1][2]] + 420259125*opWF[2, 0, \
+1][10]))/4519229, (56*(2269399275*Derivative[1][opWF[2, 0, 1][10]] + \
+1354125630*Derivative[3][opWF[2, 0, 1][8]] + 144758502*Derivative[5][opWF[2, \
+0, 1][6]] + 3782160*Derivative[7][opWF[2, 0, 1][4]] + \
+22984*Derivative[9][opWF[2, 0, 1][2]]))/3697551, \
+(16*(3782332125*Derivative[2][opWF[2, 0, 1][10]] + \
+1247220975*Derivative[4][opWF[2, 0, 1][8]] + 99344070*Derivative[6][opWF[2, \
+0, 1][6]] + 2206260*Derivative[8][opWF[2, 0, 1][4]] + \
+12376*Derivative[10][opWF[2, 0, 1][2]] + 1268983989*opWF[2, 0, \
+1][12]))/6162585, (2*(4652941293*Derivative[1][opWF[2, 0, 1][12]] + \
+5043109500*Derivative[3][opWF[2, 0, 1][10]] + \
+1097554458*Derivative[5][opWF[2, 0, 1][8]] + 69383160*Derivative[7][opWF[2, \
+0, 1][6]] + 1348270*Derivative[9][opWF[2, 0, 1][4]] + \
+7072*Derivative[11][opWF[2, 0, 1][2]]))/5214495, \
+(14*(18300018105369*Derivative[2][opWF[2, 0, 1][12]] + \
+10779646556250*Derivative[4][opWF[2, 0, 1][10]] + \
+1712968921950*Derivative[6][opWF[2, 0, 1][8]] + \
+89764463250*Derivative[8][opWF[2, 0, 1][6]] + \
+1559631150*Derivative[10][opWF[2, 0, 1][4]] + 7726160*Derivative[12][opWF[2, \
+0, 1][2]] + 3717842678550*opWF[2, 0, 1][14]))/512715220875, \
+(3717842678550*Derivative[1][opWF[2, 0, 1][14]] + \
+6569237268594*Derivative[3][opWF[2, 0, 1][12]] + \
+2515250863125*Derivative[5][opWF[2, 0, 1][10]] + \
+311448894900*Derivative[7][opWF[2, 0, 1][8]] + \
+13963360950*Derivative[9][opWF[2, 0, 1][6]] + \
+220553900*Derivative[11][opWF[2, 0, 1][4]] + 1040060*Derivative[13][opWF[2, \
+0, 1][2]])/68362029450, (2*(22307056071300*Derivative[2][opWF[2, 0, 1][14]] + \
+21167542309914*Derivative[4][opWF[2, 0, 1][12]] + \
+5835382002450*Derivative[6][opWF[2, 0, 1][10]] + \
+589044649050*Derivative[8][opWF[2, 0, 1][8]] + \
+23139283860*Derivative[10][opWF[2, 0, 1][6]] + \
+336634900*Derivative[12][opWF[2, 0, 1][4]] + 1520760*Derivative[14][opWF[2, \
+0, 1][2]] + 2973748281075*opWF[2, 0, \
+1][16]))/2973748281075}];OPE[opWF[1,1,1][10],opWF[2,0,1][8]]=MakeOPE[{(556295\
+0400*opWF[2, 0, 1][2])/2431, (5562950400*Derivative[1][opWF[2, 0, \
+1][2]])/2431, (2781475200*Derivative[2][opWF[2, 0, 1][2]])/2431 + \
+(36578304000*opWF[2, 0, 1][4])/2431, (27433728000*Derivative[1][opWF[2, 0, \
+1][4]])/2431 + (927158400*Derivative[3][opWF[2, 0, 1][2]])/2431, \
+(635040*(218400*Derivative[2][opWF[2, 0, 1][4]] + 4745*Derivative[4][opWF[2, \
+0, 1][2]] + 681912*opWF[2, 0, 1][6]))/31603, \
+(635040*(454608*Derivative[1][opWF[2, 0, 1][6]] + 58240*Derivative[3][opWF[2, \
+0, 1][4]] + 949*Derivative[5][opWF[2, 0, 1][2]]))/31603, \
+(3024*(4725650160*Derivative[2][opWF[2, 0, 1][6]] + \
+357739200*Derivative[4][opWF[2, 0, 1][4]] + 4749745*Derivative[6][opWF[2, 0, \
+1][2]] + 5463222336*opWF[2, 0, 1][8]))/4519229, \
+(15120*(682902792*Derivative[1][opWF[2, 0, 1][8]] + \
+225030960*Derivative[3][opWF[2, 0, 1][6]] + 11924640*Derivative[5][opWF[2, 0, \
+1][4]] + 135707*Derivative[7][opWF[2, 0, 1][2]]))/4519229, \
+(210*(24584500512*Derivative[2][opWF[2, 0, 1][8]] + \
+4590631584*Derivative[4][opWF[2, 0, 1][6]] + 187125120*Derivative[6][opWF[2, \
+0, 1][4]] + 1887561*Derivative[8][opWF[2, 0, 1][2]] + 13521343550*opWF[2, 0, \
+1][10]))/6984263, (42*(40564030650*Derivative[1][opWF[2, 0, 1][10]] + \
+27316111680*Derivative[3][opWF[2, 0, 1][8]] + \
+3442973688*Derivative[5][opWF[2, 0, 1][6]] + 114566400*Derivative[7][opWF[2, \
+0, 1][4]] + 1048645*Derivative[9][opWF[2, 0, 1][2]]))/6984263, \
+(3*(256905527450*Derivative[2][opWF[2, 0, 1][10]] + \
+95606390880*Derivative[4][opWF[2, 0, 1][8]] + \
+8978735304*Derivative[6][opWF[2, 0, 1][6]] + 253955520*Derivative[8][opWF[2, \
+0, 1][4]] + 2145689*Derivative[10][opWF[2, 0, 1][2]] + 78518814192*opWF[2, 0, \
+1][12]))/10207769, (7*(1079633695140*Derivative[1][opWF[2, 0, 1][12]] + \
+1284527637250*Derivative[3][opWF[2, 0, 1][10]] + \
+315501089904*Derivative[5][opWF[2, 0, 1][8]] + \
+23515735320*Derivative[7][opWF[2, 0, 1][6]] + 581981400*Derivative[9][opWF[2, \
+0, 1][4]] + 4597905*Derivative[11][opWF[2, 0, 1][2]]))/561427295, \
+(7*(29797889985864*Derivative[2][opWF[2, 0, 1][12]] + \
+19267914558750*Derivative[4][opWF[2, 0, 1][10]] + \
+3455488127520*Derivative[6][opWF[2, 0, 1][8]] + \
+213498123300*Derivative[8][opWF[2, 0, 1][6]] + \
+4724319600*Derivative[10][opWF[2, 0, 1][4]] + 35250605*Derivative[12][opWF[2, \
+0, 1][2]] + 5619709395300*opWF[2, 0, 1][14]))/51651311140, \
+(22478837581200*Derivative[1][opWF[2, 0, 1][14]] + \
+42786713825856*Derivative[3][opWF[2, 0, 1][12]] + \
+17983386921500*Derivative[5][opWF[2, 0, 1][10]] + \
+2513082274560*Derivative[7][opWF[2, 0, 1][8]] + \
+132843276720*Derivative[9][opWF[2, 0, 1][6]] + \
+2672342400*Derivative[11][opWF[2, 0, 1][4]] + 18981095*Derivative[13][opWF[2, \
+0, 1][2]])/51651311140, (67436512743600*Derivative[2][opWF[2, 0, 1][14]] + \
+68934150052768*Derivative[4][opWF[2, 0, 1][12]] + \
+20860728828940*Derivative[6][opWF[2, 0, 1][10]] + \
+2376501716160*Derivative[8][opWF[2, 0, 1][8]] + \
+110070143568*Derivative[10][opWF[2, 0, 1][6]] + \
+2039419200*Derivative[12][opWF[2, 0, 1][4]] + 13876935*Derivative[14][opWF[2, \
+0, 1][2]] + 8458661777280*opWF[2, 0, 1][16])/528666361080, \
+(23789986248600*Derivative[1][opWF[2, 0, 1][16]] + \
+67436512743600*Derivative[3][opWF[2, 0, 1][14]] + \
+44314810748208*Derivative[5][opWF[2, 0, 1][12]] + \
+10315745025300*Derivative[7][opWF[2, 0, 1][10]] + \
+990209048400*Derivative[9][opWF[2, 0, 1][8]] + \
+40935177360*Derivative[11][opWF[2, 0, 1][6]] + \
+705952800*Derivative[13][opWF[2, 0, 1][4]] + 4625645*Derivative[15][opWF[2, \
+0, \
+1][2]])/2643331805400}];OPE[opWF[1,1,1][11],opWF[2,0,1][8]]=MakeOPE[{(5059998\
+72000*opWF[2, 0, 1][2])/46189, (632499840000*Derivative[1][opWF[2, 0, \
+1][2]])/46189, (379499904000*Derivative[2][opWF[2, 0, 1][2]])/46189 + \
+(3657830400000*opWF[2, 0, 1][4])/46189, (3200601600000*Derivative[1][opWF[2, \
+0, 1][4]])/46189 + (147583296000*Derivative[3][opWF[2, 0, 1][2]])/46189, \
+(101606400*(182000*Derivative[2][opWF[2, 0, 1][4]] + \
+5395*Derivative[4][opWF[2, 0, 1][2]] + 466389*opWF[2, 0, 1][6]))/600457, \
+(38102400*(932778*Derivative[1][opWF[2, 0, 1][6]] + \
+145600*Derivative[3][opWF[2, 0, 1][4]] + 3237*Derivative[5][opWF[2, 0, \
+1][2]]))/600457, (604800*(3232075770*Derivative[2][opWF[2, 0, 1][6]] + \
+298116000*Derivative[4][opWF[2, 0, 1][4]] + 5400395*Derivative[6][opWF[2, 0, \
+1][2]] + 3247749648*opWF[2, 0, 1][8]))/85865351, \
+(302400*(405968706*Derivative[1][opWF[2, 0, 1][8]] + \
+153908370*Derivative[3][opWF[2, 0, 1][6]] + 9937200*Derivative[5][opWF[2, 0, \
+1][4]] + 154297*Derivative[7][opWF[2, 0, 1][2]]))/7805941, \
+(16800*(43844620248*Derivative[2][opWF[2, 0, 1][8]] + \
+9419192244*Derivative[4][opWF[2, 0, 1][6]] + 467812800*Derivative[6][opWF[2, \
+0, 1][4]] + 6438393*Derivative[8][opWF[2, 0, 1][2]] + 21695933545*opWF[2, 0, \
+1][10]))/132700997, (840*(21695933545*Derivative[1][opWF[2, 0, 1][10]] + \
+16238748240*Derivative[3][opWF[2, 0, 1][8]] + \
+2354798061*Derivative[5][opWF[2, 0, 1][6]] + 95472000*Derivative[7][opWF[2, \
+0, 1][4]] + 1192295*Derivative[9][opWF[2, 0, 1][2]]))/10207769, \
+(280*(21695933545*Derivative[2][opWF[2, 0, 1][10]] + \
+8974045080*Derivative[4][opWF[2, 0, 1][8]] + 969622731*Derivative[6][opWF[2, \
+0, 1][6]] + 33415200*Derivative[8][opWF[2, 0, 1][4]] + \
+385203*Derivative[10][opWF[2, 0, 1][2]] + 6103044948*opWF[2, 0, \
+1][12]))/10207769, (140*(83916868035*Derivative[1][opWF[2, 0, 1][12]] + \
+108479667725*Derivative[3][opWF[2, 0, 1][10]] + \
+29614348764*Derivative[5][opWF[2, 0, 1][8]] + \
+2539488105*Derivative[7][opWF[2, 0, 1][6]] + 76576500*Derivative[9][opWF[2, \
+0, 1][4]] + 825435*Derivative[11][opWF[2, 0, 1][2]]))/112285459, \
+(28*(58674674130072*Derivative[2][opWF[2, 0, 1][12]] + \
+41222273735500*Derivative[4][opWF[2, 0, 1][10]] + \
+8216806609440*Derivative[6][opWF[2, 0, 1][8]] + \
+584082264150*Derivative[8][opWF[2, 0, 1][6]] + \
+15747732000*Derivative[10][opWF[2, 0, 1][4]] + \
+160317820*Derivative[12][opWF[2, 0, 1][2]] + 10347605042775*opWF[2, 0, \
+1][14]))/49068745583, (31042815128325*Derivative[1][opWF[2, 0, 1][14]] + \
+63188110601616*Derivative[3][opWF[2, 0, 1][12]] + \
+28855591614850*Derivative[5][opWF[2, 0, 1][10]] + \
+4481894514240*Derivative[7][opWF[2, 0, 1][8]] + \
+272571723270*Derivative[9][opWF[2, 0, 1][6]] + \
+6680856000*Derivative[11][opWF[2, 0, 1][4]] + 64743735*Derivative[13][opWF[2, \
+0, 1][2]])/8659190397, (279385336154925*Derivative[2][opWF[2, 0, 1][14]] + \
+305409201241144*Derivative[4][opWF[2, 0, 1][12]] + \
+100417458819678*Derivative[6][opWF[2, 0, 1][10]] + \
+12714939871920*Derivative[8][opWF[2, 0, 1][8]] + \
+677535426414*Derivative[10][opWF[2, 0, 1][6]] + \
+15295644000*Derivative[12][opWF[2, 0, 1][4]] + \
+142000965*Derivative[14][opWF[2, 0, 1][2]] + 33151447504032*opWF[2, 0, \
+1][16])/251116521513, (10359827345010*Derivative[1][opWF[2, 0, 1][16]] + \
+31042815128325*Derivative[3][opWF[2, 0, 1][14]] + \
+21814942945796*Derivative[5][opWF[2, 0, 1][12]] + \
+5517442792290*Derivative[7][opWF[2, 0, 1][10]] + \
+588654623700*Derivative[9][opWF[2, 0, 1][8]] + \
+27997331670*Derivative[11][opWF[2, 0, 1][6]] + \
+588294000*Derivative[13][opWF[2, 0, 1][4]] + 5259295*Derivative[15][opWF[2, \
+0, 1][2]])/132166590270, (3503505247585200*Derivative[2][opWF[2, 0, 1][16]] + \
+5587706723098500*Derivative[4][opWF[2, 0, 1][14]] + \
+2798330612357280*Derivative[6][opWF[2, 0, 1][12]] + \
+570135755203300*Derivative[8][opWF[2, 0, 1][10]] + \
+52555084803936*Derivative[10][opWF[2, 0, 1][8]] + \
+2264132039400*Derivative[12][opWF[2, 0, 1][6]] + \
+44662320000*Derivative[14][opWF[2, 0, 1][4]] + \
+386142975*Derivative[16][opWF[2, 0, 1][2]] + 294995829482640*opWF[2, 0, \
+1][18])/147497914741320}];OPE[opWF[1,1,1][1],opWF[2,0,1][9]]=MakeOPE[{}];OPE[\
+opWF[1,1,1][2],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[1,1,1][3],opWF[2,0,1][9]]\
+=MakeOPE[{}];OPE[opWF[1,1,1][4],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[1,1,1][5\
+],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[1,1,1][6],opWF[2,0,1][9]]=MakeOPE[{}];\
+OPE[opWF[1,1,1][7],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[1,1,1][8],opWF[2,0,1]\
+[9]]=MakeOPE[{}];OPE[opWF[1,1,1][9],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[1,1,\
+1][10],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[1,1,1][11],opWF[2,0,1][9]]=MakeOP\
+E[{}];OPE[opWF[1,1,1][1],opWF[2,0,1][10]]=MakeOPE[{(362880*opWF[2, 0, \
+1][2])/2431, (-635040*Derivative[1][opWF[2, 0, 1][2]])/2431, \
+(381024*Derivative[2][opWF[2, 0, 1][2]])/2431 + (120960*opWF[2, 0, \
+1][4])/221, (-75600*Derivative[1][opWF[2, 0, 1][4]])/221 - \
+(105840*Derivative[3][opWF[2, 0, 1][2]])/2431, \
+(336*(2750*Derivative[2][opWF[2, 0, 1][4]] + 225*Derivative[4][opWF[2, 0, \
+1][2]] + 9009*opWF[2, 0, 1][6]))/12155, (-42*(18018*Derivative[1][opWF[2, 0, \
+1][6]] + 2200*Derivative[3][opWF[2, 0, 1][4]] + 135*Derivative[5][opWF[2, 0, \
+1][2]]))/12155, (6*(9702*Derivative[2][opWF[2, 0, 1][6]] + \
+700*Derivative[4][opWF[2, 0, 1][4]] + 35*Derivative[6][opWF[2, 0, 1][2]] + \
+68640*opWF[2, 0, 1][8]))/12155, (-25740*Derivative[1][opWF[2, 0, 1][8]] - \
+1386*Derivative[3][opWF[2, 0, 1][6]] - 70*Derivative[5][opWF[2, 0, 1][4]] - \
+3*Derivative[7][opWF[2, 0, 1][2]])/12155, 2*opWF[2, 0, \
+1][10]}];OPE[opWF[1,1,1][2],opWF[2,0,1][10]]=MakeOPE[{(1669248*opWF[2, 0, \
+1][2])/2431, (-2503872*Derivative[1][opWF[2, 0, 1][2]])/2431, \
+(1251936*Derivative[2][opWF[2, 0, 1][2]])/2431 + (30240*opWF[2, 0, 1][4])/13, \
+(-15120*Derivative[1][opWF[2, 0, 1][4]])/13 - (278208*Derivative[3][opWF[2, \
+0, 1][2]])/2431, (72*(6545*Derivative[2][opWF[2, 0, 1][4]] + \
+414*Derivative[4][opWF[2, 0, 1][2]] + 36036*opWF[2, 0, 1][6]))/2431, \
+(-12*(180180*Derivative[1][opWF[2, 0, 1][6]] + 13090*Derivative[3][opWF[2, 0, \
+1][4]] + 621*Derivative[5][opWF[2, 0, 1][2]]))/12155, \
+(6*(13860*Derivative[2][opWF[2, 0, 1][6]] + 595*Derivative[4][opWF[2, 0, \
+1][4]] + 23*Derivative[6][opWF[2, 0, 1][2]] + 313170*opWF[2, 0, \
+1][8]))/12155, 0, 10*opWF[2, 0, 1][10], Derivative[1][opWF[2, 0, \
+1][10]]}];OPE[opWF[1,1,1][3],opWF[2,0,1][10]]=MakeOPE[{(5806080*opWF[2, 0, \
+1][2])/2431, (-7257600*Derivative[1][opWF[2, 0, 1][2]])/2431, \
+(2903040*Derivative[2][opWF[2, 0, 1][2]])/2431 + (20764800*opWF[2, 0, \
+1][4])/2431, (-7786800*Derivative[1][opWF[2, 0, 1][4]])/2431 - \
+(483840*Derivative[3][opWF[2, 0, 1][2]])/2431, (865200*Derivative[2][opWF[2, \
+0, 1][4]])/2431 + (34560*Derivative[4][opWF[2, 0, 1][2]])/2431 + \
+(985824*opWF[2, 0, 1][6])/221, (-82152*Derivative[1][opWF[2, 0, 1][6]])/221 - \
+(28840*Derivative[3][opWF[2, 0, 1][4]])/2431 - (864*Derivative[5][opWF[2, 0, \
+1][2]])/2431, (62208*opWF[2, 0, 1][8])/85, (3888*Derivative[1][opWF[2, 0, \
+1][8]])/85, (3888*Derivative[2][opWF[2, 0, 1][8]])/1445 + (2680*opWF[2, 0, \
+1][10])/51, (134*Derivative[1][opWF[2, 0, 1][10]])/17 + \
+(216*Derivative[3][opWF[2, 0, 1][8]])/1445, (268*Derivative[2][opWF[2, 0, \
+1][10]])/357 + (216*Derivative[4][opWF[2, 0, 1][8]])/27455 + 2*opWF[2, 0, \
+1][12]}];OPE[opWF[1,1,1][4],opWF[2,0,1][10]]=MakeOPE[{(108864*opWF[2, 0, \
+1][2])/13, (-108864*Derivative[1][opWF[2, 0, 1][2]])/13, \
+(163296*Derivative[2][opWF[2, 0, 1][2]])/65 + (81575424*opWF[2, 0, \
+1][4])/2431, (-20393856*Derivative[1][opWF[2, 0, 1][4]])/2431 - \
+(18144*Derivative[3][opWF[2, 0, 1][2]])/65, (1132992*Derivative[2][opWF[2, 0, \
+1][4]])/2431 + (648*Derivative[4][opWF[2, 0, 1][2]])/65 + (22076712*opWF[2, \
+0, 1][6])/1105, 0, (62208*opWF[2, 0, 1][8])/17, (7776*Derivative[1][opWF[2, \
+0, 1][8]])/17, (11664*Derivative[2][opWF[2, 0, 1][8]])/289 + (4917*opWF[2, 0, \
+1][10])/17, (4917*Derivative[1][opWF[2, 0, 1][10]])/85 + \
+(864*Derivative[3][opWF[2, 0, 1][8]])/289, (1639*Derivative[2][opWF[2, 0, \
+1][10]])/238 + (1080*Derivative[4][opWF[2, 0, 1][8]])/5491 + 12*opWF[2, 0, \
+1][12], 3*Derivative[1][opWF[2, 0, 1][12]] + (149*Derivative[3][opWF[2, 0, \
+1][10]])/238 + (324*Derivative[5][opWF[2, 0, \
+1][8]])/27455}];OPE[opWF[1,1,1][5],opWF[2,0,1][10]]=MakeOPE[{(6842880*opWF[2, \
+0, 1][2])/221, (-5132160*Derivative[1][opWF[2, 0, 1][2]])/221, \
+(1026432*Derivative[2][opWF[2, 0, 1][2]])/221 + (343802880*opWF[2, 0, \
+1][4])/2431, (-42975360*Derivative[1][opWF[2, 0, 1][4]])/2431 - \
+(57024*Derivative[3][opWF[2, 0, 1][2]])/221, (1152216576*opWF[2, 0, \
+1][6])/12155, (96018048*Derivative[1][opWF[2, 0, 1][6]])/12155, \
+(96018048*Derivative[2][opWF[2, 0, 1][6]])/158015 + (29735424*opWF[2, 0, \
+1][8])/1547, (5575392*Derivative[1][opWF[2, 0, 1][8]])/1547 + \
+(6858432*Derivative[3][opWF[2, 0, 1][6]])/158015, \
+(24*(1661002200*Derivative[2][opWF[2, 0, 1][8]] + \
+11335464*Derivative[4][opWF[2, 0, 1][6]] + 6519856915*opWF[2, 0, \
+1][10]))/94018925, (6*(6519856915*Derivative[1][opWF[2, 0, 1][10]] + \
+615186000*Derivative[3][opWF[2, 0, 1][8]] + 2833866*Derivative[5][opWF[2, 0, \
+1][6]]))/94018925, (6*(123877281385*Derivative[2][opWF[2, 0, 1][10]] + \
+6459453000*Derivative[4][opWF[2, 0, 1][8]] + 22170834*Derivative[6][opWF[2, \
+0, 1][6]] + 156359002800*opWF[2, 0, 1][12]))/12504517025, \
+(39089750700*Derivative[1][opWF[2, 0, 1][12]] + \
+11261571035*Derivative[3][opWF[2, 0, 1][10]] + \
+387567180*Derivative[5][opWF[2, 0, 1][8]] + 1055754*Derivative[7][opWF[2, 0, \
+1][6]])/1786359575, (2*(71925141288*Derivative[2][opWF[2, 0, 1][12]] + \
+11261571035*Derivative[4][opWF[2, 0, 1][10]] + \
+282985560*Derivative[6][opWF[2, 0, 1][8]] + 639009*Derivative[8][opWF[2, 0, \
+1][6]] + 41086270225*opWF[2, 0, \
+1][14]))/41086270225}];OPE[opWF[1,1,1][6],opWF[2,0,1][10]]=MakeOPE[{(2073600*\
+opWF[2, 0, 1][2])/17, (-1036800*Derivative[1][opWF[2, 0, 1][2]])/17, \
+(103680*Derivative[2][opWF[2, 0, 1][2]])/17 + (140169600*opWF[2, 0, \
+1][4])/221, 0, (1152216576*opWF[2, 0, 1][6])/2431, \
+(192036096*Derivative[1][opWF[2, 0, 1][6]])/2431, \
+(288054144*Derivative[2][opWF[2, 0, 1][6]])/31603 + (23379840*opWF[2, 0, \
+1][8])/221, (5844960*Derivative[1][opWF[2, 0, 1][8]])/221 + \
+(27433728*Derivative[3][opWF[2, 0, 1][6]])/31603, \
+(16*(2742564825*Derivative[2][opWF[2, 0, 1][8]] + \
+51009588*Derivative[4][opWF[2, 0, 1][6]] + 7046520910*opWF[2, 0, \
+1][10]))/11282271, (8*(7046520910*Derivative[1][opWF[2, 0, 1][10]] + \
+1015764750*Derivative[3][opWF[2, 0, 1][8]] + 12752397*Derivative[5][opWF[2, \
+0, 1][6]]))/18803785, (2*(267767794580*Derivative[2][opWF[2, 0, 1][10]] + \
+21331059750*Derivative[4][opWF[2, 0, 1][8]] + 199537506*Derivative[6][opWF[2, \
+0, 1][6]] + 261459993795*opWF[2, 0, 1][12]))/1071815745, \
+(2*(261459993795*Derivative[1][opWF[2, 0, 1][12]] + \
+97370107120*Derivative[3][opWF[2, 0, 1][10]] + \
+5119454340*Derivative[5][opWF[2, 0, 1][8]] + 38007144*Derivative[7][opWF[2, \
+0, 1][6]]))/3215447235, (1202715971457*Derivative[2][opWF[2, 0, 1][12]] + \
+243425267800*Derivative[4][opWF[2, 0, 1][10]] + \
+9345035700*Derivative[6][opWF[2, 0, 1][8]] + 57510810*Derivative[8][opWF[2, \
+0, 1][6]] + 575207783150*opWF[2, 0, 1][14])/41086270225, \
+(123258810675*Derivative[1][opWF[2, 0, 1][14]] + \
+92516613189*Derivative[3][opWF[2, 0, 1][12]] + \
+12171263390*Derivative[5][opWF[2, 0, 1][10]] + \
+364092300*Derivative[7][opWF[2, 0, 1][8]] + 1917027*Derivative[9][opWF[2, 0, \
+1][6]])/24651762135}];OPE[opWF[1,1,1][7],opWF[2,0,1][10]]=MakeOPE[{(8709120*o\
+pWF[2, 0, 1][2])/17, (-2177280*Derivative[1][opWF[2, 0, 1][2]])/17, \
+(7315660800*opWF[2, 0, 1][4])/2431, (914457600*Derivative[1][opWF[2, 0, \
+1][4]])/2431, (101606400*Derivative[2][opWF[2, 0, 1][4]])/2431 + \
+(5120962560*opWF[2, 0, 1][6])/2057, (1280240640*Derivative[1][opWF[2, 0, \
+1][6]])/2057 + (10160640*Derivative[3][opWF[2, 0, 1][4]])/2431, \
+(207360*(12348*Derivative[2][opWF[2, 0, 1][6]] + 49*Derivative[4][opWF[2, 0, \
+1][4]] + 78507*opWF[2, 0, 1][8]))/26741, (4320*(1177605*Derivative[1][opWF[2, \
+0, 1][8]] + 70560*Derivative[3][opWF[2, 0, 1][6]] + 196*Derivative[5][opWF[2, \
+0, 1][4]]))/26741, (240*(5786750970*Derivative[2][opWF[2, 0, 1][8]] + \
+196481376*Derivative[4][opWF[2, 0, 1][6]] + 419832*Derivative[6][opWF[2, 0, \
+1][4]] + 10773280375*opWF[2, 0, 1][10]))/41368327, \
+(12*(10773280375*Derivative[1][opWF[2, 0, 1][10]] + \
+2143241100*Derivative[3][opWF[2, 0, 1][8]] + 49120344*Derivative[5][opWF[2, \
+0, 1][6]] + 85680*Derivative[7][opWF[2, 0, 1][4]]))/5909761, \
+(16*(1023461635625*Derivative[2][opWF[2, 0, 1][10]] + \
+112520157750*Derivative[4][opWF[2, 0, 1][8]] + \
+1921472280*Derivative[6][opWF[2, 0, 1][6]] + 2848860*Derivative[8][opWF[2, 0, \
+1][4]] + 809296545057*opWF[2, 0, 1][12]))/3929991065, \
+(6*(809296545057*Derivative[1][opWF[2, 0, 1][12]] + \
+372167867500*Derivative[3][opWF[2, 0, 1][10]] + \
+27004837860*Derivative[5][opWF[2, 0, 1][8]] + 365994720*Derivative[7][opWF[2, \
+0, 1][6]] + 474810*Derivative[9][opWF[2, 0, 1][4]]))/3929991065, \
+(6*(18613820536311*Derivative[2][opWF[2, 0, 1][12]] + \
+4652098343750*Derivative[4][opWF[2, 0, 1][10]] + \
+246472726500*Derivative[6][opWF[2, 0, 1][8]] + \
+2769039000*Derivative[8][opWF[2, 0, 1][6]] + 3211950*Derivative[10][opWF[2, \
+0, 1][4]] + 7646879940700*opWF[2, 0, 1][14]))/451948972475, \
+(36049576863300*Derivative[1][opWF[2, 0, 1][14]] + \
+31500311676834*Derivative[3][opWF[2, 0, 1][12]] + \
+5117308178125*Derivative[5][opWF[2, 0, 1][10]] + \
+211262337000*Derivative[7][opWF[2, 0, 1][8]] + \
+2030628600*Derivative[9][opWF[2, 0, 1][6]] + 2141300*Derivative[11][opWF[2, \
+0, 1][4]])/903897944950, (324446191769700*Derivative[2][opWF[2, 0, 1][14]] + \
+152251506438031*Derivative[4][opWF[2, 0, 1][12]] + \
+17808232459875*Derivative[6][opWF[2, 0, 1][10]] + \
+599342064750*Derivative[8][opWF[2, 0, 1][8]] + \
+5047562520*Derivative[10][opWF[2, 0, 1][6]] + 4902450*Derivative[12][opWF[2, \
+0, 1][4]] + 78639121210650*opWF[2, 0, \
+1][16])/39319560605325}];OPE[opWF[1,1,1][8],opWF[2,0,1][10]]=MakeOPE[{(556295\
+0400*opWF[2, 0, 1][2])/2431, 0, (36578304000*opWF[2, 0, 1][4])/2431, \
+(9144576000*Derivative[1][opWF[2, 0, 1][4]])/2431, \
+(1524096000*Derivative[2][opWF[2, 0, 1][4]])/2431 + (39367399680*opWF[2, 0, \
+1][6])/2873, (13122466560*Derivative[1][opWF[2, 0, 1][6]])/2873 + \
+(203212800*Derivative[3][opWF[2, 0, 1][4]])/2431, \
+(72576*(54695025*Derivative[2][opWF[2, 0, 1][6]] + \
+591500*Derivative[4][opWF[2, 0, 1][4]] + 227634264*opWF[2, 0, \
+1][8]))/4519229, (72576*(85362849*Derivative[1][opWF[2, 0, 1][8]] + \
+7813575*Derivative[3][opWF[2, 0, 1][6]] + 59150*Derivative[5][opWF[2, 0, \
+1][4]]))/4519229, (84*(258137255376*Derivative[2][opWF[2, 0, 1][8]] + \
+13389342120*Derivative[4][opWF[2, 0, 1][6]] + 77968800*Derivative[6][opWF[2, \
+0, 1][4]] + 371836947625*opWF[2, 0, 1][10]))/76826893, \
+(168*(74367389525*Derivative[1][opWF[2, 0, 1][10]] + \
+19121278176*Derivative[3][opWF[2, 0, 1][8]] + 669467106*Derivative[5][opWF[2, \
+0, 1][6]] + 3182400*Derivative[7][opWF[2, 0, 1][4]]))/76826893, \
+(36*(1412980400975*Derivative[2][opWF[2, 0, 1][10]] + \
+200773420848*Derivative[4][opWF[2, 0, 1][8]] + \
+5237595594*Derivative[6][opWF[2, 0, 1][6]] + 21162960*Derivative[8][opWF[2, \
+0, 1][4]] + 935682535788*opWF[2, 0, 1][12]))/1459710967, \
+(12*(5848015848675*Derivative[1][opWF[2, 0, 1][12]] + \
+3211319093125*Derivative[3][opWF[2, 0, 1][10]] + \
+301160131272*Derivative[5][opWF[2, 0, 1][8]] + \
+6235232850*Derivative[7][opWF[2, 0, 1][6]] + 22044750*Derivative[9][opWF[2, \
+0, 1][4]]))/7298554835, (3*(10760349161562*Derivative[2][opWF[2, 0, 1][12]] + \
+3211319093125*Derivative[4][opWF[2, 0, 1][10]] + \
+219894699024*Derivative[6][opWF[2, 0, 1][8]] + \
+3773956725*Derivative[8][opWF[2, 0, 1][6]] + 11930100*Derivative[10][opWF[2, \
+0, 1][4]] + 3874193598275*opWF[2, 0, 1][14]))/15260614655, \
+(3*(36528111069450*Derivative[1][opWF[2, 0, 1][14]] + \
+36419643316056*Derivative[3][opWF[2, 0, 1][12]] + \
+7064902004875*Derivative[5][opWF[2, 0, 1][10]] + \
+376962341184*Derivative[7][opWF[2, 0, 1][8]] + \
+5535136530*Derivative[9][opWF[2, 0, 1][6]] + 15906800*Derivative[11][opWF[2, \
+0, 1][4]]))/335733522410, (328752999625050*Derivative[2][opWF[2, 0, 1][14]] + \
+176028276027604*Derivative[4][opWF[2, 0, 1][12]] + \
+24585858976965*Derivative[6][opWF[2, 0, 1][10]] + \
+1069425772272*Derivative[8][opWF[2, 0, 1][8]] + \
+13758767946*Derivative[10][opWF[2, 0, 1][6]] + \
+36418200*Derivative[12][opWF[2, 0, 1][4]] + 71898625106880*opWF[2, 0, \
+1][16])/4493664069180, (157278242421300*Derivative[1][opWF[2, 0, 1][16]] + \
+255696777486150*Derivative[3][opWF[2, 0, 1][14]] + \
+88014138013802*Derivative[5][opWF[2, 0, 1][12]] + \
+9456099606525*Derivative[7][opWF[2, 0, 1][10]] + \
+346573166940*Derivative[9][opWF[2, 0, 1][8]] + \
+3979808910*Derivative[11][opWF[2, 0, 1][6]] + 9804900*Derivative[13][opWF[2, \
+0, \
+1][4]])/22468320345900}];OPE[opWF[1,1,1][9],opWF[2,0,1][10]]=MakeOPE[{(263363\
+78880*opWF[2, 0, 1][2])/2431, (6584094720*Derivative[1][opWF[2, 0, \
+1][2]])/2431, (1316818944*Derivative[2][opWF[2, 0, 1][2]])/2431 + \
+(192158023680*opWF[2, 0, 1][4])/2431, (72059258880*Derivative[1][opWF[2, 0, \
+1][4]])/2431 + (219469824*Derivative[3][opWF[2, 0, 1][2]])/2431, \
+(1161216*(179270*Derivative[2][opWF[2, 0, 1][4]] + 351*Derivative[4][opWF[2, \
+0, 1][2]] + 2146221*opWF[2, 0, 1][6]))/31603, \
+(48384*(21462210*Derivative[1][opWF[2, 0, 1][6]] + \
+717080*Derivative[3][opWF[2, 0, 1][4]] + 1053*Derivative[5][opWF[2, 0, \
+1][2]]))/31603, (145152*(236084310*Derivative[2][opWF[2, 0, 1][6]] + \
+4661020*Derivative[4][opWF[2, 0, 1][4]] + 5577*Derivative[6][opWF[2, 0, \
+1][2]] + 711968400*opWF[2, 0, 1][8]))/4519229, \
+(24192*(9344585250*Derivative[1][opWF[2, 0, 1][8]] + \
+1180421550*Derivative[3][opWF[2, 0, 1][6]] + 16313570*Derivative[5][opWF[2, \
+0, 1][4]] + 16731*Derivative[7][opWF[2, 0, 1][2]]))/22596145, \
+(896*(1009215207000*Derivative[2][opWF[2, 0, 1][8]] + \
+72241798860*Derivative[4][opWF[2, 0, 1][6]] + 767992680*Derivative[6][opWF[2, \
+0, 1][4]] + 698139*Derivative[8][opWF[2, 0, 1][2]] + 1177369765000*opWF[2, 0, \
+1][10]))/384134465, (2016*(235473953000*Derivative[1][opWF[2, 0, 1][10]] + \
+74756682000*Derivative[3][opWF[2, 0, 1][8]] + \
+3612089943*Derivative[5][opWF[2, 0, 1][6]] + 31346640*Derivative[7][opWF[2, \
+0, 1][4]] + 25857*Derivative[9][opWF[2, 0, 1][2]]))/384134465, \
+(96*(22370025535000*Derivative[2][opWF[2, 0, 1][10]] + \
+3924725805000*Derivative[4][opWF[2, 0, 1][8]] + \
+141296459535*Derivative[6][opWF[2, 0, 1][6]] + \
+1042275780*Derivative[8][opWF[2, 0, 1][4]] + 793611*Derivative[10][opWF[2, 0, \
+1][2]] + 12726412306608*opWF[2, 0, 1][12]))/7298554835, \
+(8*(69995267686344*Derivative[1][opWF[2, 0, 1][12]] + \
+44740051070000*Derivative[3][opWF[2, 0, 1][10]] + \
+5180638062600*Derivative[5][opWF[2, 0, 1][8]] + \
+148024862370*Derivative[7][opWF[2, 0, 1][6]] + \
+955419465*Derivative[9][opWF[2, 0, 1][4]] + 680238*Derivative[11][opWF[2, 0, \
+1][2]]))/7298554835, (24*(3219782313571824*Derivative[2][opWF[2, 0, 1][12]] + \
+1118501276750000*Derivative[4][opWF[2, 0, 1][10]] + \
+94567202730000*Derivative[6][opWF[2, 0, 1][8]] + \
+2239849891125*Derivative[8][opWF[2, 0, 1][6]] + \
+12926263350*Derivative[10][opWF[2, 0, 1][4]] + 8691930*Derivative[12][opWF[2, \
+0, 1][2]] + 1032464135002300*opWF[2, 0, 1][14]))/4196669030125, \
+(884969258573400*Derivative[1][opWF[2, 0, 1][14]] + \
+990702250329792*Derivative[3][opWF[2, 0, 1][12]] + \
+223700255350000*Derivative[5][opWF[2, 0, 1][10]] + \
+14737745880000*Derivative[7][opWF[2, 0, 1][8]] + \
+298646652150*Derivative[9][opWF[2, 0, 1][6]] + \
+1566819800*Derivative[11][opWF[2, 0, 1][4]] + 1002915*Derivative[13][opWF[2, \
+0, 1][2]])/322820694625, (55753063290124200*Derivative[2][opWF[2, 0, 1][14]] \
++ 33518759469491296*Derivative[4][opWF[2, 0, 1][12]] + \
+5449338220326000*Derivative[6][opWF[2, 0, 1][10]] + \
+292672410030000*Derivative[8][opWF[2, 0, 1][8]] + \
+5196451747410*Derivative[10][opWF[2, 0, 1][6]] + \
+25110348900*Derivative[12][opWF[2, 0, 1][4]] + \
+15397695*Derivative[14][opWF[2, 0, 1][2]] + 11123140237123200*opWF[2, 0, \
+1][16])/84256201297125, (3475981324101000*Derivative[1][opWF[2, 0, 1][16]] + \
+6194784810013800*Derivative[3][opWF[2, 0, 1][14]] + \
+2394197104963664*Derivative[5][opWF[2, 0, 1][12]] + \
+299414187930000*Derivative[7][opWF[2, 0, 1][10]] + \
+13549648612500*Derivative[9][opWF[2, 0, 1][8]] + \
+214729411050*Derivative[11][opWF[2, 0, 1][6]] + \
+965782650*Derivative[13][opWF[2, 0, 1][4]] + 570285*Derivative[15][opWF[2, 0, \
+1][2]])/56170800864750, (235102736830104000*Derivative[2][opWF[2, 0, 1][16]] \
++ 223012253160496800*Derivative[4][opWF[2, 0, 1][14]] + \
+61423539520447104*Derivative[6][opWF[2, 0, 1][12]] + \
+6187893217220000*Derivative[8][opWF[2, 0, 1][10]] + \
+241942525624800*Derivative[10][opWF[2, 0, 1][8]] + \
+3473014822200*Derivative[12][opWF[2, 0, 1][6]] + \
+14664128400*Derivative[14][opWF[2, 0, 1][4]] + 8374185*Derivative[16][opWF[2, \
+0, 1][2]] + 31343306882530500*opWF[2, 0, \
+1][18])/15671653441265250}];OPE[opWF[1,1,1][10],opWF[2,0,1][10]]=MakeOPE[{(13\
+1681894400*opWF[2, 0, 1][2])/2431, (65840947200*Derivative[1][opWF[2, 0, \
+1][2]])/2431, (19752284160*Derivative[2][opWF[2, 0, 1][2]])/2431 + \
+(1635050188800*opWF[2, 0, 1][4])/3757, (817525094400*Derivative[1][opWF[2, 0, \
+1][4]])/3757 + (4389396480*Derivative[3][opWF[2, 0, 1][2]])/2431, \
+(1741824*(1434125*Derivative[2][opWF[2, 0, 1][4]] + \
+7650*Derivative[4][opWF[2, 0, 1][2]] + 11237688*opWF[2, 0, 1][6]))/41327, \
+(870912*(11237688*Derivative[1][opWF[2, 0, 1][6]] + \
+573650*Derivative[3][opWF[2, 0, 1][4]] + 2295*Derivative[5][opWF[2, 0, \
+1][2]]))/41327, (435456*(78663816*Derivative[2][opWF[2, 0, 1][6]] + \
+2372825*Derivative[4][opWF[2, 0, 1][4]] + 7735*Derivative[6][opWF[2, 0, \
+1][2]] + 183547650*opWF[2, 0, 1][8]))/537251, \
+(145152*(275321475*Derivative[1][opWF[2, 0, 1][8]] + \
+44950752*Derivative[3][opWF[2, 0, 1][6]] + 949130*Derivative[5][opWF[2, 0, \
+1][4]] + 2652*Derivative[7][opWF[2, 0, 1][2]]))/537251, \
+(72576*(136284130125*Derivative[2][opWF[2, 0, 1][8]] + \
+12608685936*Derivative[4][opWF[2, 0, 1][6]] + 204793050*Derivative[6][opWF[2, \
+0, 1][4]] + 507195*Derivative[8][opWF[2, 0, 1][2]] + 133152190600*opWF[2, 0, \
+1][10]))/502329685, (36288*(133152190600*Derivative[1][opWF[2, 0, 1][10]] + \
+50475603750*Derivative[3][opWF[2, 0, 1][8]] + \
+3152171484*Derivative[5][opWF[2, 0, 1][6]] + 41794500*Derivative[7][opWF[2, \
+0, 1][4]] + 93925*Derivative[9][opWF[2, 0, 1][2]]))/502329685, \
+(864*(2529891621400*Derivative[2][opWF[2, 0, 1][10]] + \
+529993839375*Derivative[4][opWF[2, 0, 1][8]] + \
+24661106316*Derivative[6][opWF[2, 0, 1][6]] + 277933425*Derivative[8][opWF[2, \
+0, 1][4]] + 576555*Derivative[10][opWF[2, 0, 1][2]] + 1261483483260*opWF[2, \
+0, 1][12]))/867660365, (216*(27752636631720*Derivative[1][opWF[2, 0, 1][12]] \
++ 20239132971200*Derivative[3][opWF[2, 0, 1][10]] + \
+2798367471900*Derivative[5][opWF[2, 0, 1][8]] + \
+103341778848*Derivative[7][opWF[2, 0, 1][6]] + \
+1019089225*Derivative[9][opWF[2, 0, 1][4]] + 1976760*Derivative[11][opWF[2, \
+0, 1][2]]))/9544264015, (108*(127662128505912*Derivative[2][opWF[2, 0, \
+1][12]] + 50597832428000*Derivative[4][opWF[2, 0, 1][10]] + \
+5108131099500*Derivative[6][opWF[2, 0, 1][8]] + \
+156372428520*Derivative[8][opWF[2, 0, 1][6]] + \
+1378767775*Derivative[10][opWF[2, 0, 1][4]] + 2525860*Derivative[12][opWF[2, \
+0, 1][2]] + 36941204700400*opWF[2, 0, 1][14]))/84430027825, \
+(6*(4322120949946800*Derivative[1][opWF[2, 0, 1][14]] + \
+5361809397248304*Derivative[3][opWF[2, 0, 1][12]] + \
+1381320825284400*Derivative[5][opWF[2, 0, 1][10]] + \
+108663879753000*Derivative[7][opWF[2, 0, 1][8]] + \
+2845978199064*Derivative[9][opWF[2, 0, 1][6]] + \
+22812339550*Derivative[11][opWF[2, 0, 1][4]] + \
+39782295*Derivative[13][opWF[2, 0, 1][2]]))/1097590361725, \
+(3*(64831814249202000*Derivative[2][opWF[2, 0, 1][14]] + \
+43192353477833560*Derivative[4][opWF[2, 0, 1][12]] + \
+8011660786649520*Derivative[6][opWF[2, 0, 1][10]] + \
+513791170571250*Derivative[8][opWF[2, 0, 1][8]] + \
+11790481110408*Derivative[10][opWF[2, 0, 1][6]] + \
+87047085125*Derivative[12][opWF[2, 0, 1][4]] + \
+145422675*Derivative[14][opWF[2, 0, 1][2]] + 11908209783327000*opWF[2, 0, \
+1][16]))/31830120490025, (12*(1488526222915875*Derivative[1][opWF[2, 0, \
+1][16]] + 2881413966631200*Derivative[3][opWF[2, 0, 1][14]] + \
+1234067242223816*Derivative[5][opWF[2, 0, 1][12]] + \
+176080456849440*Derivative[7][opWF[2, 0, 1][10]] + \
+9514651306875*Derivative[9][opWF[2, 0, 1][8]] + \
+194883985296*Derivative[11][opWF[2, 0, 1][6]] + \
+1339185925*Derivative[13][opWF[2, 0, 1][4]] + 2154410*Derivative[15][opWF[2, \
+0, 1][2]]))/31830120490025, (50339250447700500*Derivative[2][opWF[2, 0, \
+1][16]] + 51865451399361600*Derivative[4][opWF[2, 0, 1][14]] + \
+15830103934733088*Derivative[6][opWF[2, 0, 1][12]] + \
+1819498054110880*Derivative[8][opWF[2, 0, 1][10]] + \
+84946806867780*Derivative[10][opWF[2, 0, 1][8]] + \
+1576018315872*Derivative[12][opWF[2, 0, 1][6]] + \
+10166880900*Derivative[14][opWF[2, 0, 1][4]] + \
+15817905*Derivative[16][opWF[2, 0, 1][2]] + 6268661376506100*opWF[2, 0, \
+1][18])/348258965361450, (219403148177713500*Derivative[1][opWF[2, 0, 1][18]] \
++ 621837799648065000*Derivative[3][opWF[2, 0, 1][16]] + \
+408440429769972600*Derivative[5][opWF[2, 0, 1][14]] + \
+94980623608398528*Derivative[7][opWF[2, 0, 1][12]] + \
+9097490270554400*Derivative[9][opWF[2, 0, 1][10]] + \
+374241177109800*Derivative[11][opWF[2, 0, 1][8]] + \
+6364689352560*Derivative[13][opWF[2, 0, 1][6]] + \
+38818999800*Derivative[15][opWF[2, 0, 1][4]] + \
+58619295*Derivative[17][opWF[2, 0, \
+1][2]])/24378127575301500}];OPE[opWF[1,1,1][11],opWF[2,0,1][10]]=MakeOPE[{(13\
+168189440000*opWF[2, 0, 1][2])/46189, (9876142080000*Derivative[1][opWF[2, 0, \
+1][2]])/46189, (3950456832000*Derivative[2][opWF[2, 0, 1][2]])/46189 + \
+(178867906560000*opWF[2, 0, 1][4])/71383, \
+(111792441600000*Derivative[1][opWF[2, 0, 1][4]])/71383 + \
+(1097349120000*Derivative[3][opWF[2, 0, 1][2]])/46189, \
+(52254720*(7844375*Derivative[2][opWF[2, 0, 1][4]] + \
+76500*Derivative[4][opWF[2, 0, 1][2]] + 44530794*opWF[2, 0, 1][6]))/785213, \
+(60963840*(22265397*Derivative[1][opWF[2, 0, 1][6]] + \
+1568875*Derivative[3][opWF[2, 0, 1][4]] + 11475*Derivative[5][opWF[2, 0, \
+1][2]]))/785213, (17418240*(311715558*Derivative[2][opWF[2, 0, 1][6]] + \
+12978875*Derivative[4][opWF[2, 0, 1][4]] + 77350*Derivative[6][opWF[2, 0, \
+1][2]] + 589029870*opWF[2, 0, 1][8]))/10207769, \
+(6531840*(883544805*Derivative[1][opWF[2, 0, 1][8]] + \
+178123176*Derivative[3][opWF[2, 0, 1][6]] + 5191550*Derivative[5][opWF[2, 0, \
+1][4]] + 26520*Derivative[7][opWF[2, 0, 1][2]]))/10207769, \
+(725760*(437354678475*Derivative[2][opWF[2, 0, 1][8]] + \
+49963550868*Derivative[4][opWF[2, 0, 1][6]] + \
+1120176750*Derivative[6][opWF[2, 0, 1][4]] + 5071950*Derivative[8][opWF[2, 0, \
+1][2]] + 367103462440*opWF[2, 0, 1][10]))/1908852803, \
+(36288*(367103462440*Derivative[1][opWF[2, 0, 1][10]] + \
+161983214250*Derivative[3][opWF[2, 0, 1][8]] + \
+12490887717*Derivative[5][opWF[2, 0, 1][6]] + 228607500*Derivative[7][opWF[2, \
+0, 1][4]] + 939250*Derivative[9][opWF[2, 0, 1][2]]))/173532073, \
+(10368*(6974965786360*Derivative[2][opWF[2, 0, 1][10]] + \
+1700823749625*Derivative[4][opWF[2, 0, 1][8]] + \
+97722827433*Derivative[6][opWF[2, 0, 1][6]] + \
+1520239875*Derivative[8][opWF[2, 0, 1][4]] + 5765550*Derivative[10][opWF[2, \
+0, 1][2]] + 3097661253960*opWF[2, 0, 1][12]))/3297109387, \
+(216*(68148547587120*Derivative[1][opWF[2, 0, 1][12]] + \
+55799726290880*Derivative[3][opWF[2, 0, 1][10]] + \
+8980349398020*Derivative[5][opWF[2, 0, 1][8]] + \
+409505181624*Derivative[7][opWF[2, 0, 1][6]] + \
+5574212875*Derivative[9][opWF[2, 0, 1][4]] + 19767600*Derivative[11][opWF[2, \
+0, 1][2]]))/2789861789, (1512*(313483318900752*Derivative[2][opWF[2, 0, \
+1][12]] + 139499315727200*Derivative[4][opWF[2, 0, 1][10]] + \
+16392701282100*Derivative[6][opWF[2, 0, 1][8]] + \
+619645998510*Derivative[8][opWF[2, 0, 1][6]] + \
+7541582125*Derivative[10][opWF[2, 0, 1][4]] + 25258600*Derivative[12][opWF[2, \
+0, 1][2]] + 82755899703400*opWF[2, 0, 1][14]))/320834105735, \
+(36*(4841220132648900*Derivative[1][opWF[2, 0, 1][14]] + \
+6583149696915792*Derivative[3][opWF[2, 0, 1][12]] + \
+1904165659676280*Derivative[5][opWF[2, 0, 1][10]] + \
+174358731818700*Derivative[7][opWF[2, 0, 1][8]] + \
+5638778586441*Derivative[9][opWF[2, 0, 1][6]] + \
+62389452125*Derivative[11][opWF[2, 0, 1][4]] + \
+198911475*Derivative[13][opWF[2, 0, 1][2]]))/834168674911, \
+(48*(145236603979467000*Derivative[2][opWF[2, 0, 1][14]] + \
+106061856228087760*Derivative[4][opWF[2, 0, 1][12]] + \
+22088321652244848*Derivative[6][opWF[2, 0, 1][10]] + \
+1648827137850750*Derivative[8][opWF[2, 0, 1][8]] + \
+46721308287654*Derivative[10][opWF[2, 0, 1][6]] + \
+476130029375*Derivative[12][opWF[2, 0, 1][4]] + \
+1454226750*Derivative[14][opWF[2, 0, 1][2]] + 24752899158671112*opWF[2, 0, \
+1][16]))/120954457862095, (12*(3094112394833889*Derivative[1][opWF[2, 0, \
+1][16]] + 6454960176865200*Derivative[3][opWF[2, 0, 1][14]] + \
+3030338749373936*Derivative[5][opWF[2, 0, 1][12]] + \
+485457618730656*Derivative[7][opWF[2, 0, 1][10]] + \
+30533835886125*Derivative[9][opWF[2, 0, 1][8]] + \
+772253029548*Derivative[11][opWF[2, 0, 1][6]] + \
+7325077375*Derivative[13][opWF[2, 0, 1][4]] + 21544100*Derivative[15][opWF[2, \
+0, 1][2]]))/7114968109535, (6*(52318627767191214*Derivative[2][opWF[2, 0, \
+1][16]] + 58094641591786800*Derivative[4][opWF[2, 0, 1][14]] + \
+19435965771846624*Derivative[6][opWF[2, 0, 1][12]] + \
+2508197696775056*Derivative[8][opWF[2, 0, 1][10]] + \
+136303043395662*Derivative[10][opWF[2, 0, 1][8]] + \
+3122588336868*Derivative[12][opWF[2, 0, 1][6]] + \
+27805395750*Derivative[14][opWF[2, 0, 1][4]] + \
+79089525*Derivative[16][opWF[2, 0, 1][2]] + 6121163461764780*opWF[2, 0, \
+1][18]))/220564011395585, (214240721161767300*Derivative[1][opWF[2, 0, \
+1][18]] + 646288931241773820*Derivative[3][opWF[2, 0, 1][16]] + \
+457495302535321050*Derivative[5][opWF[2, 0, 1][14]] + \
+116615794631079744*Derivative[7][opWF[2, 0, 1][12]] + \
+12540988483875280*Derivative[9][opWF[2, 0, 1][10]] + \
+600495925449420*Derivative[11][opWF[2, 0, 1][8]] + \
+12610452898890*Derivative[13][opWF[2, 0, 1][6]] + \
+106166056500*Derivative[15][opWF[2, 0, 1][4]] + \
+293096475*Derivative[17][opWF[2, 0, 1][2]])/2437812757530150, \
+(2142407211617673000*Derivative[2][opWF[2, 0, 1][18]] + \
+3416098636563661620*Derivative[4][opWF[2, 0, 1][16]] + \
+1709830928667361500*Derivative[6][opWF[2, 0, 1][14]] + \
+347966483979834720*Derivative[8][opWF[2, 0, 1][12]] + \
+32001143027819680*Derivative[10][opWF[2, 0, 1][10]] + \
+1371503039606700*Derivative[12][opWF[2, 0, 1][8]] + \
+26662100414796*Derivative[14][opWF[2, 0, 1][6]] + \
+213486091875*Derivative[16][opWF[2, 0, 1][4]] + \
+573786750*Derivative[18][opWF[2, 0, 1][2]] + 180398144057231100*opWF[2, 0, \
+1][20])/90199072028615550}];OPE[opWF[1,1,1][1],opWF[2,0,1][11]]=MakeOPE[{}];O\
+PE[opWF[1,1,1][2],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[1,1,1][3],opWF[2,0,1]\
+[11]]=MakeOPE[{}];OPE[opWF[1,1,1][4],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[1,\
+1,1][5],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[1,1,1][6],opWF[2,0,1][11]]=Make\
+OPE[{}];OPE[opWF[1,1,1][7],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[1,1,1][8],op\
+WF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[1,1,1][9],opWF[2,0,1][11]]=MakeOPE[{}];OP\
+E[opWF[1,1,1][10],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[1,1,1][11],opWF[2,0,1\
+][11]]=MakeOPE[{}];highestknownspin=11;OPE[opWF[0,2,1][1],opWF[2,0,1][1]]=Mak\
+eOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[0,2,1][3],op\
+WF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[0,2,1][4],opWF[2,0,1][1]]=MakeOPE[{}];OPE[\
+opWF[0,2,1][5],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[0,2,1][6],opWF[2,0,1][1]]\
+=MakeOPE[{}];OPE[opWF[0,2,1][7],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[0,2,1][8\
+],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[0,2,1][9],opWF[2,0,1][1]]=MakeOPE[{}];\
+OPE[opWF[0,2,1][10],opWF[2,0,1][1]]=MakeOPE[{}];OPE[opWF[0,2,1][11],opWF[2,0,\
+1][1]]=MakeOPE[{}];OPE[opWF[0,2,1][1],opWF[2,0,1][2]]=MakeOPE[{}];OPE[opWF[0,\
+2,1][2],opWF[2,0,1][2]]=MakeOPE[{2*One, -2*opWF[1, 1, 1][1], \
+-Derivative[1][opWF[1, 1, 1][1]] + 4*opWF[1, 1, 1][2], \
+2*Derivative[1][opWF[1, 1, 1][2]] - Derivative[2][opWF[1, 1, 1][1]]/3 - \
+4*opWF[1, 1, \
+1][3]}];OPE[opWF[0,2,1][3],opWF[2,0,1][2]]=MakeOPE[{}];OPE[opWF[0,2,1][4],opW\
+F[2,0,1][2]]=MakeOPE[{(-12*opWF[1, 1, 1][1])/5, (-18*Derivative[1][opWF[1, 1, \
+1][1]])/5 + (42*opWF[1, 1, 1][2])/5, (6*(7*Derivative[1][opWF[1, 1, 1][2]] - \
+2*Derivative[2][opWF[1, 1, 1][1]] - 9*opWF[1, 1, 1][3]))/5, \
+-9*Derivative[1][opWF[1, 1, 1][3]] + (21*Derivative[2][opWF[1, 1, 1][2]])/5 - \
+Derivative[3][opWF[1, 1, 1][1]] + 8*opWF[1, 1, 1][4], \
+(420*Derivative[1][opWF[1, 1, 1][4]] - 270*Derivative[2][opWF[1, 1, 1][3]] + \
+98*Derivative[3][opWF[1, 1, 1][2]] - 21*Derivative[4][opWF[1, 1, 1][1]] - \
+280*opWF[1, 1, \
+1][5])/70}];OPE[opWF[0,2,1][5],opWF[2,0,1][2]]=MakeOPE[{}];OPE[opWF[0,2,1][6]\
+,opWF[2,0,1][2]]=MakeOPE[{(-40*opWF[1, 1, 1][1])/7, \
+(-100*Derivative[1][opWF[1, 1, 1][1]])/7 + (640*opWF[1, 1, 1][2])/21, \
+(20*(16*Derivative[1][opWF[1, 1, 1][2]] - 5*Derivative[2][opWF[1, 1, 1][1]] - \
+18*opWF[1, 1, 1][3]))/7, -60*Derivative[1][opWF[1, 1, 1][3]] + \
+32*Derivative[2][opWF[1, 1, 1][2]] - (25*Derivative[3][opWF[1, 1, 1][1]])/3 + \
+(140*opWF[1, 1, 1][4])/3, (2*(1470*Derivative[1][opWF[1, 1, 1][4]] - \
+1080*Derivative[2][opWF[1, 1, 1][3]] + 448*Derivative[3][opWF[1, 1, 1][2]] - \
+105*Derivative[4][opWF[1, 1, 1][1]] - 875*opWF[1, 1, 1][5]))/63, \
+(-525*Derivative[1][opWF[1, 1, 1][5]] + 490*Derivative[2][opWF[1, 1, 1][4]] - \
+270*Derivative[3][opWF[1, 1, 1][3]] + 96*Derivative[4][opWF[1, 1, 1][2]] - \
+21*Derivative[5][opWF[1, 1, 1][1]] + 252*opWF[1, 1, 1][6])/21, \
+(6930*Derivative[1][opWF[1, 1, 1][6]] - 7875*Derivative[2][opWF[1, 1, 1][5]] \
++ 5390*Derivative[3][opWF[1, 1, 1][4]] - 2475*Derivative[4][opWF[1, 1, 1][3]] \
++ 792*Derivative[5][opWF[1, 1, 1][2]] - 165*Derivative[6][opWF[1, 1, 1][1]] - \
+2772*opWF[1, 1, \
+1][7])/693}];OPE[opWF[0,2,1][7],opWF[2,0,1][2]]=MakeOPE[{}];OPE[opWF[0,2,1][8\
+],opWF[2,0,1][2]]=MakeOPE[{(-3360*opWF[1, 1, 1][1])/143, \
+(-11760*Derivative[1][opWF[1, 1, 1][1]])/143 + (24360*opWF[1, 1, 1][2])/143, \
+(560*(87*Derivative[1][opWF[1, 1, 1][2]] - 28*Derivative[2][opWF[1, 1, 1][1]] \
+- 93*opWF[1, 1, 1][3]))/143, (-168*(465*Derivative[1][opWF[1, 1, 1][3]] - \
+261*Derivative[2][opWF[1, 1, 1][2]] + 70*Derivative[3][opWF[1, 1, 1][1]] - \
+340*opWF[1, 1, 1][4]))/143, (60*(1190*Derivative[1][opWF[1, 1, 1][4]] - \
+930*Derivative[2][opWF[1, 1, 1][3]] + 406*Derivative[3][opWF[1, 1, 1][2]] - \
+98*Derivative[4][opWF[1, 1, 1][1]] - 665*opWF[1, 1, 1][5]))/143, \
+(-11970*Derivative[1][opWF[1, 1, 1][5]] + 11900*Derivative[2][opWF[1, 1, \
+1][4]] - 6975*Derivative[3][opWF[1, 1, 1][3]] + 2610*Derivative[4][opWF[1, 1, \
+1][2]] - 588*Derivative[5][opWF[1, 1, 1][1]] + 5418*opWF[1, 1, 1][6])/39, \
+(59598*Derivative[1][opWF[1, 1, 1][6]] - 71820*Derivative[2][opWF[1, 1, \
+1][5]] + 52360*Derivative[3][opWF[1, 1, 1][4]] - 25575*Derivative[4][opWF[1, \
+1, 1][3]] + 8613*Derivative[5][opWF[1, 1, 1][2]] - 1848*Derivative[6][opWF[1, \
+1, 1][1]] - 22638*opWF[1, 1, 1][7])/429, (-42042*Derivative[1][opWF[1, 1, \
+1][7]] + 59598*Derivative[2][opWF[1, 1, 1][6]] - 51870*Derivative[3][opWF[1, \
+1, 1][5]] + 30940*Derivative[4][opWF[1, 1, 1][4]] - \
+13299*Derivative[5][opWF[1, 1, 1][3]] + 4147*Derivative[6][opWF[1, 1, 1][2]] \
+- 858*Derivative[7][opWF[1, 1, 1][1]] + 13728*opWF[1, 1, 1][8])/858, \
+(360360*Derivative[1][opWF[1, 1, 1][8]] - 588588*Derivative[2][opWF[1, 1, \
+1][7]] + 595980*Derivative[3][opWF[1, 1, 1][6]] - \
+418950*Derivative[4][opWF[1, 1, 1][5]] + 216580*Derivative[5][opWF[1, 1, \
+1][4]] - 84630*Derivative[6][opWF[1, 1, 1][3]] + 24882*Derivative[7][opWF[1, \
+1, 1][2]] - 5005*Derivative[8][opWF[1, 1, 1][1]] - 102960*opWF[1, 1, \
+1][9])/25740}];OPE[opWF[0,2,1][9],opWF[2,0,1][2]]=MakeOPE[{}];OPE[opWF[0,2,1]\
+[10],opWF[2,0,1][2]]=MakeOPE[{(-362880*opWF[1, 1, 1][1])/2431, \
+(-1632960*Derivative[1][opWF[1, 1, 1][1]])/2431 + (3338496*opWF[1, 1, \
+1][2])/2431, (181440*(46*Derivative[1][opWF[1, 1, 1][2]] - \
+15*Derivative[2][opWF[1, 1, 1][1]] - 48*opWF[1, 1, 1][3]))/2431, \
+(-3024*(480*Derivative[1][opWF[1, 1, 1][3]] - 276*Derivative[2][opWF[1, 1, \
+1][2]] + 75*Derivative[3][opWF[1, 1, 1][1]] - 340*opWF[1, 1, 1][4]))/221, \
+(432*(3570*Derivative[1][opWF[1, 1, 1][4]] - 2880*Derivative[2][opWF[1, 1, \
+1][3]] + 1288*Derivative[3][opWF[1, 1, 1][2]] - 315*Derivative[4][opWF[1, 1, \
+1][1]] - 1925*opWF[1, 1, 1][5]))/221, (-72*(1155*Derivative[1][opWF[1, 1, \
+1][5]] - 1190*Derivative[2][opWF[1, 1, 1][4]] + 720*Derivative[3][opWF[1, 1, \
+1][3]] - 276*Derivative[4][opWF[1, 1, 1][2]] + 63*Derivative[5][opWF[1, 1, \
+1][1]] - 504*opWF[1, 1, 1][6]))/17, (168*(1260*Derivative[1][opWF[1, 1, \
+1][6]] - 1575*Derivative[2][opWF[1, 1, 1][5]] + 1190*Derivative[3][opWF[1, 1, \
+1][4]] - 600*Derivative[4][opWF[1, 1, 1][3]] + 207*Derivative[5][opWF[1, 1, \
+1][2]] - 45*Derivative[6][opWF[1, 1, 1][1]] - 462*opWF[1, 1, 1][7]))/85, \
+(-3*(792792*Derivative[1][opWF[1, 1, 1][7]] - 1164240*Derivative[2][opWF[1, \
+1, 1][6]] + 1051050*Derivative[3][opWF[1, 1, 1][5]] - \
+649740*Derivative[4][opWF[1, 1, 1][4]] + 288288*Derivative[5][opWF[1, 1, \
+1][3]] - 92092*Derivative[6][opWF[1, 1, 1][2]] + 19305*Derivative[7][opWF[1, \
+1, 1][1]] - 250536*opWF[1, 1, 1][8]))/2431, (6*(626340*Derivative[1][opWF[1, \
+1, 1][8]] - 1057056*Derivative[2][opWF[1, 1, 1][7]] + \
+1108800*Derivative[3][opWF[1, 1, 1][6]] - 808500*Derivative[4][opWF[1, 1, \
+1][5]] + 433160*Derivative[5][opWF[1, 1, 1][4]] - \
+174720*Derivative[6][opWF[1, 1, 1][3]] + 52624*Derivative[7][opWF[1, 1, \
+1][2]] - 10725*Derivative[8][opWF[1, 1, 1][1]] - 173745*opWF[1, 1, \
+1][9]))/12155, (-984555*Derivative[1][opWF[1, 1, 1][9]] + \
+1879020*Derivative[2][opWF[1, 1, 1][8]] - 2246244*Derivative[3][opWF[1, 1, \
+1][7]] + 1884960*Derivative[4][opWF[1, 1, 1][6]] - \
+1178100*Derivative[5][opWF[1, 1, 1][5]] + 566440*Derivative[6][opWF[1, 1, \
+1][4]] - 212160*Derivative[7][opWF[1, 1, 1][3]] + 60996*Derivative[8][opWF[1, \
+1, 1][2]] - 12155*Derivative[9][opWF[1, 1, 1][1]] + 243100*opWF[1, 1, \
+1][10])/12155, (4157010*Derivative[1][opWF[1, 1, 1][10]] - \
+8860995*Derivative[2][opWF[1, 1, 1][9]] + 11900460*Derivative[3][opWF[1, 1, \
+1][8]] - 11297286*Derivative[4][opWF[1, 1, 1][7]] + \
+8058204*Derivative[5][opWF[1, 1, 1][6]] - 4476780*Derivative[6][opWF[1, 1, \
+1][5]] + 1976760*Derivative[7][opWF[1, 1, 1][4]] - \
+697680*Derivative[8][opWF[1, 1, 1][3]] + 193154*Derivative[9][opWF[1, 1, \
+1][2]] - 37791*Derivative[10][opWF[1, 1, 1][1]] - 923780*opWF[1, 1, \
+1][11])/230945}];OPE[opWF[0,2,1][11],opWF[2,0,1][2]]=MakeOPE[{}];OPE[opWF[0,2\
+,1][1],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][3]]=MakeOPE\
+[{}];OPE[opWF[0,2,1][3],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[0,2,1][4],opWF[2\
+,0,1][3]]=MakeOPE[{}];OPE[opWF[0,2,1][5],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF\
+[0,2,1][6],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[0,2,1][7],opWF[2,0,1][3]]=Mak\
+eOPE[{}];OPE[opWF[0,2,1][8],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[0,2,1][9],op\
+WF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[0,2,1][10],opWF[2,0,1][3]]=MakeOPE[{}];OPE\
+[opWF[0,2,1][11],opWF[2,0,1][3]]=MakeOPE[{}];OPE[opWF[0,2,1][1],opWF[2,0,1][4\
+]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][4]]=MakeOPE[{(-12*opWF[1, 1, \
+1][1])/5, (6*(Derivative[1][opWF[1, 1, 1][1]] + 7*opWF[1, 1, 1][2]))/5, \
+(-54*opWF[1, 1, 1][3])/5, (-9*Derivative[1][opWF[1, 1, 1][3]])/5 + 8*opWF[1, \
+1, 1][4], 2*Derivative[1][opWF[1, 1, 1][4]] - (9*Derivative[2][opWF[1, 1, \
+1][3]])/35 - 4*opWF[1, 1, \
+1][5]}];OPE[opWF[0,2,1][3],opWF[2,0,1][4]]=MakeOPE[{}];OPE[opWF[0,2,1][4],opW\
+F[2,0,1][4]]=MakeOPE[{(36*One)/5, (-36*opWF[1, 1, 1][1])/5, \
+(-18*(Derivative[1][opWF[1, 1, 1][1]] - 8*opWF[1, 1, 1][2]))/5, \
+(6*(60*Derivative[1][opWF[1, 1, 1][2]] - 5*Derivative[2][opWF[1, 1, 1][1]] - \
+204*opWF[1, 1, 1][3]))/25, (-3*(408*Derivative[1][opWF[1, 1, 1][3]] - \
+72*Derivative[2][opWF[1, 1, 1][2]] + 5*Derivative[3][opWF[1, 1, 1][1]] - \
+760*opWF[1, 1, 1][4]))/50, (3*(2660*Derivative[1][opWF[1, 1, 1][4]] - \
+816*Derivative[2][opWF[1, 1, 1][3]] + 112*Derivative[3][opWF[1, 1, 1][2]] - \
+7*Derivative[4][opWF[1, 1, 1][1]] - 3220*opWF[1, 1, 1][5]))/350, \
+(-28980*Derivative[1][opWF[1, 1, 1][5]] + 13300*Derivative[2][opWF[1, 1, \
+1][4]] - 3060*Derivative[3][opWF[1, 1, 1][3]] + 360*Derivative[4][opWF[1, 1, \
+1][2]] - 21*Derivative[5][opWF[1, 1, 1][1]] + 25200*opWF[1, 1, 1][6])/2100, \
+(138600*Derivative[1][opWF[1, 1, 1][6]] - 86940*Derivative[2][opWF[1, 1, \
+1][5]] + 29260*Derivative[3][opWF[1, 1, 1][4]] - 5610*Derivative[4][opWF[1, \
+1, 1][3]] + 594*Derivative[5][opWF[1, 1, 1][2]] - 33*Derivative[6][opWF[1, 1, \
+1][1]] - 92400*opWF[1, 1, \
+1][7])/23100}];OPE[opWF[0,2,1][5],opWF[2,0,1][4]]=MakeOPE[{}];OPE[opWF[0,2,1]\
+[6],opWF[2,0,1][4]]=MakeOPE[{-32*opWF[1, 1, 1][1], -48*Derivative[1][opWF[1, \
+1, 1][1]] + 168*opWF[1, 1, 1][2], 168*Derivative[1][opWF[1, 1, 1][2]] - \
+32*Derivative[2][opWF[1, 1, 1][1]] - (2400*opWF[1, 1, 1][3])/7, \
+(-4*(1500*Derivative[1][opWF[1, 1, 1][3]] - 441*Derivative[2][opWF[1, 1, \
+1][2]] + 70*Derivative[3][opWF[1, 1, 1][1]] - 2000*opWF[1, 1, 1][4]))/21, \
+(4*(3500*Derivative[1][opWF[1, 1, 1][4]] - 1500*Derivative[2][opWF[1, 1, \
+1][3]] + 343*Derivative[3][opWF[1, 1, 1][2]] - 49*Derivative[4][opWF[1, 1, \
+1][1]] - 3325*opWF[1, 1, 1][5]))/49, (-59850*Derivative[1][opWF[1, 1, 1][5]] \
++ 35000*Derivative[2][opWF[1, 1, 1][4]] - 11250*Derivative[3][opWF[1, 1, \
+1][3]] + 2205*Derivative[4][opWF[1, 1, 1][2]] - 294*Derivative[5][opWF[1, 1, \
+1][1]] + 43218*opWF[1, 1, 1][6])/315, (950796*Derivative[1][opWF[1, 1, 1][6]] \
+- 718200*Derivative[2][opWF[1, 1, 1][5]] + 308000*Derivative[3][opWF[1, 1, \
+1][4]] - 82500*Derivative[4][opWF[1, 1, 1][3]] + 14553*Derivative[5][opWF[1, \
+1, 1][2]] - 1848*Derivative[6][opWF[1, 1, 1][1]] - 546546*opWF[1, 1, \
+1][7])/10395, (-1015014*Derivative[1][opWF[1, 1, 1][7]] + \
+950796*Derivative[2][opWF[1, 1, 1][6]] - 518700*Derivative[3][opWF[1, 1, \
+1][5]] + 182000*Derivative[4][opWF[1, 1, 1][4]] - 42900*Derivative[5][opWF[1, \
+1, 1][3]] + 7007*Derivative[6][opWF[1, 1, 1][2]] - 858*Derivative[7][opWF[1, \
+1, 1][1]] + 480480*opWF[1, 1, 1][8])/30030, (1801800*Derivative[1][opWF[1, 1, \
+1][8]] - 2030028*Derivative[2][opWF[1, 1, 1][7]] + \
+1358280*Derivative[3][opWF[1, 1, 1][6]] - 598500*Derivative[4][opWF[1, 1, \
+1][5]] + 182000*Derivative[5][opWF[1, 1, 1][4]] - 39000*Derivative[6][opWF[1, \
+1, 1][3]] + 6006*Derivative[7][opWF[1, 1, 1][2]] - 715*Derivative[8][opWF[1, \
+1, 1][1]] - 720720*opWF[1, 1, \
+1][9])/180180}];OPE[opWF[0,2,1][7],opWF[2,0,1][4]]=MakeOPE[{}];OPE[opWF[0,2,1\
+][8],opWF[2,0,1][4]]=MakeOPE[{(-30240*opWF[1, 1, 1][1])/143, \
+(-75600*Derivative[1][opWF[1, 1, 1][1]])/143 + (205632*opWF[1, 1, 1][2])/143, \
+(3024*(102*Derivative[1][opWF[1, 1, 1][2]] - 25*Derivative[2][opWF[1, 1, \
+1][1]] - 162*opWF[1, 1, 1][3]))/143, (-84*(34020*Derivative[1][opWF[1, 1, \
+1][3]] - 12852*Derivative[2][opWF[1, 1, 1][2]] + 2625*Derivative[3][opWF[1, \
+1, 1][1]] - 37430*opWF[1, 1, 1][4]))/715, (84*(37430*Derivative[1][opWF[1, 1, \
+1][4]] - 19440*Derivative[2][opWF[1, 1, 1][3]] + 5712*Derivative[3][opWF[1, \
+1, 1][2]] - 1050*Derivative[4][opWF[1, 1, 1][1]] - 30625*opWF[1, 1, \
+1][5]))/715, (-42*(55125*Derivative[1][opWF[1, 1, 1][5]] - \
+37430*Derivative[2][opWF[1, 1, 1][4]] + 14580*Derivative[3][opWF[1, 1, 1][3]] \
+- 3672*Derivative[4][opWF[1, 1, 1][2]] + 630*Derivative[5][opWF[1, 1, 1][1]] \
+- 35280*opWF[1, 1, 1][6]))/715, (14*(970200*Derivative[1][opWF[1, 1, 1][6]] - \
+826875*Derivative[2][opWF[1, 1, 1][5]] + 411730*Derivative[3][opWF[1, 1, \
+1][4]] - 133650*Derivative[4][opWF[1, 1, 1][3]] + 30294*Derivative[5][opWF[1, \
+1, 1][2]] - 4950*Derivative[6][opWF[1, 1, 1][1]] - 504504*opWF[1, 1, \
+1][7]))/7865, (-13117104*Derivative[1][opWF[1, 1, 1][7]] + \
+13582800*Derivative[2][opWF[1, 1, 1][6]] - 8360625*Derivative[3][opWF[1, 1, \
+1][5]] + 3406130*Derivative[4][opWF[1, 1, 1][4]] - \
+972972*Derivative[5][opWF[1, 1, 1][3]] + 204204*Derivative[6][opWF[1, 1, \
+1][2]] - 32175*Derivative[7][opWF[1, 1, 1][1]] + 5703984*opWF[1, 1, \
+1][8])/18590, (42779880*Derivative[1][opWF[1, 1, 1][8]] - \
+52468416*Derivative[2][opWF[1, 1, 1][7]] + 38808000*Derivative[3][opWF[1, 1, \
+1][6]] - 19293750*Derivative[4][opWF[1, 1, 1][5]] + \
+6812260*Derivative[5][opWF[1, 1, 1][4]] - 1769040*Derivative[6][opWF[1, 1, \
+1][3]] + 350064*Derivative[7][opWF[1, 1, 1][2]] - 53625*Derivative[8][opWF[1, \
+1, 1][1]] - 15907320*opWF[1, 1, 1][9])/185900, \
+(-90141480*Derivative[1][opWF[1, 1, 1][9]] + 128339640*Derivative[2][opWF[1, \
+1, 1][8]] - 111495384*Derivative[3][opWF[1, 1, 1][7]] + \
+65973600*Derivative[4][opWF[1, 1, 1][6]] - 28113750*Derivative[5][opWF[1, 1, \
+1][5]] + 8908340*Derivative[6][opWF[1, 1, 1][4]] - \
+2148120*Derivative[7][opWF[1, 1, 1][3]] + 405756*Derivative[8][opWF[1, 1, \
+1][2]] - 60775*Derivative[9][opWF[1, 1, 1][1]] + 29172000*opWF[1, 1, \
+1][10])/1458600, (387987600*Derivative[1][opWF[1, 1, 1][10]] - \
+630990360*Derivative[2][opWF[1, 1, 1][9]] + 632191560*Derivative[3][opWF[1, \
+1, 1][8]] - 436143708*Derivative[4][opWF[1, 1, 1][7]] + \
+219362220*Derivative[5][opWF[1, 1, 1][6]] - 83091750*Derivative[6][opWF[1, 1, \
+1][5]] + 24179780*Derivative[7][opWF[1, 1, 1][4]] - \
+5494230*Derivative[8][opWF[1, 1, 1][3]] + 999362*Derivative[9][opWF[1, 1, \
+1][2]] - 146965*Derivative[10][opWF[1, 1, 1][1]] - 110853600*opWF[1, 1, \
+1][11])/27713400}];OPE[opWF[0,2,1][9],opWF[2,0,1][4]]=MakeOPE[{}];OPE[opWF[0,\
+2,1][10],opWF[2,0,1][4]]=MakeOPE[{(-435456*opWF[1, 1, 1][1])/221, \
+(-1524096*Derivative[1][opWF[1, 1, 1][1]])/221 + (217728*opWF[1, 1, \
+1][2])/13, (72576*(1122*Derivative[1][opWF[1, 1, 1][2]] - \
+308*Derivative[2][opWF[1, 1, 1][1]] - 1545*opWF[1, 1, 1][3]))/2431, \
+(-36288*(23175*Derivative[1][opWF[1, 1, 1][3]] - 10098*Derivative[2][opWF[1, \
+1, 1][2]] + 2310*Derivative[3][opWF[1, 1, 1][1]] - 22480*opWF[1, 1, \
+1][4]))/12155, (5184*(39340*Derivative[1][opWF[1, 1, 1][4]] - \
+23175*Derivative[2][opWF[1, 1, 1][3]] + 7854*Derivative[3][opWF[1, 1, 1][2]] \
+- 1617*Derivative[4][opWF[1, 1, 1][1]] - 29015*opWF[1, 1, 1][5]))/2431, \
+(-72*(1044540*Derivative[1][opWF[1, 1, 1][5]] - 786800*Derivative[2][opWF[1, \
+1, 1][4]] + 347625*Derivative[3][opWF[1, 1, 1][3]] - \
+100980*Derivative[4][opWF[1, 1, 1][2]] + 19404*Derivative[5][opWF[1, 1, \
+1][1]] - 613242*opWF[1, 1, 1][6]))/1105, (72*(6745662*Derivative[1][opWF[1, \
+1, 1][6]] - 6267240*Derivative[2][opWF[1, 1, 1][5]] + \
+3461920*Derivative[3][opWF[1, 1, 1][4]] - 1274625*Derivative[4][opWF[1, 1, \
+1][3]] + 333234*Derivative[5][opWF[1, 1, 1][2]] - 60984*Derivative[6][opWF[1, \
+1, 1][1]] - 3259872*opWF[1, 1, 1][7]))/12155, \
+(-36*(6054048*Derivative[1][opWF[1, 1, 1][7]] - 6745662*Derivative[2][opWF[1, \
+1, 1][6]] + 4526340*Derivative[3][opWF[1, 1, 1][5]] - \
+2045680*Derivative[4][opWF[1, 1, 1][4]] + 662805*Derivative[5][opWF[1, 1, \
+1][3]] - 160446*Derivative[6][opWF[1, 1, 1][2]] + 28314*Derivative[7][opWF[1, \
+1, 1][1]] - 2471040*opWF[1, 1, 1][8]))/12155, \
+(6*(64864800*Derivative[1][opWF[1, 1, 1][8]] - 84756672*Derivative[2][opWF[1, \
+1, 1][7]] + 67456620*Derivative[3][opWF[1, 1, 1][6]] - \
+36558900*Derivative[4][opWF[1, 1, 1][5]] + 14319760*Derivative[5][opWF[1, 1, \
+1][4]] - 4217850*Derivative[6][opWF[1, 1, 1][3]] + \
+962676*Derivative[7][opWF[1, 1, 1][2]] - 165165*Derivative[8][opWF[1, 1, \
+1][1]] - 22818510*opWF[1, 1, 1][9]))/60775, \
+(-3*(129304890*Derivative[1][opWF[1, 1, 1][9]] - \
+194594400*Derivative[2][opWF[1, 1, 1][8]] + 180107928*Derivative[3][opWF[1, \
+1, 1][7]] - 114676254*Derivative[4][opWF[1, 1, 1][6]] + \
+53271540*Derivative[5][opWF[1, 1, 1][5]] - 18725840*Derivative[6][opWF[1, 1, \
+1][4]] + 5121675*Derivative[7][opWF[1, 1, 1][3]] - \
+1115829*Derivative[8][opWF[1, 1, 1][2]] + 187187*Derivative[9][opWF[1, 1, \
+1][1]] - 39844090*opWF[1, 1, 1][10]))/206635, \
+(6*(1514075420*Derivative[1][opWF[1, 1, 1][10]] - \
+2586097800*Derivative[2][opWF[1, 1, 1][9]] + 2738736000*Derivative[3][opWF[1, \
+1, 1][8]] - 2012970960*Derivative[4][opWF[1, 1, 1][7]] + \
+1089424413*Derivative[5][opWF[1, 1, 1][6]] - 449848560*Derivative[6][opWF[1, \
+1, 1][5]] + 145220800*Derivative[7][opWF[1, 1, 1][4]] - \
+37427625*Derivative[8][opWF[1, 1, 1][3]] + 7852130*Derivative[9][opWF[1, 1, \
+1][2]] - 1293292*Derivative[10][opWF[1, 1, 1][1]] - 414084385*opWF[1, 1, \
+1][11]))/19630325, (-790524735*Derivative[1][opWF[1, 1, 1][11]] + \
+1514075420*Derivative[2][opWF[1, 1, 1][10]] - \
+1810268460*Derivative[3][opWF[1, 1, 1][9]] + 1513512000*Derivative[4][opWF[1, \
+1, 1][8]] - 939386448*Derivative[5][opWF[1, 1, 1][7]] + \
+448586523*Derivative[6][opWF[1, 1, 1][6]] - 168693210*Derivative[7][opWF[1, \
+1, 1][5]] + 50827280*Derivative[8][opWF[1, 1, 1][4]] - \
+12475875*Derivative[9][opWF[1, 1, 1][3]] + 2536842*Derivative[10][opWF[1, 1, \
+1][2]] - 411502*Derivative[11][opWF[1, 1, 1][1]] + 193993800*opWF[1, 1, \
+1][12])/8083075, (6692786100*Derivative[1][opWF[1, 1, 1][12]] - \
+14229445230*Derivative[2][opWF[1, 1, 1][11]] + \
+18994764360*Derivative[3][opWF[1, 1, 1][10]] - \
+17844074820*Derivative[4][opWF[1, 1, 1][9]] + \
+12531879360*Derivative[5][opWF[1, 1, 1][8]] - \
+6822912096*Derivative[6][opWF[1, 1, 1][7]] + 2947854294*Derivative[7][opWF[1, \
+1, 1][6]] - 1027043955*Derivative[8][opWF[1, 1, 1][5]] + \
+292256860*Derivative[9][opWF[1, 1, 1][4]] - 68866830*Derivative[10][opWF[1, \
+1, 1][3]] + 13639644*Derivative[11][opWF[1, 1, 1][2]] - \
+2184126*Derivative[12][opWF[1, 1, 1][1]] - 1487285800*opWF[1, 1, \
+1][13])/371821450}];OPE[opWF[0,2,1][11],opWF[2,0,1][4]]=MakeOPE[{}];OPE[opWF[\
+0,2,1][1],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][5]]=Make\
+OPE[{}];OPE[opWF[0,2,1][3],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[0,2,1][4],opW\
+F[2,0,1][5]]=MakeOPE[{}];OPE[opWF[0,2,1][5],opWF[2,0,1][5]]=MakeOPE[{}];OPE[o\
+pWF[0,2,1][6],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[0,2,1][7],opWF[2,0,1][5]]=\
+MakeOPE[{}];OPE[opWF[0,2,1][8],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[0,2,1][9]\
+,opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[0,2,1][10],opWF[2,0,1][5]]=MakeOPE[{}];\
+OPE[opWF[0,2,1][11],opWF[2,0,1][5]]=MakeOPE[{}];OPE[opWF[0,2,1][1],opWF[2,0,1\
+][6]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][6]]=MakeOPE[{(-40*opWF[1, 1, \
+1][1])/7, (60*Derivative[1][opWF[1, 1, 1][1]])/7 + (640*opWF[1, 1, 1][2])/21, \
+(-20*(16*Derivative[1][opWF[1, 1, 1][2]] + 3*Derivative[2][opWF[1, 1, 1][1]] \
++ 54*opWF[1, 1, 1][3]))/21, (180*Derivative[1][opWF[1, 1, 1][3]] + \
+32*Derivative[2][opWF[1, 1, 1][2]] + 5*Derivative[3][opWF[1, 1, 1][1]] + \
+980*opWF[1, 1, 1][4])/21, (-250*opWF[1, 1, 1][5])/9, \
+(-25*Derivative[1][opWF[1, 1, 1][5]])/9 + 12*opWF[1, 1, 1][6], \
+2*Derivative[1][opWF[1, 1, 1][6]] - (25*Derivative[2][opWF[1, 1, 1][5]])/99 - \
+4*opWF[1, 1, \
+1][7]}];OPE[opWF[0,2,1][3],opWF[2,0,1][6]]=MakeOPE[{}];OPE[opWF[0,2,1][4],opW\
+F[2,0,1][6]]=MakeOPE[{-32*opWF[1, 1, 1][1], 16*Derivative[1][opWF[1, 1, \
+1][1]] + 168*opWF[1, 1, 1][2], (-2400*opWF[1, 1, 1][3])/7, \
+(-400*Derivative[1][opWF[1, 1, 1][3]])/7 + (8000*opWF[1, 1, 1][4])/21, \
+(100*(140*Derivative[1][opWF[1, 1, 1][4]] - 12*Derivative[2][opWF[1, 1, \
+1][3]] - 399*opWF[1, 1, 1][5]))/147, (-2*(89775*Derivative[1][opWF[1, 1, \
+1][5]] - 17500*Derivative[2][opWF[1, 1, 1][4]] + 1125*Derivative[3][opWF[1, \
+1, 1][3]] - 151263*opWF[1, 1, 1][6]))/2205, (2*(1663893*Derivative[1][opWF[1, \
+1, 1][6]] - 538650*Derivative[2][opWF[1, 1, 1][5]] + \
+77000*Derivative[3][opWF[1, 1, 1][4]] - 4125*Derivative[4][opWF[1, 1, 1][3]] \
+- 1912911*opWF[1, 1, 1][7]))/72765, (-3552549*Derivative[1][opWF[1, 1, 1][7]] \
++ 1663893*Derivative[2][opWF[1, 1, 1][6]] - 389025*Derivative[3][opWF[1, 1, \
+1][5]] + 45500*Derivative[4][opWF[1, 1, 1][4]] - 2145*Derivative[5][opWF[1, \
+1, 1][3]] + 3027024*opWF[1, 1, 1][8])/189189, (11351340*Derivative[1][opWF[1, \
+1, 1][8]] - 7105098*Derivative[2][opWF[1, 1, 1][7]] + \
+2376990*Derivative[3][opWF[1, 1, 1][6]] - 448875*Derivative[4][opWF[1, 1, \
+1][5]] + 45500*Derivative[5][opWF[1, 1, 1][4]] - 1950*Derivative[6][opWF[1, \
+1, 1][3]] - 7567560*opWF[1, 1, \
+1][9])/1891890}];OPE[opWF[0,2,1][5],opWF[2,0,1][6]]=MakeOPE[{}];OPE[opWF[0,2,\
+1][6],opWF[2,0,1][6]]=MakeOPE[{(1600*One)/7, (-1600*opWF[1, 1, 1][1])/7, \
+(-800*(Derivative[1][opWF[1, 1, 1][1]] - 12*opWF[1, 1, 1][2]))/7, \
+(800*(18*Derivative[1][opWF[1, 1, 1][2]] - Derivative[2][opWF[1, 1, 1][1]] - \
+88*opWF[1, 1, 1][3]))/21, (-40*(2640*Derivative[1][opWF[1, 1, 1][3]] - \
+324*Derivative[2][opWF[1, 1, 1][2]] + 15*Derivative[3][opWF[1, 1, 1][1]] - \
+6860*opWF[1, 1, 1][4]))/63, (40*(24010*Derivative[1][opWF[1, 1, 1][4]] - \
+5280*Derivative[2][opWF[1, 1, 1][3]] + 504*Derivative[3][opWF[1, 1, 1][2]] - \
+21*Derivative[4][opWF[1, 1, 1][1]] - 39480*opWF[1, 1, 1][5]))/441, \
+(-20*(355320*Derivative[1][opWF[1, 1, 1][5]] - 120050*Derivative[2][opWF[1, \
+1, 1][4]] + 19800*Derivative[3][opWF[1, 1, 1][3]] - \
+1620*Derivative[4][opWF[1, 1, 1][2]] + 63*Derivative[5][opWF[1, 1, 1][1]] - \
+410256*opWF[1, 1, 1][6]))/3969, (20*(2256408*Derivative[1][opWF[1, 1, 1][6]] \
+- 1065960*Derivative[2][opWF[1, 1, 1][5]] + 264110*Derivative[3][opWF[1, 1, \
+1][4]] - 36300*Derivative[4][opWF[1, 1, 1][3]] + 2673*Derivative[5][opWF[1, \
+1, 1][2]] - 99*Derivative[6][opWF[1, 1, 1][1]] - 1957956*opWF[1, 1, \
+1][7]))/43659, (-5*(101813712*Derivative[1][opWF[1, 1, 1][7]] - \
+63179424*Derivative[2][opWF[1, 1, 1][6]] + 21556080*Derivative[3][opWF[1, 1, \
+1][5]] - 4369820*Derivative[4][opWF[1, 1, 1][4]] + \
+528528*Derivative[5][opWF[1, 1, 1][3]] - 36036*Derivative[6][opWF[1, 1, \
+1][2]] + 1287*Derivative[7][opWF[1, 1, 1][1]] - 69621552*opWF[1, 1, \
+1][8]))/1135134, (522161640*Derivative[1][opWF[1, 1, 1][8]] - \
+407254848*Derivative[2][opWF[1, 1, 1][7]] + 180512640*Derivative[3][opWF[1, \
+1, 1][6]] - 49744800*Derivative[4][opWF[1, 1, 1][5]] + \
+8739640*Derivative[5][opWF[1, 1, 1][4]] - 960960*Derivative[6][opWF[1, 1, \
+1][3]] + 61776*Derivative[7][opWF[1, 1, 1][2]] - 2145*Derivative[8][opWF[1, \
+1, 1][1]] - 291351060*opWF[1, 1, 1][9])/3405402, \
+(-1650989340*Derivative[1][opWF[1, 1, 1][9]] + \
+1566484920*Derivative[2][opWF[1, 1, 1][8]] - 865416552*Derivative[3][opWF[1, \
+1, 1][7]] + 306871488*Derivative[4][opWF[1, 1, 1][6]] - \
+72485280*Derivative[5][opWF[1, 1, 1][5]] + 11428760*Derivative[6][opWF[1, 1, \
+1][4]] - 1166880*Derivative[7][opWF[1, 1, 1][3]] + \
+71604*Derivative[8][opWF[1, 1, 1][2]] - 2431*Derivative[9][opWF[1, 1, 1][1]] \
++ 771891120*opWF[1, 1, 1][10])/38594556, (7332965640*Derivative[1][opWF[1, 1, \
+1][10]] - 8254946700*Derivative[2][opWF[1, 1, 1][9]] + \
+5511706200*Derivative[3][opWF[1, 1, 1][8]] - 2418075660*Derivative[4][opWF[1, \
+1, 1][7]] + 728819784*Derivative[5][opWF[1, 1, 1][6]] - \
+153024480*Derivative[6][opWF[1, 1, 1][5]] + 22157800*Derivative[7][opWF[1, 1, \
+1][4]] - 2131800*Derivative[8][opWF[1, 1, 1][3]] + \
+125970*Derivative[9][opWF[1, 1, 1][2]] - 4199*Derivative[10][opWF[1, 1, \
+1][1]] - 2933186256*opWF[1, 1, \
+1][11])/733296564}];OPE[opWF[0,2,1][7],opWF[2,0,1][6]]=MakeOPE[{}];OPE[opWF[0\
+,2,1][8],opWF[2,0,1][6]]=MakeOPE[{(-28800*opWF[1, 1, 1][1])/13, \
+(-43200*Derivative[1][opWF[1, 1, 1][1]])/13 + (206400*opWF[1, 1, 1][2])/13, \
+(4800*(473*Derivative[1][opWF[1, 1, 1][2]] - 66*Derivative[2][opWF[1, 1, \
+1][1]] - 1323*opWF[1, 1, 1][3]))/143, (-2400*(2205*Derivative[1][opWF[1, 1, \
+1][3]] - 473*Derivative[2][opWF[1, 1, 1][2]] + 55*Derivative[3][opWF[1, 1, \
+1][1]] - 3920*opWF[1, 1, 1][4]))/143, (400*(52920*Derivative[1][opWF[1, 1, \
+1][4]] - 17010*Derivative[2][opWF[1, 1, 1][3]] + 2838*Derivative[3][opWF[1, \
+1, 1][2]] - 297*Derivative[4][opWF[1, 1, 1][1]] - 65660*opWF[1, 1, \
+1][5]))/429, (-20*(919240*Derivative[1][opWF[1, 1, 1][5]] - \
+411600*Derivative[2][opWF[1, 1, 1][4]] + 99225*Derivative[3][opWF[1, 1, \
+1][3]] - 14190*Derivative[4][opWF[1, 1, 1][2]] + 1386*Derivative[5][opWF[1, \
+1, 1][1]] - 852012*opWF[1, 1, 1][6]))/429, (40*(3124044*Derivative[1][opWF[1, \
+1, 1][6]] - 1838480*Derivative[2][opWF[1, 1, 1][5]] + \
+603680*Derivative[3][opWF[1, 1, 1][4]] - 121275*Derivative[4][opWF[1, 1, \
+1][3]] + 15609*Derivative[5][opWF[1, 1, 1][2]] - 1452*Derivative[6][opWF[1, \
+1, 1][1]] - 2270268*opWF[1, 1, 1][7]))/4719, \
+(-20*(265621356*Derivative[1][opWF[1, 1, 1][7]] - \
+196814772*Derivative[2][opWF[1, 1, 1][6]] + 83650840*Derivative[3][opWF[1, 1, \
+1][5]] - 22473360*Derivative[4][opWF[1, 1, 1][4]] + \
+3972969*Derivative[5][opWF[1, 1, 1][3]] - 473473*Derivative[6][opWF[1, 1, \
+1][2]] + 42471*Derivative[7][opWF[1, 1, 1][1]] - 156835536*opWF[1, 1, \
+1][8]))/429429, (5*(392088840*Derivative[1][opWF[1, 1, 1][8]] - \
+354161808*Derivative[2][opWF[1, 1, 1][7]] + 187442640*Derivative[3][opWF[1, \
+1, 1][6]] - 64346800*Derivative[4][opWF[1, 1, 1][5]] + \
+14982240*Derivative[5][opWF[1, 1, 1][4]] - 2407860*Derivative[6][opWF[1, 1, \
+1][3]] + 270556*Derivative[7][opWF[1, 1, 1][2]] - 23595*Derivative[8][opWF[1, \
+1, 1][1]] - 193281660*opWF[1, 1, 1][9]))/429429, \
+(-5*(1095262740*Derivative[1][opWF[1, 1, 1][9]] - \
+1176266520*Derivative[2][opWF[1, 1, 1][8]] + 752593842*Derivative[3][opWF[1, \
+1, 1][7]] - 318652488*Derivative[4][opWF[1, 1, 1][6]] + \
+93762480*Derivative[5][opWF[1, 1, 1][5]] - 19592160*Derivative[6][opWF[1, 1, \
+1][4]] + 2923830*Derivative[7][opWF[1, 1, 1][3]] - \
+313599*Derivative[8][opWF[1, 1, 1][2]] + 26741*Derivative[9][opWF[1, 1, \
+1][1]] - 460480020*opWF[1, 1, 1][10]))/3981978, \
+(78742083420*Derivative[1][opWF[1, 1, 1][10]] - \
+98573646600*Derivative[2][opWF[1, 1, 1][9]] + \
+74496879600*Derivative[3][opWF[1, 1, 1][8]] - \
+37851043230*Derivative[4][opWF[1, 1, 1][7]] + \
+13622393862*Derivative[5][opWF[1, 1, 1][6]] - \
+3562974240*Derivative[6][opWF[1, 1, 1][5]] + 683726400*Derivative[7][opWF[1, \
+1, 1][4]] - 96149025*Derivative[8][opWF[1, 1, 1][3]] + \
+9930635*Derivative[9][opWF[1, 1, 1][2]] - 831402*Derivative[10][opWF[1, 1, \
+1][1]] - 28722722028*opWF[1, 1, 1][11])/226972746, \
+(-2611156548*Derivative[1][opWF[1, 1, 1][11]] + \
+3749623020*Derivative[2][opWF[1, 1, 1][10]] - \
+3285788220*Derivative[3][opWF[1, 1, 1][9]] + 1960444200*Derivative[4][opWF[1, \
+1, 1][8]] - 841134294*Derivative[5][opWF[1, 1, 1][7]] + \
+267105762*Derivative[6][opWF[1, 1, 1][6]] - 63624540*Derivative[7][opWF[1, 1, \
+1][5]] + 11395440*Derivative[8][opWF[1, 1, 1][4]] - \
+1526175*Derivative[9][opWF[1, 1, 1][3]] + 152779*Derivative[10][opWF[1, 1, \
+1][2]] - 12597*Derivative[11][opWF[1, 1, 1][1]] + 838053216*opWF[1, 1, \
+1][12])/34918884, (22487761296*Derivative[1][opWF[1, 1, 1][12]] - \
+36556191672*Derivative[2][opWF[1, 1, 1][11]] + \
+36587230680*Derivative[3][opWF[1, 1, 1][10]] - \
+25191043020*Derivative[4][opWF[1, 1, 1][9]] + \
+12625260648*Derivative[5][opWF[1, 1, 1][8]] - \
+4751670924*Derivative[6][opWF[1, 1, 1][7]] + 1365207228*Derivative[7][opWF[1, \
+1, 1][6]] - 301280910*Derivative[8][opWF[1, 1, 1][5]] + \
+50962940*Derivative[9][opWF[1, 1, 1][4]] - 6552378*Derivative[10][opWF[1, 1, \
+1][3]] + 638894*Derivative[11][opWF[1, 1, 1][2]] - \
+52003*Derivative[12][opWF[1, 1, 1][1]] - 6425074656*opWF[1, 1, \
+1][13])/1606268664}];OPE[opWF[0,2,1][9],opWF[2,0,1][6]]=MakeOPE[{}];OPE[opWF[\
+0,2,1][10],opWF[2,0,1][6]]=MakeOPE[{(-483840*opWF[1, 1, 1][1])/17, \
+(-1209600*Derivative[1][opWF[1, 1, 1][1]])/17 + (4147200*opWF[1, 1, \
+1][2])/17, (172800*(468*Derivative[1][opWF[1, 1, 1][2]] - \
+91*Derivative[2][opWF[1, 1, 1][1]] - 978*opWF[1, 1, 1][3]))/221, \
+(-2880*(68460*Derivative[1][opWF[1, 1, 1][3]] - 19656*Derivative[2][opWF[1, \
+1, 1][2]] + 3185*Derivative[3][opWF[1, 1, 1][1]] - 97340*opWF[1, 1, \
+1][4]))/221, (5760*(535370*Derivative[1][opWF[1, 1, 1][4]] - \
+215160*Derivative[2][opWF[1, 1, 1][3]] + 48048*Derivative[3][opWF[1, 1, \
+1][2]] - 7007*Derivative[4][opWF[1, 1, 1][1]] - 555660*opWF[1, 1, \
+1][5]))/2431, (-576*(5000940*Derivative[1][opWF[1, 1, 1][5]] - \
+2676850*Derivative[2][opWF[1, 1, 1][4]] + 806850*Derivative[3][opWF[1, 1, \
+1][3]] - 154440*Derivative[4][opWF[1, 1, 1][2]] + 21021*Derivative[5][opWF[1, \
+1, 1][1]] - 4000752*opWF[1, 1, 1][6]))/2431, \
+(960*(22004136*Derivative[1][opWF[1, 1, 1][6]] - \
+15002820*Derivative[2][opWF[1, 1, 1][5]] + 5889070*Derivative[3][opWF[1, 1, \
+1][4]] - 1479225*Derivative[4][opWF[1, 1, 1][3]] + \
+254826*Derivative[5][opWF[1, 1, 1][2]] - 33033*Derivative[6][opWF[1, 1, \
+1][1]] - 14126112*opWF[1, 1, 1][7]))/26741, \
+(-120*(104936832*Derivative[1][opWF[1, 1, 1][7]] - \
+88016544*Derivative[2][opWF[1, 1, 1][6]] + 43341480*Derivative[3][opWF[1, 1, \
+1][5]] - 13919620*Derivative[4][opWF[1, 1, 1][4]] + \
+3076788*Derivative[5][opWF[1, 1, 1][3]] - 490776*Derivative[6][opWF[1, 1, \
+1][2]] + 61347*Derivative[7][opWF[1, 1, 1][1]] - 55721952*opWF[1, 1, \
+1][8]))/31603, (12*(2925402480*Derivative[1][opWF[1, 1, 1][8]] - \
+2938231296*Derivative[2][opWF[1, 1, 1][7]] + 1760330880*Derivative[3][opWF[1, \
+1, 1][6]] - 700131600*Derivative[4][opWF[1, 1, 1][5]] + \
+194874680*Derivative[5][opWF[1, 1, 1][4]] - 39159120*Derivative[6][opWF[1, 1, \
+1][3]] + 5889312*Derivative[7][opWF[1, 1, 1][2]] - \
+715715*Derivative[8][opWF[1, 1, 1][1]] - 1315326870*opWF[1, 1, \
+1][9]))/221221, (-2*(22360556790*Derivative[1][opWF[1, 1, 1][9]] - \
+26328622320*Derivative[2][opWF[1, 1, 1][8]] + \
+18731224512*Derivative[3][opWF[1, 1, 1][7]] - \
+8977687488*Derivative[4][opWF[1, 1, 1][6]] + 3060575280*Derivative[5][opWF[1, \
+1, 1][5]] - 764508360*Derivative[6][opWF[1, 1, 1][4]] + \
+142651080*Derivative[7][opWF[1, 1, 1][3]] - 20478744*Derivative[8][opWF[1, 1, \
+1][2]] + 2433431*Derivative[9][opWF[1, 1, 1][1]] - 8672641120*opWF[1, 1, \
+1][10]))/867867, (2*(30354243920*Derivative[1][opWF[1, 1, 1][10]] - \
+41190499350*Derivative[2][opWF[1, 1, 1][9]] + \
+34129695600*Derivative[3][opWF[1, 1, 1][8]] - \
+19282142880*Derivative[4][opWF[1, 1, 1][7]] + \
+7855476552*Derivative[5][opWF[1, 1, 1][6]] - 2380447440*Derivative[6][opWF[1, \
+1, 1][5]] + 546077400*Derivative[7][opWF[1, 1, 1][4]] - \
+96015150*Derivative[8][opWF[1, 1, 1][3]] + 13273260*Derivative[9][opWF[1, 1, \
+1][2]] - 1548547*Derivative[10][opWF[1, 1, 1][1]] - 10309939068*opWF[1, 1, \
+1][11]))/4339335, (-106848459432*Derivative[1][opWF[1, 1, 1][11]] + \
+164780181280*Derivative[2][opWF[1, 1, 1][10]] - \
+156523897530*Derivative[3][opWF[1, 1, 1][9]] + \
+102389086800*Derivative[4][opWF[1, 1, 1][8]] - \
+48848095296*Derivative[5][opWF[1, 1, 1][7]] + \
+17559300528*Derivative[6][opWF[1, 1, 1][6]] - \
+4845910860*Derivative[7][opWF[1, 1, 1][5]] + 1037547060*Derivative[8][opWF[1, \
+1, 1][4]] - 173741700*Derivative[9][opWF[1, 1, 1][3]] + \
+23279256*Derivative[10][opWF[1, 1, 1][2]] - 2674763*Derivative[11][opWF[1, 1, \
+1][1]] + 32179691544*opWF[1, 1, 1][12])/32978946, \
+(2*(370066452756*Derivative[1][opWF[1, 1, 1][12]] - \
+641090756592*Derivative[2][opWF[1, 1, 1][11]] + \
+689080758080*Derivative[3][opWF[1, 1, 1][10]] - \
+514292806170*Derivative[4][opWF[1, 1, 1][9]] + \
+282593879568*Derivative[5][opWF[1, 1, 1][8]] - \
+118263809664*Derivative[6][opWF[1, 1, 1][7]] + \
+38463229728*Derivative[7][opWF[1, 1, 1][6]] - \
+9834348510*Derivative[8][opWF[1, 1, 1][5]] + 1988631865*Derivative[9][opWF[1, \
+1, 1][4]] - 319684728*Derivative[10][opWF[1, 1, 1][3]] + \
+41721264*Derivative[11][opWF[1, 1, 1][2]] - 4732273*Derivative[12][opWF[1, 1, \
+1][1]] - 99863805041*opWF[1, 1, 1][13]))/1137773637, \
+(-192045778925*Derivative[1][opWF[1, 1, 1][13]] + \
+370066452756*Derivative[2][opWF[1, 1, 1][12]] - \
+445201914300*Derivative[3][opWF[1, 1, 1][11]] + \
+374500412000*Derivative[4][opWF[1, 1, 1][10]] - \
+233769457350*Derivative[5][opWF[1, 1, 1][9]] + \
+112140428400*Derivative[6][opWF[1, 1, 1][8]] - \
+42237074880*Derivative[7][opWF[1, 1, 1][7]] + \
+12652378200*Derivative[8][opWF[1, 1, 1][6]] - \
+3035292750*Derivative[9][opWF[1, 1, 1][5]] + 584891725*Derivative[10][opWF[1, \
+1, 1][4]] - 90819525*Derivative[11][opWF[1, 1, 1][3]] + \
+11589240*Derivative[12][opWF[1, 1, 1][2]] - 1300075*Derivative[13][opWF[1, 1, \
+1][1]] + 46849502700*opWF[1, 1, 1][14])/1673196525, \
+(180705224700*Derivative[1][opWF[1, 1, 1][14]] - \
+384091557850*Derivative[2][opWF[1, 1, 1][13]] + \
+512399703816*Derivative[3][opWF[1, 1, 1][12]] - \
+480818067444*Derivative[4][opWF[1, 1, 1][11]] + \
+337050370800*Derivative[5][opWF[1, 1, 1][10]] - \
+182950010100*Derivative[6][opWF[1, 1, 1][9]] + \
+78643936800*Derivative[7][opWF[1, 1, 1][8]] - \
+27152405280*Derivative[8][opWF[1, 1, 1][7]] + \
+7591426920*Derivative[9][opWF[1, 1, 1][6]] - \
+1725324300*Derivative[10][opWF[1, 1, 1][5]] + \
+319031850*Derivative[11][opWF[1, 1, 1][4]] - 48080925*Derivative[12][opWF[1, \
+1, 1][3]] + 6017490*Derivative[13][opWF[1, 1, 1][2]] - \
+668610*Derivative[14][opWF[1, 1, 1][1]] - 40156716600*opWF[1, 1, \
+1][15])/10039179150}];OPE[opWF[0,2,1][11],opWF[2,0,1][6]]=MakeOPE[{}];OPE[opW\
+F[0,2,1][1],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][7]]=Ma\
+keOPE[{}];OPE[opWF[0,2,1][3],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[0,2,1][4],o\
+pWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[0,2,1][5],opWF[2,0,1][7]]=MakeOPE[{}];OPE\
+[opWF[0,2,1][6],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[0,2,1][7],opWF[2,0,1][7]\
+]=MakeOPE[{}];OPE[opWF[0,2,1][8],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[0,2,1][\
+9],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[0,2,1][10],opWF[2,0,1][7]]=MakeOPE[{}\
+];OPE[opWF[0,2,1][11],opWF[2,0,1][7]]=MakeOPE[{}];OPE[opWF[0,2,1][1],opWF[2,0\
+,1][8]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][8]]=MakeOPE[{(-3360*opWF[1\
+, 1, 1][1])/143, (8400*Derivative[1][opWF[1, 1, 1][1]])/143 + (24360*opWF[1, \
+1, 1][2])/143, (-280*(87*Derivative[1][opWF[1, 1, 1][2]] + \
+20*Derivative[2][opWF[1, 1, 1][1]] + 186*opWF[1, 1, 1][3]))/143, \
+(28*(930*Derivative[1][opWF[1, 1, 1][3]] + 261*Derivative[2][opWF[1, 1, \
+1][2]] + 50*Derivative[3][opWF[1, 1, 1][1]] + 2040*opWF[1, 1, 1][4]))/143, \
+(-4*(3570*Derivative[1][opWF[1, 1, 1][4]] + 930*Derivative[2][opWF[1, 1, \
+1][3]] + 203*Derivative[3][opWF[1, 1, 1][2]] + 35*Derivative[4][opWF[1, 1, \
+1][1]] + 9975*opWF[1, 1, 1][5]))/143, (11970*Derivative[1][opWF[1, 1, 1][5]] \
++ 2380*Derivative[2][opWF[1, 1, 1][4]] + 465*Derivative[3][opWF[1, 1, 1][3]] \
++ 87*Derivative[4][opWF[1, 1, 1][2]] + 14*Derivative[5][opWF[1, 1, 1][1]] + \
+59598*opWF[1, 1, 1][6])/429, (-686*opWF[1, 1, 1][7])/13, \
+(-49*Derivative[1][opWF[1, 1, 1][7]])/13 + 16*opWF[1, 1, 1][8], \
+2*Derivative[1][opWF[1, 1, 1][8]] - (49*Derivative[2][opWF[1, 1, 1][7]])/195 \
+- 4*opWF[1, 1, \
+1][9]}];OPE[opWF[0,2,1][3],opWF[2,0,1][8]]=MakeOPE[{}];OPE[opWF[0,2,1][4],opW\
+F[2,0,1][8]]=MakeOPE[{(-30240*opWF[1, 1, 1][1])/143, \
+(45360*Derivative[1][opWF[1, 1, 1][1]])/143 + (205632*opWF[1, 1, 1][2])/143, \
+(-3024*(34*Derivative[1][opWF[1, 1, 1][2]] + 5*Derivative[2][opWF[1, 1, \
+1][1]] + 162*opWF[1, 1, 1][3]))/143, (84*(4860*Derivative[1][opWF[1, 1, \
+1][3]] + 612*Derivative[2][opWF[1, 1, 1][2]] + 75*Derivative[3][opWF[1, 1, \
+1][1]] + 37430*opWF[1, 1, 1][4]))/715, (-514500*opWF[1, 1, 1][5])/143, \
+(-51450*Derivative[1][opWF[1, 1, 1][5]])/143 + (296352*opWF[1, 1, 1][6])/143, \
+(2058*(1320*Derivative[1][opWF[1, 1, 1][6]] - 125*Derivative[2][opWF[1, 1, \
+1][5]] - 3432*opWF[1, 1, 1][7]))/7865, (-39351312*Derivative[1][opWF[1, 1, \
+1][7]] + 8149680*Derivative[2][opWF[1, 1, 1][6]] - \
+557375*Derivative[3][opWF[1, 1, 1][5]] + 62743824*opWF[1, 1, 1][8])/204490, \
+(78429780*Derivative[1][opWF[1, 1, 1][8]] - 26234208*Derivative[2][opWF[1, 1, \
+1][7]] + 3880800*Derivative[3][opWF[1, 1, 1][6]] - \
+214375*Derivative[4][opWF[1, 1, 1][5]] - 87490260*opWF[1, 1, 1][9])/1022450, \
+(-165259380*Derivative[1][opWF[1, 1, 1][9]] + 78429780*Derivative[2][opWF[1, \
+1, 1][8]] - 18582564*Derivative[3][opWF[1, 1, 1][7]] + \
+2199120*Derivative[4][opWF[1, 1, 1][6]] - 104125*Derivative[5][opWF[1, 1, \
+1][5]] + 139053200*opWF[1, 1, 1][10])/6952660, \
+(2377809720*Derivative[1][opWF[1, 1, 1][10]] - \
+1487334420*Derivative[2][opWF[1, 1, 1][9]] + 496721940*Derivative[3][opWF[1, \
+1, 1][8]] - 93459366*Derivative[4][opWF[1, 1, 1][7]] + \
+9401238*Derivative[5][opWF[1, 1, 1][6]] - 395675*Derivative[6][opWF[1, 1, \
+1][5]] - 1585206480*opWF[1, 1, \
+1][11])/396301620}];OPE[opWF[0,2,1][5],opWF[2,0,1][8]]=MakeOPE[{}];OPE[opWF[0\
+,2,1][6],opWF[2,0,1][8]]=MakeOPE[{(-28800*opWF[1, 1, 1][1])/13, \
+(14400*Derivative[1][opWF[1, 1, 1][1]])/13 + (206400*opWF[1, 1, 1][2])/13, \
+(-6350400*opWF[1, 1, 1][3])/143, (-1058400*Derivative[1][opWF[1, 1, \
+1][3]])/143 + (9408000*opWF[1, 1, 1][4])/143, \
+(5600*(1260*Derivative[1][opWF[1, 1, 1][4]] - 81*Derivative[2][opWF[1, 1, \
+1][3]] - 4690*opWF[1, 1, 1][5]))/429, (-140*(18760*Derivative[1][opWF[1, 1, \
+1][5]] - 2800*Derivative[2][opWF[1, 1, 1][4]] + 135*Derivative[3][opWF[1, 1, \
+1][3]] - 40572*opWF[1, 1, 1][6]))/143, (140*(446292*Derivative[1][opWF[1, 1, \
+1][6]] - 112560*Derivative[2][opWF[1, 1, 1][5]] + 12320*Derivative[3][opWF[1, \
+1, 1][4]] - 495*Derivative[4][opWF[1, 1, 1][3]] - 648648*opWF[1, 1, \
+1][7]))/4719, (-10*(885404520*Derivative[1][opWF[1, 1, 1][7]] - \
+328024620*Derivative[2][opWF[1, 1, 1][6]] + 59750600*Derivative[3][opWF[1, 1, \
+1][5]] - 5350800*Derivative[4][opWF[1, 1, 1][4]] + \
+189189*Derivative[5][opWF[1, 1, 1][3]] - 941013216*opWF[1, 1, \
+1][8]))/1288287, (10*(117626652*Derivative[1][opWF[1, 1, 1][8]] - \
+59026968*Derivative[2][opWF[1, 1, 1][7]] + 15620220*Derivative[3][opWF[1, 1, \
+1][6]] - 2298100*Derivative[4][opWF[1, 1, 1][5]] + \
+178360*Derivative[5][opWF[1, 1, 1][4]] - 5733*Derivative[6][opWF[1, 1, 1][3]] \
+- 96640830*opWF[1, 1, 1][9]))/429429, (-5*(1095262740*Derivative[1][opWF[1, \
+1, 1][9]] - 705759912*Derivative[2][opWF[1, 1, 1][8]] + \
+250864614*Derivative[3][opWF[1, 1, 1][7]] - 53108748*Derivative[4][opWF[1, 1, \
+1][6]] + 6697320*Derivative[5][opWF[1, 1, 1][5]] - \
+466480*Derivative[6][opWF[1, 1, 1][4]] + 13923*Derivative[7][opWF[1, 1, \
+1][3]] - 723611460*opWF[1, 1, 1][10]))/6257394, \
+(82491706440*Derivative[1][opWF[1, 1, 1][10]] - \
+65715764400*Derivative[2][opWF[1, 1, 1][9]] + \
+29798751840*Derivative[3][opWF[1, 1, 1][8]] - \
+8411342940*Derivative[4][opWF[1, 1, 1][7]] + 1513599318*Derivative[5][opWF[1, \
+1, 1][6]] - 169665440*Derivative[6][opWF[1, 1, 1][5]] + \
+10852800*Derivative[7][opWF[1, 1, 1][4]] - 305235*Derivative[8][opWF[1, 1, \
+1][3]] - 45135706044*opWF[1, 1, 1][11])/356671458, \
+(-28722722028*Derivative[1][opWF[1, 1, 1][11]] + \
+27497235480*Derivative[2][opWF[1, 1, 1][10]] - \
+15333678360*Derivative[3][opWF[1, 1, 1][9]] + \
+5489243760*Derivative[4][opWF[1, 1, 1][8]] - 1308431124*Derivative[5][opWF[1, \
+1, 1][7]] + 207748926*Derivative[6][opWF[1, 1, 1][6]] - \
+21208180*Derivative[7][opWF[1, 1, 1][5]] + 1266160*Derivative[8][opWF[1, 1, \
+1][4]] - 33915*Derivative[9][opWF[1, 1, 1][3]] + 13315734432*opWF[1, 1, \
+1][12])/554822268, (1148482094760*Derivative[1][opWF[1, 1, 1][12]] - \
+1292522491260*Derivative[2][opWF[1, 1, 1][11]] + \
+862413294600*Derivative[3][opWF[1, 1, 1][10]] - \
+377865645300*Derivative[4][opWF[1, 1, 1][9]] + \
+113627345832*Derivative[5][opWF[1, 1, 1][8]] - \
+23758354620*Derivative[6][opWF[1, 1, 1][7]] + \
+3413018070*Derivative[7][opWF[1, 1, 1][6]] - 322800975*Derivative[8][opWF[1, \
+1, 1][5]] + 18201050*Derivative[9][opWF[1, 1, 1][4]] - \
+468027*Derivative[10][opWF[1, 1, 1][3]] - 459392837904*opWF[1, 1, \
+1][13])/114848209476}];OPE[opWF[0,2,1][7],opWF[2,0,1][8]]=MakeOPE[{}];OPE[opW\
+F[0,2,1][8],opWF[2,0,1][8]]=MakeOPE[{(4233600*One)/143, (-4233600*opWF[1, 1, \
+1][1])/143, (-2116800*(Derivative[1][opWF[1, 1, 1][1]] - 16*opWF[1, 1, \
+1][2]))/143, (705600*(312*Derivative[1][opWF[1, 1, 1][2]] - \
+13*Derivative[2][opWF[1, 1, 1][1]] - 1992*opWF[1, 1, 1][3]))/1859, \
+(-35280*(19920*Derivative[1][opWF[1, 1, 1][3]] - 1872*Derivative[2][opWF[1, \
+1, 1][2]] + 65*Derivative[3][opWF[1, 1, 1][1]] - 66480*opWF[1, 1, \
+1][4]))/1859, (5040*(2559480*Derivative[1][opWF[1, 1, 1][4]] - \
+438240*Derivative[2][opWF[1, 1, 1][3]] + 32032*Derivative[3][opWF[1, 1, \
+1][2]] - 1001*Derivative[4][opWF[1, 1, 1][1]] - 5325180*opWF[1, 1, \
+1][5]))/20449, (-840*(15975540*Derivative[1][opWF[1, 1, 1][5]] - \
+4265800*Derivative[2][opWF[1, 1, 1][4]] + 547800*Derivative[3][opWF[1, 1, \
+1][3]] - 34320*Derivative[4][opWF[1, 1, 1][2]] + 1001*Derivative[5][opWF[1, \
+1, 1][1]] - 23031792*opWF[1, 1, 1][6]))/20449, \
+(840*(126674856*Derivative[1][opWF[1, 1, 1][6]] - \
+47926620*Derivative[2][opWF[1, 1, 1][5]] + 9384760*Derivative[3][opWF[1, 1, \
+1][4]] - 1004300*Derivative[4][opWF[1, 1, 1][3]] + \
+56628*Derivative[5][opWF[1, 1, 1][2]] - 1573*Derivative[6][opWF[1, 1, 1][1]] \
+- 135631496*opWF[1, 1, 1][7]))/224939, \
+(-35*(21158513376*Derivative[1][opWF[1, 1, 1][7]] - \
+10640687904*Derivative[2][opWF[1, 1, 1][6]] + \
+2907548280*Derivative[3][opWF[1, 1, 1][5]] - 465825360*Derivative[4][opWF[1, \
+1, 1][4]] + 43867824*Derivative[5][opWF[1, 1, 1][3]] - \
+2290288*Derivative[6][opWF[1, 1, 1][2]] + 61347*Derivative[7][opWF[1, 1, \
+1][1]] - 17663330256*opWF[1, 1, 1][8]))/2924207, \
+(7*(132474976920*Derivative[1][opWF[1, 1, 1][8]] - \
+84634053504*Derivative[2][opWF[1, 1, 1][7]] + \
+30401965440*Derivative[3][opWF[1, 1, 1][6]] - \
+6709726800*Derivative[4][opWF[1, 1, 1][5]] + 931650720*Derivative[5][opWF[1, \
+1, 1][4]] - 79759680*Derivative[6][opWF[1, 1, 1][3]] + \
+3926208*Derivative[7][opWF[1, 1, 1][2]] - 102245*Derivative[8][opWF[1, 1, \
+1][1]] - 89372291580*opWF[1, 1, 1][9]))/8772621, \
+(-7*(1519328956860*Derivative[1][opWF[1, 1, 1][9]] - \
+1192274792280*Derivative[2][opWF[1, 1, 1][8]] + \
+539542091088*Derivative[3][opWF[1, 1, 1][7]] - \
+155050023744*Derivative[4][opWF[1, 1, 1][6]] + \
+29331091440*Derivative[5][opWF[1, 1, 1][5]] - \
+3654937440*Derivative[6][opWF[1, 1, 1][4]] + 290553120*Derivative[7][opWF[1, \
+1, 1][3]] - 13652496*Derivative[8][opWF[1, 1, 1][2]] + \
+347633*Derivative[9][opWF[1, 1, 1][1]] - 851352147360*opWF[1, 1, \
+1][10]))/298269114, (7*(425676073680*Derivative[1][opWF[1, 1, 1][10]] - \
+399823409700*Derivative[2][opWF[1, 1, 1][9]] + \
+220791628200*Derivative[3][opWF[1, 1, 1][8]] - \
+79344425160*Derivative[4][opWF[1, 1, 1][7]] + \
+19381252968*Derivative[5][opWF[1, 1, 1][6]] - \
+3259010160*Derivative[6][opWF[1, 1, 1][5]] + 372952800*Derivative[7][opWF[1, \
+1, 1][4]] - 27937800*Derivative[8][opWF[1, 1, 1][3]] + \
+1264120*Derivative[9][opWF[1, 1, 1][2]] - 31603*Derivative[10][opWF[1, 1, \
+1][1]] - 202443061392*opWF[1, 1, 1][11]))/298269114, \
+(-14686323908256*Derivative[1][opWF[1, 1, 1][11]] + \
+16175690799840*Derivative[2][opWF[1, 1, 1][10]] - \
+10635302698020*Derivative[3][opWF[1, 1, 1][9]] + \
+4636624192200*Derivative[4][opWF[1, 1, 1][8]] - \
+1407041139504*Derivative[5][opWF[1, 1, 1][7]] + \
+303259605264*Derivative[6][opWF[1, 1, 1][6]] - \
+46440894780*Derivative[7][opWF[1, 1, 1][5]] + \
+4960272240*Derivative[8][opWF[1, 1, 1][4]] - 353878800*Derivative[9][opWF[1, \
+1, 1][3]] + 15519504*Derivative[10][opWF[1, 1, 1][2]] - \
+382109*Derivative[11][opWF[1, 1, 1][1]] + 6032027697696*opWF[1, 1, \
+1][12])/6182305272, (69368318523504*Derivative[1][opWF[1, 1, 1][12]] - \
+88117943449536*Derivative[2][opWF[1, 1, 1][11]] + \
+67643797890240*Derivative[3][opWF[1, 1, 1][10]] - \
+34944566007780*Derivative[4][opWF[1, 1, 1][9]] + \
+12797082770472*Derivative[5][opWF[1, 1, 1][8]] - \
+3406520653536*Derivative[6][opWF[1, 1, 1][7]] + \
+664282944864*Derivative[7][opWF[1, 1, 1][6]] - \
+94247698230*Derivative[8][opWF[1, 1, 1][5]] + \
+9507188460*Derivative[9][opWF[1, 1, 1][4]] - 651136992*Derivative[10][opWF[1, \
+1, 1][3]] + 27814176*Derivative[11][opWF[1, 1, 1][2]] - \
+676039*Derivative[12][opWF[1, 1, 1][1]] - 24960344192784*opWF[1, 1, \
+1][13])/142193021256, (-48000661909200*Derivative[1][opWF[1, 1, 1][13]] + \
+69368318523504*Derivative[2][opWF[1, 1, 1][12]] - \
+61193016284400*Derivative[3][opWF[1, 1, 1][11]] + \
+36762933636000*Derivative[4][opWF[1, 1, 1][10]] - \
+15883893639900*Derivative[5][opWF[1, 1, 1][9]] + \
+5078207448600*Derivative[6][opWF[1, 1, 1][8]] - \
+1216614519120*Derivative[7][opWF[1, 1, 1][7]] + \
+218514126600*Derivative[8][opWF[1, 1, 1][6]] - \
+29088795750*Derivative[9][opWF[1, 1, 1][5]] + \
+2796231900*Derivative[10][opWF[1, 1, 1][4]] - \
+184982100*Derivative[11][opWF[1, 1, 1][3]] + 7726160*Derivative[12][opWF[1, \
+1, 1][2]] - 185725*Derivative[13][opWF[1, 1, 1][1]] + 15313094596800*opWF[1, \
+1, 1][14])/546896235600, (22969641895200*Derivative[1][opWF[1, 1, 1][14]] - \
+37333848151600*Derivative[2][opWF[1, 1, 1][13]] + \
+37352171512656*Derivative[3][opWF[1, 1, 1][12]] - \
+25701066839448*Derivative[4][opWF[1, 1, 1][11]] + \
+12867026772600*Derivative[5][opWF[1, 1, 1][10]] - \
+4834228499100*Derivative[6][opWF[1, 1, 1][9]] + \
+1384965667800*Derivative[7][opWF[1, 1, 1][8]] - \
+304153629780*Derivative[8][opWF[1, 1, 1][7]] + \
+50986629540*Derivative[9][opWF[1, 1, 1][6]] - \
+6430154850*Derivative[10][opWF[1, 1, 1][5]] + \
+593140100*Derivative[11][opWF[1, 1, 1][4]] - 38084550*Derivative[12][opWF[1, \
+1, 1][3]] + 1560090*Derivative[13][opWF[1, 1, 1][2]] - \
+37145*Derivative[14][opWF[1, 1, 1][1]] - 6562754827200*opWF[1, 1, \
+1][15])/1640688706800}];OPE[opWF[0,2,1][9],opWF[2,0,1][8]]=MakeOPE[{}];OPE[op\
+WF[0,2,1][10],opWF[2,0,1][8]]=MakeOPE[{(-1219276800*opWF[1, 1, 1][1])/2431, \
+(-1828915200*Derivative[1][opWF[1, 1, 1][1]])/2431 + (11125900800*opWF[1, 1, \
+1][2])/2431, (30481920*(365*Derivative[1][opWF[1, 1, 1][2]] - \
+40*Derivative[2][opWF[1, 1, 1][1]] - 1296*opWF[1, 1, 1][3]))/2431, \
+(-25401600*(1296*Derivative[1][opWF[1, 1, 1][3]] - 219*Derivative[2][opWF[1, \
+1, 1][2]] + 20*Derivative[3][opWF[1, 1, 1][1]] - 2880*opWF[1, 1, \
+1][4]))/2431, (3628800*(196560*Derivative[1][opWF[1, 1, 1][4]] - \
+50544*Derivative[2][opWF[1, 1, 1][3]] + 6643*Derivative[3][opWF[1, 1, 1][2]] \
+- 546*Derivative[4][opWF[1, 1, 1][1]] - 301140*opWF[1, 1, 1][5]))/31603, \
+(-1270080*(602280*Derivative[1][opWF[1, 1, 1][5]] - \
+218400*Derivative[2][opWF[1, 1, 1][4]] + 42120*Derivative[3][opWF[1, 1, \
+1][3]] - 4745*Derivative[4][opWF[1, 1, 1][2]] + 364*Derivative[5][opWF[1, 1, \
+1][1]] - 681912*opWF[1, 1, 1][6]))/31603, \
+(423360*(15002064*Derivative[1][opWF[1, 1, 1][6]] - \
+7227360*Derivative[2][opWF[1, 1, 1][5]] + 1921920*Derivative[3][opWF[1, 1, \
+1][4]] - 308880*Derivative[4][opWF[1, 1, 1][3]] + 31317*Derivative[5][opWF[1, \
+1, 1][2]] - 2288*Derivative[6][opWF[1, 1, 1][1]] - 13189176*opWF[1, 1, \
+1][7]))/347633, (-6048*(7715667960*Derivative[1][opWF[1, 1, 1][7]] - \
+4725650160*Derivative[2][opWF[1, 1, 1][6]] + 1644224400*Derivative[3][opWF[1, \
+1, 1][5]] - 357739200*Derivative[4][opWF[1, 1, 1][4]] + \
+50594544*Derivative[5][opWF[1, 1, 1][3]] - 4749745*Derivative[6][opWF[1, 1, \
+1][2]] + 334620*Derivative[7][opWF[1, 1, 1][1]] - 5463222336*opWF[1, 1, \
+1][8]))/4519229, (30240*(682902792*Derivative[1][opWF[1, 1, 1][8]] - \
+514377864*Derivative[2][opWF[1, 1, 1][7]] + 225030960*Derivative[3][opWF[1, \
+1, 1][6]] - 63239400*Derivative[4][opWF[1, 1, 1][5]] + \
+11924640*Derivative[5][opWF[1, 1, 1][4]] - 1533168*Derivative[6][opWF[1, 1, \
+1][3]] + 135707*Derivative[7][opWF[1, 1, 1][2]] - 9295*Derivative[8][opWF[1, \
+1, 1][1]] - 400482225*opWF[1, 1, 1][9]))/4519229, \
+(-420*(27232791300*Derivative[1][opWF[1, 1, 1][9]] - \
+24584500512*Derivative[2][opWF[1, 1, 1][8]] + \
+13116635532*Derivative[3][opWF[1, 1, 1][7]] - \
+4590631584*Derivative[4][opWF[1, 1, 1][6]] + 1105786080*Derivative[5][opWF[1, \
+1, 1][5]] - 187125120*Derivative[6][opWF[1, 1, 1][4]] + \
+22340448*Derivative[7][opWF[1, 1, 1][3]] - 1887561*Derivative[8][opWF[1, 1, \
+1][2]] + 126412*Derivative[9][opWF[1, 1, 1][1]] - 13521343550*opWF[1, 1, \
+1][10]))/6984263, (84*(770716582350*Derivative[1][opWF[1, 1, 1][10]] - \
+816983739000*Derivative[2][opWF[1, 1, 1][9]] + \
+519006121920*Derivative[3][opWF[1, 1, 1][8]] - \
+219896536860*Derivative[4][opWF[1, 1, 1][7]] + \
+65416500072*Derivative[5][opWF[1, 1, 1][6]] - \
+14006623680*Derivative[6][opWF[1, 1, 1][5]] + \
+2176761600*Derivative[7][opWF[1, 1, 1][4]] - 244885680*Derivative[8][opWF[1, \
+1, 1][3]] + 19924255*Derivative[9][opWF[1, 1, 1][2]] - \
+1310088*Derivative[10][opWF[1, 1, 1][1]] - 329778189884*opWF[1, 1, \
+1][11]))/132700997, (-6*(2308447329188*Derivative[1][opWF[1, 1, 1][11]] - \
+2825960801950*Derivative[2][opWF[1, 1, 1][10]] + \
+2096924930100*Derivative[3][opWF[1, 1, 1][9]] - \
+1051670299680*Derivative[4][opWF[1, 1, 1][8]] + \
+376267407516*Derivative[5][opWF[1, 1, 1][7]] - \
+98766088344*Derivative[6][opWF[1, 1, 1][6]] + \
+19259107560*Derivative[7][opWF[1, 1, 1][5]] - \
+2793510720*Derivative[8][opWF[1, 1, 1][4]] + 299304720*Derivative[9][opWF[1, \
+1, 1][3]] - 23602579*Derivative[10][opWF[1, 1, 1][2]] + \
+1528436*Derivative[11][opWF[1, 1, 1][1]] - 863706956112*opWF[1, 1, \
+1][12]))/112285459, (14*(24831574988220*Derivative[1][opWF[1, 1, 1][12]] - \
+34626709937820*Derivative[2][opWF[1, 1, 1][11]] + \
+29544135656750*Derivative[3][opWF[1, 1, 1][10]] - \
+17224740497250*Derivative[4][opWF[1, 1, 1][9]] + \
+7256525067792*Derivative[5][opWF[1, 1, 1][8]] - \
+2277407992860*Derivative[6][opWF[1, 1, 1][7]] + \
+540861912360*Derivative[7][opWF[1, 1, 1][6]] - \
+97711648650*Derivative[8][opWF[1, 1, 1][5]] + \
+13385572200*Derivative[9][opWF[1, 1, 1][4]] - \
+1376801712*Derivative[10][opWF[1, 1, 1][3]] + \
+105751815*Derivative[11][opWF[1, 1, 1][2]] - 6760390*Derivative[12][opWF[1, \
+1, 1][1]] - 8223247806774*opWF[1, 1, 1][13]))/12912827785, \
+(-7*(18976725707940*Derivative[1][opWF[1, 1, 1][13]] - \
+29797889985864*Derivative[2][opWF[1, 1, 1][12]] + \
+28855591614850*Derivative[3][opWF[1, 1, 1][11]] - \
+19267914558750*Derivative[4][opWF[1, 1, 1][10]] + \
+9395312998500*Derivative[5][opWF[1, 1, 1][9]] - \
+3455488127520*Derivative[6][opWF[1, 1, 1][8]] + \
+976031996940*Derivative[7][opWF[1, 1, 1][7]] - \
+213498123300*Derivative[8][opWF[1, 1, 1][6]] + \
+36189499500*Derivative[9][opWF[1, 1, 1][5]] - \
+4724319600*Derivative[10][opWF[1, 1, 1][4]] + \
+469364220*Derivative[11][opWF[1, 1, 1][3]] - 35250605*Derivative[12][opWF[1, \
+1, 1][2]] + 2228700*Derivative[13][opWF[1, 1, 1][1]] - 5619709395300*opWF[1, \
+1, 1][14]))/25825655570, (67436512743600*Derivative[1][opWF[1, 1, 1][14]] - \
+118077404404960*Derivative[2][opWF[1, 1, 1][13]] + \
+128360141477568*Derivative[3][opWF[1, 1, 1][12]] - \
+96954787825896*Derivative[4][opWF[1, 1, 1][11]] + \
+53950160764500*Derivative[5][opWF[1, 1, 1][10]] - \
+22875544692000*Derivative[6][opWF[1, 1, 1][9]] + \
+7539246823680*Derivative[7][opWF[1, 1, 1][8]] - \
+1952063993880*Derivative[8][opWF[1, 1, 1][7]] + \
+398529830160*Derivative[9][opWF[1, 1, 1][6]] - \
+63998272800*Derivative[10][opWF[1, 1, 1][5]] + \
+8017027200*Derivative[11][opWF[1, 1, 1][4]] - \
+773070480*Derivative[12][opWF[1, 1, 1][3]] + 56943285*Derivative[13][opWF[1, \
+1, 1][2]] - 3565920*Derivative[14][opWF[1, 1, 1][1]] - 18016024068900*opWF[1, \
+1, 1][15])/77476966710, (-522464697998100*Derivative[1][opWF[1, 1, 1][15]] + \
+1011547691154000*Derivative[2][opWF[1, 1, 1][14]] - \
+1222944545622800*Derivative[3][opWF[1, 1, 1][13]] + \
+1034012250791520*Derivative[4][opWF[1, 1, 1][12]] - \
+648851272373304*Derivative[5][opWF[1, 1, 1][11]] + \
+312910932434100*Derivative[6][opWF[1, 1, 1][10]] - \
+118462642155000*Derivative[7][opWF[1, 1, 1][9]] + \
+35647525742400*Derivative[8][opWF[1, 1, 1][8]] - \
+8577250882200*Derivative[9][opWF[1, 1, 1][7]] + \
+1651052153520*Derivative[10][opWF[1, 1, 1][6]] - \
+253084078800*Derivative[11][opWF[1, 1, 1][5]] + \
+30591288000*Derivative[12][opWF[1, 1, 1][4]] - \
+2874236400*Derivative[13][opWF[1, 1, 1][3]] + \
+208154025*Derivative[14][opWF[1, 1, 1][2]] - 12926460*Derivative[15][opWF[1, \
+1, 1][1]] + 126879926659200*opWF[1, 1, 1][16])/3964997708100, \
+(4424937442239600*Derivative[1][opWF[1, 1, 1][16]] - \
+9404364563965800*Derivative[2][opWF[1, 1, 1][15]] + \
+12543191370309600*Derivative[3][opWF[1, 1, 1][14]] - \
+11765569938922800*Derivative[4][opWF[1, 1, 1][13]] + \
+8242554799166688*Derivative[5][opWF[1, 1, 1][12]] - \
+4469864320793872*Derivative[6][opWF[1, 1, 1][11]] + \
+1918728574705800*Derivative[7][opWF[1, 1, 1][10]] - \
+661021543224900*Derivative[8][opWF[1, 1, 1][9]] + \
+184178883002400*Derivative[9][opWF[1, 1, 1][8]] - \
+41618312976240*Derivative[10][opWF[1, 1, 1][7]] + \
+7613942988960*Derivative[11][opWF[1, 1, 1][6]] - \
+1120800920400*Derivative[12][opWF[1, 1, 1][5]] + \
+131307220800*Derivative[13][opWF[1, 1, 1][4]] - \
+12058826400*Derivative[14][opWF[1, 1, 1][3]] + \
+860369970*Derivative[15][opWF[1, 1, 1][2]] - 53036505*Derivative[16][opWF[1, \
+1, 1][1]] - 983319431608800*opWF[1, 1, \
+1][17])/245829857902200}];OPE[opWF[0,2,1][11],opWF[2,0,1][8]]=MakeOPE[{}];OPE\
+[opWF[0,2,1][1],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][9]\
+]=MakeOPE[{}];OPE[opWF[0,2,1][3],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[0,2,1][\
+4],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[0,2,1][5],opWF[2,0,1][9]]=MakeOPE[{}]\
+;OPE[opWF[0,2,1][6],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[0,2,1][7],opWF[2,0,1\
+][9]]=MakeOPE[{}];OPE[opWF[0,2,1][8],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[0,2\
+,1][9],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[0,2,1][10],opWF[2,0,1][9]]=MakeOP\
+E[{}];OPE[opWF[0,2,1][11],opWF[2,0,1][9]]=MakeOPE[{}];OPE[opWF[0,2,1][1],opWF\
+[2,0,1][10]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1][10]]=MakeOPE[{(-36288\
+0*opWF[1, 1, 1][1])/2431, (1270080*Derivative[1][opWF[1, 1, 1][1]])/2431 + \
+(3338496*opWF[1, 1, 1][2])/2431, (-36288*(138*Derivative[1][opWF[1, 1, 1][2]] \
++ 35*Derivative[2][opWF[1, 1, 1][1]] + 240*opWF[1, 1, 1][3]))/2431, \
+(3024*(2400*Derivative[1][opWF[1, 1, 1][3]] + 828*Derivative[2][opWF[1, 1, \
+1][2]] + 175*Derivative[3][opWF[1, 1, 1][1]] + 3740*opWF[1, 1, 1][4]))/2431, \
+(-432*(13090*Derivative[1][opWF[1, 1, 1][4]] + 4800*Derivative[2][opWF[1, 1, \
+1][3]] + 1288*Derivative[3][opWF[1, 1, 1][2]] + 245*Derivative[4][opWF[1, 1, \
+1][1]] + 21175*opWF[1, 1, 1][5]))/2431, (72*(38115*Derivative[1][opWF[1, 1, \
+1][5]] + 13090*Derivative[2][opWF[1, 1, 1][4]] + 3600*Derivative[3][opWF[1, \
+1, 1][3]] + 828*Derivative[4][opWF[1, 1, 1][2]] + 147*Derivative[5][opWF[1, \
+1, 1][1]] + 72072*opWF[1, 1, 1][6]))/2431, (-24*(180180*Derivative[1][opWF[1, \
+1, 1][6]] + 51975*Derivative[2][opWF[1, 1, 1][5]] + \
+13090*Derivative[3][opWF[1, 1, 1][4]] + 3000*Derivative[4][opWF[1, 1, 1][3]] \
++ 621*Derivative[5][opWF[1, 1, 1][2]] + 105*Derivative[6][opWF[1, 1, 1][1]] + \
+462462*opWF[1, 1, 1][7]))/12155, (3*(264264*Derivative[1][opWF[1, 1, 1][7]] + \
+55440*Derivative[2][opWF[1, 1, 1][6]] + 11550*Derivative[3][opWF[1, 1, 1][5]] \
++ 2380*Derivative[4][opWF[1, 1, 1][4]] + 480*Derivative[5][opWF[1, 1, 1][3]] \
++ 92*Derivative[6][opWF[1, 1, 1][2]] + 15*Derivative[7][opWF[1, 1, 1][1]] + \
+1252680*opWF[1, 1, 1][8]))/12155, (-1458*opWF[1, 1, 1][9])/17, \
+(-81*Derivative[1][opWF[1, 1, 1][9]])/17 + 20*opWF[1, 1, 1][10], \
+2*Derivative[1][opWF[1, 1, 1][10]] - (81*Derivative[2][opWF[1, 1, 1][9]])/323 \
+- 4*opWF[1, 1, \
+1][11]}];OPE[opWF[0,2,1][3],opWF[2,0,1][10]]=MakeOPE[{}];OPE[opWF[0,2,1][4],o\
+pWF[2,0,1][10]]=MakeOPE[{(-435456*opWF[1, 1, 1][1])/221, \
+(1088640*Derivative[1][opWF[1, 1, 1][1]])/221 + (217728*opWF[1, 1, 1][2])/13, \
+(-72576*(561*Derivative[1][opWF[1, 1, 1][2]] + 110*Derivative[2][opWF[1, 1, \
+1][1]] + 1545*opWF[1, 1, 1][3]))/2431, (36288*(7725*Derivative[1][opWF[1, 1, \
+1][3]] + 1683*Derivative[2][opWF[1, 1, 1][2]] + 275*Derivative[3][opWF[1, 1, \
+1][1]] + 22480*opWF[1, 1, 1][4]))/12155, (-2592*(78680*Derivative[1][opWF[1, \
+1, 1][4]] + 15450*Derivative[2][opWF[1, 1, 1][3]] + \
+2618*Derivative[3][opWF[1, 1, 1][2]] + 385*Derivative[4][opWF[1, 1, 1][1]] + \
+290150*opWF[1, 1, 1][5]))/12155, (72*(1044540*Derivative[1][opWF[1, 1, 1][5]] \
++ 157360*Derivative[2][opWF[1, 1, 1][4]] + 23175*Derivative[3][opWF[1, 1, \
+1][3]] + 3366*Derivative[4][opWF[1, 1, 1][2]] + 462*Derivative[5][opWF[1, 1, \
+1][1]] + 6745662*opWF[1, 1, 1][6]))/12155, (-21337344*opWF[1, 1, 1][7])/1105, \
+(-1524096*Derivative[1][opWF[1, 1, 1][7]])/1105 + (124416*opWF[1, 1, \
+1][8])/17, (324*(15600*Derivative[1][opWF[1, 1, 1][8]] - \
+1568*Derivative[2][opWF[1, 1, 1][7]] - 38415*opWF[1, 1, 1][9]))/5525, \
+(-6*(5877495*Derivative[1][opWF[1, 1, 1][9]] - 1263600*Derivative[2][opWF[1, \
+1, 1][8]] + 89964*Derivative[3][opWF[1, 1, 1][7]] - 9055475*opWF[1, 1, \
+1][10]))/93925, (6*(34410805*Derivative[1][opWF[1, 1, 1][10]] - \
+11754990*Derivative[2][opWF[1, 1, 1][9]] + 1778400*Derivative[3][opWF[1, 1, \
+1][8]] - 100548*Derivative[4][opWF[1, 1, 1][7]] - 37644035*opWF[1, 1, \
+1][11]))/1784575, (-359329425*Derivative[1][opWF[1, 1, 1][11]] + \
+172054025*Derivative[2][opWF[1, 1, 1][10]] - 41142465*Derivative[3][opWF[1, \
+1, 1][9]] + 4914000*Derivative[4][opWF[1, 1, 1][8]] - \
+234612*Derivative[5][opWF[1, 1, 1][7]] + 299808600*opWF[1, 1, \
+1][12])/12492025, (3447798900*Derivative[1][opWF[1, 1, 1][12]] - \
+2155976550*Derivative[2][opWF[1, 1, 1][11]] + 719498650*Derivative[3][opWF[1, \
+1, 1][10]] - 135182385*Derivative[4][opWF[1, 1, 1][9]] + \
+13562640*Derivative[5][opWF[1, 1, 1][8]] - 568008*Derivative[6][opWF[1, 1, \
+1][7]] - 2298532600*opWF[1, 1, \
+1][13])/574633150}];OPE[opWF[0,2,1][5],opWF[2,0,1][10]]=MakeOPE[{}];OPE[opWF[\
+0,2,1][6],opWF[2,0,1][10]]=MakeOPE[{(-483840*opWF[1, 1, 1][1])/17, \
+(725760*Derivative[1][opWF[1, 1, 1][1]])/17 + (4147200*opWF[1, 1, 1][2])/17, \
+(-34560*(780*Derivative[1][opWF[1, 1, 1][2]] + 91*Derivative[2][opWF[1, 1, \
+1][1]] + 4890*opWF[1, 1, 1][3]))/221, (2880*(9780*Derivative[1][opWF[1, 1, \
+1][3]] + 936*Derivative[2][opWF[1, 1, 1][2]] + 91*Derivative[3][opWF[1, 1, \
+1][1]] + 97340*opWF[1, 1, 1][4]))/221, (-3200601600*opWF[1, 1, 1][5])/2431, \
+(-320060160*Derivative[1][opWF[1, 1, 1][5]])/2431 + (2304433152*opWF[1, 1, \
+1][6])/2431, (2370816*(1782*Derivative[1][opWF[1, 1, 1][6]] - \
+135*Derivative[2][opWF[1, 1, 1][5]] - 5720*opWF[1, 1, 1][7]))/26741, \
+(-5184*(7287280*Derivative[1][opWF[1, 1, 1][7]] - \
+1222452*Derivative[2][opWF[1, 1, 1][6]] + 66885*Derivative[3][opWF[1, 1, \
+1][5]] - 14188460*opWF[1, 1, 1][8]))/347633, \
+(216*(595915320*Derivative[1][opWF[1, 1, 1][8]] - \
+163235072*Derivative[2][opWF[1, 1, 1][7]] + 19559232*Derivative[3][opWF[1, 1, \
+1][6]] - 864360*Derivative[4][opWF[1, 1, 1][5]] - 803810865*opWF[1, 1, \
+1][9]))/2433431, (-4*(614915311725*Derivative[1][opWF[1, 1, 1][9]] - \
+241345704600*Derivative[2][opWF[1, 1, 1][8]] + \
+46828061280*Derivative[3][opWF[1, 1, 1][7]] - \
+4488843744*Derivative[4][opWF[1, 1, 1][6]] + 170031960*Derivative[5][opWF[1, \
+1, 1][5]] - 620093840080*opWF[1, 1, 1][10]))/124104981, \
+(4*(310046920040*Derivative[1][opWF[1, 1, 1][10]] - \
+161819818875*Derivative[2][opWF[1, 1, 1][9]] + \
+44693649000*Derivative[3][opWF[1, 1, 1][8]] - \
+6886479600*Derivative[4][opWF[1, 1, 1][7]] + 561105468*Derivative[5][opWF[1, \
+1, 1][6]] - 18892440*Derivative[6][opWF[1, 1, 1][5]] - 245720214454*opWF[1, \
+1, 1][11]))/206841635, (-17825884648572*Derivative[1][opWF[1, 1, 1][11]] + \
+11781782961520*Derivative[2][opWF[1, 1, 1][10]] - \
+4304407182075*Derivative[3][opWF[1, 1, 1][9]] + \
+938566629000*Derivative[4][opWF[1, 1, 1][8]] - \
+122120238240*Derivative[5][opWF[1, 1, 1][7]] + \
+8779650264*Derivative[6][opWF[1, 1, 1][6]] - 269217270*Derivative[7][opWF[1, \
+1, 1][5]] + 11504239726980*opWF[1, 1, 1][12])/11789973195, \
+(2*(132298756860270*Derivative[1][opWF[1, 1, 1][12]] - \
+106955307891432*Derivative[2][opWF[1, 1, 1][11]] + \
+49269274202720*Derivative[3][opWF[1, 1, 1][10]] - \
+14143052169675*Derivative[4][opWF[1, 1, 1][9]] + \
+2590443896040*Derivative[5][opWF[1, 1, 1][8]] - \
+295659524160*Derivative[6][opWF[1, 1, 1][7]] + \
+19231614864*Derivative[7][opWF[1, 1, 1][6]] - 546352695*Derivative[8][opWF[1, \
+1, 1][5]] - 71402620604315*opWF[1, 1, 1][13]))/813508150455, \
+(-27462546386275*Derivative[1][opWF[1, 1, 1][13]] + \
+26459751372054*Derivative[2][opWF[1, 1, 1][12]] - \
+14854903873810*Derivative[3][opWF[1, 1, 1][11]] + \
+5355355891600*Derivative[4][opWF[1, 1, 1][10]] - \
+1285732015425*Derivative[5][opWF[1, 1, 1][9]] + \
+205590785400*Derivative[6][opWF[1, 1, 1][8]] - \
+21118537440*Derivative[7][opWF[1, 1, 1][7]] + \
+1265237820*Derivative[8][opWF[1, 1, 1][6]] - 33725475*Derivative[9][opWF[1, \
+1, 1][5]] + 12654571229300*opWF[1, 1, 1][14])/451948972475, \
+(122026222568250*Derivative[1][opWF[1, 1, 1][14]] - \
+137312731931375*Derivative[2][opWF[1, 1, 1][13]] + \
+91591447057110*Derivative[3][opWF[1, 1, 1][12]] - \
+40108240459287*Derivative[4][opWF[1, 1, 1][11]] + \
+12049550756100*Derivative[5][opWF[1, 1, 1][10]] - \
+2515562638875*Derivative[6][opWF[1, 1, 1][9]] + \
+360451377000*Derivative[7][opWF[1, 1, 1][8]] - \
+33940506600*Derivative[8][opWF[1, 1, 1][7]] + \
+1897856730*Derivative[9][opWF[1, 1, 1][6]] - 47925675*Derivative[10][opWF[1, \
+1, 1][5]] - 48810489027300*opWF[1, 1, \
+1][15])/12202622256825}];OPE[opWF[0,2,1][7],opWF[2,0,1][10]]=MakeOPE[{}];OPE[\
+opWF[0,2,1][8],opWF[2,0,1][10]]=MakeOPE[{(-1219276800*opWF[1, 1, 1][1])/2431, \
+(609638400*Derivative[1][opWF[1, 1, 1][1]])/2431 + (11125900800*opWF[1, 1, \
+1][2])/2431, (-39504568320*opWF[1, 1, 1][3])/2431, \
+(-6584094720*Derivative[1][opWF[1, 1, 1][3]])/2431 + (73156608000*opWF[1, 1, \
+1][4])/2431, (26127360*(9100*Derivative[1][opWF[1, 1, 1][4]] - \
+468*Derivative[2][opWF[1, 1, 1][3]] - 41825*opWF[1, 1, 1][5]))/31603, \
+(-4354560*(75285*Derivative[1][opWF[1, 1, 1][5]] - 9100*Derivative[2][opWF[1, \
+1, 1][4]] + 351*Derivative[3][opWF[1, 1, 1][3]] - 198891*opWF[1, 1, \
+1][6]))/31603, (1451520*(2187801*Derivative[1][opWF[1, 1, 1][6]] - \
+451710*Derivative[2][opWF[1, 1, 1][5]] + 40040*Derivative[3][opWF[1, 1, \
+1][4]] - 1287*Derivative[4][opWF[1, 1, 1][3]] - 3846843*opWF[1, 1, \
+1][7]))/347633, (-145152*(178603425*Derivative[1][opWF[1, 1, 1][7]] - \
+54695025*Derivative[2][opWF[1, 1, 1][6]] + 8155875*Derivative[3][opWF[1, 1, \
+1][5]] - 591500*Derivative[4][opWF[1, 1, 1][4]] + 16731*Derivative[5][opWF[1, \
+1, 1][3]] - 227634264*opWF[1, 1, 1][8]))/4519229, \
+(18144*(682902792*Derivative[1][opWF[1, 1, 1][8]] - \
+285765480*Derivative[2][opWF[1, 1, 1][7]] + 62508600*Derivative[3][opWF[1, 1, \
+1][6]] - 7528500*Derivative[4][opWF[1, 1, 1][5]] + \
+473200*Derivative[5][opWF[1, 1, 1][4]] - 12168*Derivative[6][opWF[1, 1, \
+1][3]] - 667470375*opWF[1, 1, 1][9]))/4519229, \
+(-168*(476573847750*Derivative[1][opWF[1, 1, 1][9]] - \
+258137255376*Derivative[2][opWF[1, 1, 1][8]] + \
+76513707270*Derivative[3][opWF[1, 1, 1][7]] - \
+13389342120*Derivative[4][opWF[1, 1, 1][6]] + \
+1382232600*Derivative[5][opWF[1, 1, 1][5]] - 77968800*Derivative[6][opWF[1, \
+1, 1][4]] + 1861704*Derivative[7][opWF[1, 1, 1][3]] - 371836947625*opWF[1, 1, \
+1][10]))/76826893, (336*(1412980400975*Derivative[1][opWF[1, 1, 1][10]] - \
+953147695500*Derivative[2][opWF[1, 1, 1][9]] + \
+363304285344*Derivative[3][opWF[1, 1, 1][8]] - \
+85515319890*Derivative[4][opWF[1, 1, 1][7]] + \
+12719875014*Derivative[5][opWF[1, 1, 1][6]] - \
+1167218640*Derivative[6][opWF[1, 1, 1][5]] + 60465600*Derivative[7][opWF[1, \
+1, 1][4]] - 1360476*Derivative[8][opWF[1, 1, 1][3]] - 906890022181*opWF[1, 1, \
+1][11]))/1459710967, (-72*(1731335496891*Derivative[1][opWF[1, 1, 1][11]] - \
+1412980400975*Derivative[2][opWF[1, 1, 1][10]] + \
+667203386850*Derivative[3][opWF[1, 1, 1][9]] - \
+200773420848*Derivative[4][opWF[1, 1, 1][8]] + \
+39907149282*Derivative[5][opWF[1, 1, 1][7]] - \
+5237595594*Derivative[6][opWF[1, 1, 1][6]] + 437706990*Derivative[7][opWF[1, \
+1, 1][5]] - 21162960*Derivative[8][opWF[1, 1, 1][4]] + \
+453492*Derivative[9][opWF[1, 1, 1][3]] - 935682535788*opWF[1, 1, \
+1][12]))/1459710967, (12*(269008729039050*Derivative[1][opWF[1, 1, 1][12]] - \
+259700324533650*Derivative[2][opWF[1, 1, 1][11]] + \
+147720678283750*Derivative[3][opWF[1, 1, 1][10]] - \
+54805992491250*Derivative[4][opWF[1, 1, 1][9]] + \
+13853366038512*Derivative[5][opWF[1, 1, 1][8]] - \
+2415432719700*Derivative[6][opWF[1, 1, 1][7]] + \
+286820711100*Derivative[7][opWF[1, 1, 1][6]] - \
+22207192875*Derivative[8][opWF[1, 1, 1][5]] + \
+1014058500*Derivative[9][opWF[1, 1, 1][4]] - 20860632*Derivative[10][opWF[1, \
+1, 1][3]] - 124719258402739*opWF[1, 1, 1][13]))/167866761205, \
+(-3*(211063360373866*Derivative[1][opWF[1, 1, 1][13]] - \
+236727681554364*Derivative[2][opWF[1, 1, 1][12]] + \
+158705753881675*Derivative[3][opWF[1, 1, 1][11]] - \
+70649020048750*Derivative[4][opWF[1, 1, 1][10]] + \
+21922396996500*Derivative[5][opWF[1, 1, 1][9]] - \
+4837683378528*Derivative[6][opWF[1, 1, 1][8]] + \
+759135997620*Derivative[7][opWF[1, 1, 1][7]] - \
+83027047950*Derivative[8][opWF[1, 1, 1][6]] + \
+6031583250*Derivative[9][opWF[1, 1, 1][5]] - 262462200*Derivative[10][opWF[1, \
+1, 1][4]] + 5215158*Derivative[11][opWF[1, 1, 1][3]] - 85232259162050*opWF[1, \
+1, 1][14]))/167866761205, (328752999625050*Derivative[1][opWF[1, 1, 1][14]] - \
+422126720747732*Derivative[2][opWF[1, 1, 1][13]] + \
+327776789844504*Derivative[3][opWF[1, 1, 1][12]] - \
+171402214192209*Derivative[4][opWF[1, 1, 1][11]] + \
+63584118043875*Derivative[5][opWF[1, 1, 1][10]] - \
+17156658519000*Derivative[6][opWF[1, 1, 1][9]] + \
+3392661070656*Derivative[7][opWF[1, 1, 1][8]] - \
+488015998470*Derivative[8][opWF[1, 1, 1][7]] + \
+49816228770*Derivative[9][opWF[1, 1, 1][6]] - \
+3428478900*Derivative[10][opWF[1, 1, 1][5]] + \
+143161200*Derivative[11][opWF[1, 1, 1][4]] - 2760966*Derivative[12][opWF[1, \
+1, 1][3]] - 117104156447850*opWF[1, 1, 1][15])/503600283615, \
+(-3396020536987650*Derivative[1][opWF[1, 1, 1][15]] + \
+4931294994375750*Derivative[2][opWF[1, 1, 1][14]] - \
+4372026750601510*Derivative[3][opWF[1, 1, 1][13]] + \
+2640424140414060*Derivative[4][opWF[1, 1, 1][12]] - \
+1147076356517091*Derivative[5][opWF[1, 1, 1][11]] + \
+368787884654475*Derivative[6][opWF[1, 1, 1][10]] - \
+88846981616250*Derivative[7][opWF[1, 1, 1][9]] + \
+16041386584080*Derivative[8][opWF[1, 1, 1][8]] - \
+2144312720550*Derivative[9][opWF[1, 1, 1][7]] + \
+206381519190*Derivative[10][opWF[1, 1, 1][6]] - \
+13558075650*Derivative[11][opWF[1, 1, 1][5]] + \
+546273000*Derivative[12][opWF[1, 1, 1][4]] - 10265130*Derivative[13][opWF[1, \
+1, 1][3]] + 1078479376603200*opWF[1, 1, 1][16])/33702480518850, \
+(29253753090361800*Derivative[1][opWF[1, 1, 1][16]] - \
+47544287517827100*Derivative[2][opWF[1, 1, 1][15]] + \
+47559600612423900*Derivative[3][opWF[1, 1, 1][14]] - \
+32714820857949230*Derivative[4][opWF[1, 1, 1][13]] + \
+16370629670567172*Derivative[5][opWF[1, 1, 1][12]] - \
+6146063441091574*Derivative[6][opWF[1, 1, 1][11]] + \
+1758834526813650*Derivative[7][opWF[1, 1, 1][10]] - \
+385595900214525*Derivative[8][opWF[1, 1, 1][9]] + \
+64462609050840*Derivative[9][opWF[1, 1, 1][8]] - \
+8092449745380*Derivative[10][opWF[1, 1, 1][7]] + \
+740244457260*Derivative[11][opWF[1, 1, 1][6]] - \
+46700038350*Derivative[12][opWF[1, 1, 1][5]] + \
+1823711400*Derivative[13][opWF[1, 1, 1][4]] - 33496740*Derivative[14][opWF[1, \
+1, 1][3]] - 8358215168674800*opWF[1, 1, \
+1][17])/2089553792168700}];OPE[opWF[0,2,1][9],opWF[2,0,1][10]]=MakeOPE[{}];OP\
+E[opWF[0,2,1][10],opWF[2,0,1][10]]=MakeOPE[{(26336378880*One)/2431, \
+(-26336378880*opWF[1, 1, 1][1])/2431, (-13168189440*(Derivative[1][opWF[1, 1, \
+1][1]] - 20*opWF[1, 1, 1][2]))/2431, (4389396480*(510*Derivative[1][opWF[1, \
+1, 1][2]] - 17*Derivative[2][opWF[1, 1, 1][1]] - 4020*opWF[1, 1, \
+1][3]))/41327, (-1097349120*(8040*Derivative[1][opWF[1, 1, 1][3]] - \
+612*Derivative[2][opWF[1, 1, 1][2]] + 17*Derivative[3][opWF[1, 1, 1][1]] - \
+32780*opWF[1, 1, 1][4]))/41327, (31352832*(573650*Derivative[1][opWF[1, 1, \
+1][4]] - 80400*Derivative[2][opWF[1, 1, 1][3]] + 4760*Derivative[3][opWF[1, \
+1, 1][2]] - 119*Derivative[4][opWF[1, 1, 1][1]] - 1444135*opWF[1, 1, \
+1][5]))/41327, (-1741824*(12997215*Derivative[1][opWF[1, 1, 1][5]] - \
+2868250*Derivative[2][opWF[1, 1, 1][4]] + 301500*Derivative[3][opWF[1, 1, \
+1][3]] - 15300*Derivative[4][opWF[1, 1, 1][2]] + 357*Derivative[5][opWF[1, 1, \
+1][1]] - 22475376*opWF[1, 1, 1][6]))/41327, \
+(1741824*(146089944*Derivative[1][opWF[1, 1, 1][6]] - \
+46081035*Derivative[2][opWF[1, 1, 1][5]] + 7457450*Derivative[3][opWF[1, 1, \
+1][4]] - 653250*Derivative[4][opWF[1, 1, 1][3]] + 29835*Derivative[5][opWF[1, \
+1, 1][2]] - 663*Derivative[6][opWF[1, 1, 1][1]] - 186128250*opWF[1, 1, \
+1][7]))/537251, (-217728*(744513000*Derivative[1][opWF[1, 1, 1][7]] - \
+314655264*Derivative[2][opWF[1, 1, 1][6]] + 71681610*Derivative[3][opWF[1, 1, \
+1][5]] - 9491300*Derivative[4][opWF[1, 1, 1][4]] + \
+731640*Derivative[5][opWF[1, 1, 1][3]] - 30940*Derivative[6][opWF[1, 1, \
+1][2]] + 663*Derivative[7][opWF[1, 1, 1][1]] - 734190600*opWF[1, 1, \
+1][8]))/537251, (72576*(12114144900*Derivative[1][opWF[1, 1, 1][8]] - \
+6551714400*Derivative[2][opWF[1, 1, 1][7]] + 1977833088*Derivative[3][opWF[1, \
+1, 1][6]] - 363922020*Derivative[4][opWF[1, 1, 1][5]] + \
+41761720*Derivative[5][opWF[1, 1, 1][4]] - 2926560*Derivative[6][opWF[1, 1, \
+1][3]] + 116688*Derivative[7][opWF[1, 1, 1][2]] - 2431*Derivative[8][opWF[1, \
+1, 1][1]] - 9589437000*opWF[1, 1, 1][9]))/5909761, \
+(-36288*(815102145000*Derivative[1][opWF[1, 1, 1][9]] - \
+545136520500*Derivative[2][opWF[1, 1, 1][8]] + \
+208835896500*Derivative[3][opWF[1, 1, 1][7]] - \
+50434743744*Derivative[4][opWF[1, 1, 1][6]] + \
+7954295580*Derivative[5][opWF[1, 1, 1][5]] - 819172200*Derivative[6][opWF[1, \
+1, 1][4]] + 53305200*Derivative[7][opWF[1, 1, 1][3]] - \
+2028780*Derivative[8][opWF[1, 1, 1][2]] + 41327*Derivative[9][opWF[1, 1, \
+1][1]] - 532608762400*opWF[1, 1, 1][10]))/502329685, \
+(36288*(5059783242800*Derivative[1][opWF[1, 1, 1][10]] - \
+4075510725000*Derivative[2][opWF[1, 1, 1][9]] + \
+1918072942500*Derivative[3][opWF[1, 1, 1][8]] - \
+583512063750*Derivative[4][opWF[1, 1, 1][7]] + \
+119782516392*Derivative[5][opWF[1, 1, 1][6]] - \
+16792401780*Derivative[6][opWF[1, 1, 1][5]] + \
+1588191000*Derivative[7][opWF[1, 1, 1][4]] - 97384500*Derivative[8][opWF[1, \
+1, 1][3]] + 3569150*Derivative[9][opWF[1, 1, 1][2]] - \
+71383*Derivative[10][opWF[1, 1, 1][1]] - 2789986314544*opWF[1, 1, \
+1][11]))/9544264015, (-432*(117179425210848*Derivative[1][opWF[1, 1, 1][11]] \
+- 111315231341600*Derivative[2][opWF[1, 1, 1][10]] + \
+62762865165000*Derivative[3][opWF[1, 1, 1][9]] - \
+23319728932500*Derivative[4][opWF[1, 1, 1][8]] + \
+5990723854500*Derivative[5][opWF[1, 1, 1][7]] - \
+1085088677904*Derivative[6][opWF[1, 1, 1][6]] + \
+138537314685*Derivative[7][opWF[1, 1, 1][5]] - \
+12229070700*Derivative[8][opWF[1, 1, 1][4]] + 714153000*Derivative[9][opWF[1, \
+1, 1][3]] - 25368420*Derivative[10][opWF[1, 1, 1][2]] + \
+499681*Derivative[11][opWF[1, 1, 1][1]] - 55505273263440*opWF[1, 1, \
+1][12]))/9544264015, (216*(1276621285059120*Derivative[1][opWF[1, 1, 1][12]] \
+- 1406153102530176*Derivative[2][opWF[1, 1, 1][11]] + \
+931000116675200*Derivative[3][opWF[1, 1, 1][10]] - \
+412441685370000*Derivative[4][opWF[1, 1, 1][9]] + \
+128724903707400*Derivative[5][opWF[1, 1, 1][8]] - \
+29007715506000*Derivative[6][opWF[1, 1, 1][7]] + \
+4753721827008*Derivative[7][opWF[1, 1, 1][6]] - \
+562298512545*Derivative[8][opWF[1, 1, 1][5]] + \
+46878104350*Derivative[9][opWF[1, 1, 1][4]] - \
+2628083040*Derivative[10][opWF[1, 1, 1][3]] + 90930960*Derivative[11][opWF[1, \
+1, 1][2]] - 1768102*Derivative[12][opWF[1, 1, 1][1]] - \
+527145101422940*opWF[1, 1, 1][13]))/219518072345, \
+(-108*(2635725507114700*Derivative[1][opWF[1, 1, 1][13]] - \
+3319215341153712*Derivative[2][opWF[1, 1, 1][12]] + \
+2538887546235040*Derivative[3][opWF[1, 1, 1][11]] - \
+1315543643128000*Derivative[4][opWF[1, 1, 1][10]] + \
+487431082710000*Derivative[5][opWF[1, 1, 1][9]] - \
+132811408587000*Derivative[6][opWF[1, 1, 1][8]] + \
+26935735827000*Derivative[7][opWF[1, 1, 1][7]] - \
+4065683141520*Derivative[8][opWF[1, 1, 1][6]] + \
+451227201425*Derivative[9][opWF[1, 1, 1][5]] - \
+35847962150*Derivative[10][opWF[1, 1, 1][4]] + \
+1941197700*Derivative[11][opWF[1, 1, 1][3]] - 65672360*Derivative[12][opWF[1, \
+1, 1][2]] + 1262930*Derivative[13][opWF[1, 1, 1][1]] - \
+960471322210400*opWF[1, 1, 1][14]))/1097590361725, \
+(4*(64831814249202000*Derivative[1][opWF[1, 1, 1][14]] - \
+92250392749014500*Derivative[2][opWF[1, 1, 1][13]] + \
+80427140958724560*Derivative[3][opWF[1, 1, 1][12]] - \
+47984974623842256*Derivative[4][opWF[1, 1, 1][11]] + \
+20719812379266000*Derivative[5][opWF[1, 1, 1][10]] - \
+6675686567550000*Derivative[6][opWF[1, 1, 1][9]] + \
+1629958196295000*Derivative[7][opWF[1, 1, 1][8]] - \
+303027028053750*Derivative[8][opWF[1, 1, 1][7]] + \
+42689672985960*Derivative[9][opWF[1, 1, 1][6]] - \
+4488523214175*Derivative[10][opWF[1, 1, 1][5]] + \
+342185093250*Derivative[11][opWF[1, 1, 1][4]] - \
+17984625750*Derivative[12][opWF[1, 1, 1][3]] + \
+596734425*Derivative[13][opWF[1, 1, 1][2]] - 11366370*Derivative[14][opWF[1, \
+1, 1][1]] - 21067263339665400*opWF[1, 1, 1][15]))/5487951808625, \
+(-2443802547401186400*Derivative[1][opWF[1, 1, 1][15]] + \
+3889908854952120000*Derivative[2][opWF[1, 1, 1][14]] - \
+3821801985316315000*Derivative[3][opWF[1, 1, 1][13]] + \
+2591541208670013600*Derivative[4][opWF[1, 1, 1][12]] - \
+1284520859161315776*Derivative[5][opWF[1, 1, 1][11]] + \
+480699647198971200*Derivative[6][opWF[1, 1, 1][10]] - \
+138282078899250000*Derivative[7][opWF[1, 1, 1][9]] + \
+30827470234275000*Derivative[8][opWF[1, 1, 1][8]] - \
+5325929583975000*Derivative[9][opWF[1, 1, 1][7]] + \
+707428866624480*Derivative[10][opWF[1, 1, 1][6]] - \
+71000276296950*Derivative[11][opWF[1, 1, 1][5]] + \
+5222825107500*Derivative[12][opWF[1, 1, 1][4]] - \
+267463665000*Derivative[13][opWF[1, 1, 1][3]] + \
+8725360500*Derivative[14][opWF[1, 1, 1][2]] - \
+164812365*Derivative[15][opWF[1, 1, 1][1]] + 714492586999620000*opWF[1, 1, \
+1][16])/318301204900250, (11074635098494110000*Derivative[1][opWF[1, 1, \
+1][16]] - 19550420379209491200*Derivative[2][opWF[1, 1, 1][15]] + \
+21437719911736128000*Derivative[3][opWF[1, 1, 1][14]] - \
+16341498144111140000*Derivative[4][opWF[1, 1, 1][13]] + \
+9181460282145191040*Derivative[5][opWF[1, 1, 1][12]] - \
+3932853988543287808*Derivative[6][opWF[1, 1, 1][11]] + \
+1310038598959833600*Derivative[7][opWF[1, 1, 1][10]] - \
+342939555670140000*Derivative[8][opWF[1, 1, 1][9]] + \
+70789005723150000*Derivative[9][opWF[1, 1, 1][8]] - \
+11485482928920000*Derivative[10][opWF[1, 1, 1][7]] + \
+1449936850602240*Derivative[11][opWF[1, 1, 1][6]] - \
+139746575568600*Derivative[12][opWF[1, 1, 1][5]] + \
+9963543282000*Derivative[13][opWF[1, 1, 1][4]] - \
+498729240000*Derivative[14][opWF[1, 1, 1][3]] + \
+16028810400*Derivative[15][opWF[1, 1, 1][2]] - \
+300540195*Derivative[16][opWF[1, 1, 1][1]] - 2935823077997023500*opWF[1, 1, \
+1][17])/9867337351907750, (-518086425528886500*Derivative[1][opWF[1, 1, \
+1][17]] + 1006785008954010000*Derivative[2][opWF[1, 1, 1][16]] - \
+1221901273700593200*Derivative[3][opWF[1, 1, 1][15]] + \
+1037309027987232000*Derivative[4][opWF[1, 1, 1][14]] - \
+653659925764445600*Derivative[5][opWF[1, 1, 1][13]] + \
+316602078694661760*Derivative[6][opWF[1, 1, 1][12]] - \
+120393489445202688*Derivative[7][opWF[1, 1, 1][11]] + \
+36389961082217600*Derivative[8][opWF[1, 1, 1][10]] - \
+8793321940260000*Derivative[9][opWF[1, 1, 1][9]] + \
+1698936137355600*Derivative[10][opWF[1, 1, 1][8]] - \
+261033702930000*Derivative[11][opWF[1, 1, 1][7]] + \
+31520366317440*Derivative[12][opWF[1, 1, 1][6]] - \
+2931746340600*Derivative[13][opWF[1, 1, 1][5]] + \
+203337618000*Derivative[14][opWF[1, 1, 1][4]] - \
+9974584800*Derivative[15][opWF[1, 1, 1][3]] + \
+316358100*Derivative[16][opWF[1, 1, 1][2]] - 5892945*Derivative[17][opWF[1, \
+1, 1][1]] + 125373227530122000*opWF[1, 1, 1][18])/3482589653614500, \
+(438806296355427000*Derivative[1][opWF[1, 1, 1][18]] - \
+932555565951995700*Derivative[2][opWF[1, 1, 1][17]] + \
+1243675599296130000*Derivative[3][opWF[1, 1, 1][16]] - \
+1166360306714202600*Derivative[4][opWF[1, 1, 1][15]] + \
+816880859539945200*Derivative[5][opWF[1, 1, 1][14]] - \
+442801885195269600*Derivative[6][opWF[1, 1, 1][13]] + \
+189961247216797056*Derivative[7][opWF[1, 1, 1][12]] - \
+65386119267653184*Derivative[8][opWF[1, 1, 1][11]] + \
+18194980541108800*Derivative[9][opWF[1, 1, 1][10]] - \
+4103550238788000*Derivative[10][opWF[1, 1, 1][9]] + \
+748482354219600*Derivative[11][opWF[1, 1, 1][8]] - \
+109634155230600*Derivative[12][opWF[1, 1, 1][7]] + \
+12729378705120*Derivative[13][opWF[1, 1, 1][6]] - \
+1147205089800*Derivative[14][opWF[1, 1, 1][5]] + \
+77637999600*Derivative[15][opWF[1, 1, 1][4]] - \
+3740469300*Derivative[16][opWF[1, 1, 1][3]] + \
+117238590*Derivative[17][opWF[1, 1, 1][2]] - 2171085*Derivative[18][opWF[1, \
+1, 1][1]] - 97512510301206000*opWF[1, 1, \
+1][19])/24378127575301500}];OPE[opWF[0,2,1][11],opWF[2,0,1][10]]=MakeOPE[{}];\
+OPE[opWF[0,2,1][1],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[0,2,1][2],opWF[2,0,1\
+][11]]=MakeOPE[{}];OPE[opWF[0,2,1][3],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[0\
+,2,1][4],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[0,2,1][5],opWF[2,0,1][11]]=Mak\
+eOPE[{}];OPE[opWF[0,2,1][6],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[0,2,1][7],o\
+pWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[0,2,1][8],opWF[2,0,1][11]]=MakeOPE[{}];O\
+PE[opWF[0,2,1][9],opWF[2,0,1][11]]=MakeOPE[{}];OPE[opWF[0,2,1][10],opWF[2,0,1\
+][11]]=MakeOPE[{}];OPE[opWF[0,2,1][11],opWF[2,0,1][11]]=MakeOPE[{}];highestkn\
+ownspin=11;)"

@@ -1,0 +1,387 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13277,        377]
+NotebookOptionsPosition[     11837,        328]
+NotebookOutlinePosition[     12178,        343]
+CellTagsIndexPosition[     12135,        340]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ " OPEs for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"bosonic", " ", 
+    SubscriptBox["W", "\[Infinity]"]}], TraditionalForm]]],
+ "-algebra"
+}], "Title",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ CellChangeTimes->{{3.623761005344459*^9, 3.623761036671414*^9}, 
+   3.62376114914537*^9, {3.6238464032911263`*^9, 3.6238464423741837`*^9}, {
+   3.623846555557596*^9, 3.623846574500255*^9}, {3.6319919160012627`*^9, 
+   3.6319919267648087`*^9}, {3.6391119060192347`*^9, 
+   3.6391119135600977`*^9}, {3.639113017576284*^9, 3.639113018773609*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Settings", "Subsection",
+ CellChangeTimes->{{3.6391121275519943`*^9, 3.6391121288623734`*^9}}],
+
+Cell["\<\
+!IMPORTANT!: Load the OPEdef package by Thielemans first. You might need to \
+adjust the file path.\
+\>", "Text",
+ CellChangeTimes->{{3.639111921529666*^9, 3.639111956036277*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"<<", "\"\<~/Delta.m\>\""}], ";"}]], "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ CellChangeTimes->{{3.623759638037096*^9, 3.6237596772573433`*^9}, 
+   3.6237611491457253`*^9, {3.63911198685215*^9, 3.639111997331802*^9}}],
+
+Cell[BoxData[
+ RowBox[{"<<", "\"\<~/OPEdefs.m\>\""}]], "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ CellChangeTimes->{{3.623732515422532*^9, 3.6237325195513067`*^9}, {
+   3.623732551107237*^9, 3.623732552958918*^9}, 3.623732739331286*^9, {
+   3.623736875583432*^9, 3.623736914561866*^9}, {3.623737639477029*^9, 
+   3.62373767805058*^9}, 3.6237377259008913`*^9, {3.6237377871457167`*^9, 
+   3.6237378651086903`*^9}, 3.623737909845731*^9, {3.623738961378764*^9, 
+   3.623738996970558*^9}, 3.62375968544807*^9, 3.6237611491460743`*^9, {
+   3.626191716557897*^9, 3.6261917222544937`*^9}, {3.626191804667719*^9, 
+   3.626191813643045*^9}, {3.626191977046465*^9, 3.626191979576483*^9}, {
+   3.639111992015719*^9, 3.639111995155143*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"OPEdefs Version \"\>", "\[InvisibleSpace]", "3.1`", 
+   "\[InvisibleSpace]", "\<\" (beta \"\>", "\[InvisibleSpace]", "4", 
+   "\[InvisibleSpace]", "\<\") by Kris Thielemans\"\>"}],
+  SequenceForm["OPEdefs Version ", 3.1, " (beta ", 4, ") by Kris Thielemans"],
+  
+  Editable->False]], "Print",
+ CellChangeTimes->{3.639111983571937*^9}],
+
+Cell[BoxData["\<\"Type ?OPEdefsHelp for a primer on OPEdefs.\"\>"], "Print",
+ CellChangeTimes->{3.6391119835723963`*^9}]
+}, Open  ]],
+
+Cell["Choose the particle number N:", "Text",
+ CellChangeTimes->{{3.639112031905672*^9, 3.639112044684443*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Num", "=", "2"}], ";"}]], "Input",
+ CellChangeTimes->{{3.639112046272562*^9, 3.639112050958775*^9}}],
+
+Cell["\<\
+Adjust the variable storepath to lead to the OPE-data-files. Note that the \
+file structure should be left untouched.\
+\>", "Text",
+ CellChangeTimes->{{3.6391120552914457`*^9, 3.639112101146385*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"storepath", "=", 
+   RowBox[{"\"\<~/Downloads/BNum\>\"", "<>", 
+    RowBox[{"ToString", "[", "Num", "]"}], "<>", "\"\</\>\""}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.632342282405159*^9, 3.632342285470646*^9}, {
+   3.6323424010929527`*^9, 3.6323424406510277`*^9}, {3.632435811100327*^9, 
+   3.6324358142416153`*^9}, {3.6354389297654257`*^9, 3.63543896063496*^9}, 
+   3.635439952319323*^9, 3.639112065882909*^9, {3.639112106628399*^9, 
+   3.639112107840926*^9}, 3.639112334471292*^9, {3.639113024326831*^9, 
+   3.639113048881967*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Definitions", "Subsection",
+ CellChangeTimes->{{3.639112132249196*^9, 3.6391121336379538`*^9}}],
+
+Cell["We define the relevant operators", "Text",
+ CellChangeTimes->{{3.639112136608695*^9, 3.639112142516158*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Bosonic", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"opWB", "[", 
+      RowBox[{"1", ",", "1", ",", "1"}], "]"}], "[", "i_", "]"}], ",", 
+    RowBox[{
+     RowBox[{"opWB", "[", 
+      RowBox[{"0", ",", "2", ",", "1"}], "]"}], "[", "i_", "]"}], ",", 
+    RowBox[{
+     RowBox[{"opWB", "[", 
+      RowBox[{"2", ",", "0", ",", "1"}], "]"}], "[", "i_", "]"}]}], "]"}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{"Bosonic", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"primaryopWB", "[", 
+      RowBox[{"1", ",", "1", ",", "1"}], "]"}], "[", "i_", "]"}], ",", 
+    RowBox[{
+     RowBox[{"primaryopWB", "[", 
+      RowBox[{"0", ",", "2", ",", "1"}], "]"}], "[", "i_", "]"}], ",", 
+    RowBox[{
+     RowBox[{"primaryopWB", "[", 
+      RowBox[{"2", ",", "0", ",", "1"}], "]"}], "[", "i_", "]"}]}], "]"}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.631991387065933*^9, 3.63199139910222*^9}, {
+   3.632342217582686*^9, 3.632342226848446*^9}, {3.632503746776889*^9, 
+   3.6325037613967457`*^9}, 3.6335203075642433`*^9, {3.639112150145731*^9, 
+   3.639112152360064*^9}, {3.639113031314599*^9, 3.6391130428201447`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Import OPEs, Primary Basis and QP NOPs", "Subsection",
+ CellChangeTimes->{{3.639112210830714*^9, 3.63911221722187*^9}, {
+  3.6391125720206013`*^9, 3.639112577732399*^9}}],
+
+Cell["Simple OPEs:", "Text",
+ CellChangeTimes->{{3.639112288213622*^9, 3.639112292465549*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"<<", 
+    RowBox[{"(", 
+     RowBox[{"storepath", "<>", "\"\<simpleOPE111\>\""}], ")"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"<<", 
+    RowBox[{"(", 
+     RowBox[{"storepath", "<>", "\"\<simpleOPE021\>\""}], ")"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"<<", 
+    RowBox[{"(", 
+     RowBox[{"storepath", "<>", "\"\<simpleOPE201\>\""}], ")"}]}], "]"}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.639112248514633*^9, 3.639112279762067*^9}, 
+   3.63911231154846*^9}],
+
+Cell["Final OPEs:", "Text",
+ CellChangeTimes->{{3.6391122980908117`*^9, 3.639112299789941*^9}, 
+   3.6391124321388083`*^9}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"<<", 
+    RowBox[{"(", 
+     RowBox[{"storepath", "<>", "\"\<finalOPE111\>\""}], ")"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"<<", 
+    RowBox[{"(", 
+     RowBox[{"storepath", "<>", "\"\<finalOPE021\>\""}], ")"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"<<", 
+    RowBox[{"(", 
+     RowBox[{"storepath", "<>", "\"\<finalOPE201\>\""}], ")"}]}], "]"}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.639112374381843*^9, 3.639112413983697*^9}}],
+
+Cell["Primary Fields:", "Text",
+ CellChangeTimes->{{3.639112419072795*^9, 3.639112430479333*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"<<", 
+   RowBox[{"(", 
+    RowBox[{"storepath", "<>", "\"\<tPrimaryCurrents\>\""}], ")"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.639112472535493*^9, 3.639112477883711*^9}, {
+  3.639112558628792*^9, 3.639112562233007*^9}}],
+
+Cell["Quasi-Primary Normal-ordered product:", "Text",
+ CellChangeTimes->{{3.639112481011503*^9, 3.639112492507681*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"<<", 
+   RowBox[{"(", 
+    RowBox[{"storepath", "<>", "\"\<qpNOPnumbers\>\""}], ")"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"<<", 
+   RowBox[{"(", 
+    RowBox[{"storepath", "<>", "\"\<qpNOP\>\""}], ")"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.639112543168315*^9, 3.639112595979603*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+   "After", " ", "having", " ", "imported", " ", "the", " ", "above", " ", 
+    "files", " ", "you", " ", "can", " ", "use", " ", 
+    RowBox[{"OPE", "[", 
+     RowBox[{"field1", ",", "field2"}], "]"}], " ", "to", " ", "see", " ", 
+    "their", " ", "respective", " ", 
+    RowBox[{"OPE", ".", " ", "\n", "\n", "For"}], " ", "OPEs", " ", "of", " ",
+     "uncorrected", " ", "fields", " ", "use", " ", 
+    RowBox[{
+     RowBox[{"opWB", "[", 
+      RowBox[{"1", ",", "1", ",", "1"}], "]"}], "[", "s", "]"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"corresponds", " ", "to", " ", "W", 
+      RowBox[{"(", "s", ")"}]}], ")"}]}], ",", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"opWB", "[", 
+      RowBox[{"0", ",", "2", ",", "1"}], "]"}], "[", "s", "]"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"corresponds", " ", "to", " ", "U", 
+      RowBox[{"(", "s", ")"}]}], ")"}], " ", "or", " ", 
+    RowBox[{
+     RowBox[{"opWB", "[", 
+      RowBox[{"2", ",", "0", ",", "1"}], "]"}], "[", "s", "]"}], " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"corresponds", " ", "to", " ", "V", 
+       RowBox[{"(", "s", ")"}]}], ")"}], ".", " ", "For"}], " ", "OPEs", " ", 
+    "of", " ", "primary", " ", "fields", " ", "use", " ", "primaryopWB", " ", 
+    "instead", " ", "of", " ", 
+    RowBox[{"opWB", ".", "\n", "\n", "To"}], " ", "see", " ", "the", " ", 
+    "exact", " ", "expressions", " ", "of", " ", "the", " ", "corrected"}], 
+   ",", " ", 
+   RowBox[{"primary", " ", "fields", " ", "type", " ", 
+    RowBox[{
+     RowBox[{"tprimaryWB", "[", 
+      RowBox[{"a", ",", "b", ",", "c"}], "]"}], "[", "s", "]"}]}], ",", " ", 
+   RowBox[{"where", " ", "a"}], ",", "b", ",", 
+   RowBox[{
+    RowBox[{
+    "c", " ", "again", " ", "determine", " ", "the", " ", "desired", " ", 
+     RowBox[{"type", ".", "\n", "\n", 
+      RowBox[{"qpnumber", "[", 
+       RowBox[{"1", ",", "1", ",", "s"}], "]"}]}], " ", "gives", " ", "the", 
+     " ", "number", " ", "of", " ", "linearly", " ", "independent", " ", 
+     "quasi"}], "-", 
+    RowBox[{
+    "primary", " ", "composite", " ", "fields", " ", "of", " ", "total", " ", 
+     "spin", " ", "s", " ", "that", " ", "can", " ", "be", " ", "used", " ", 
+     "to", " ", "correct", " ", "W", 
+     RowBox[{"(", "s", ")"}], " ", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"qpnumber", "[", 
+         RowBox[{"0", ",", "2", ",", "s"}], "]"}], " ", "for", " ", "U", 
+        RowBox[{"(", "s", ")"}], " ", "and", " ", 
+        RowBox[{"qpnumber", "[", 
+         RowBox[{"2", ",", "0", ",", "s"}], "]"}], " ", "for", " ", "V", 
+        RowBox[{"(", "s", ")"}], " ", "in", " ", "the", " ", "same", " ", 
+        "vein"}], ")"}], ".", "\n", "\n", 
+      RowBox[{
+       RowBox[{"qpNO", "[", 
+        RowBox[{"1", ",", "1", ",", "i"}], "]"}], "[", "s", "]"}]}], " ", 
+     "gives", " ", "the", " ", "expression", " ", "of", " ", "the", " ", 
+     FormBox[
+      SuperscriptBox["i", "th"],
+      TraditionalForm], "quasi"}], "-", 
+    RowBox[{"primary", " ", "composite", " ", "field"}]}], ",", " ", 
+   RowBox[{
+   "where", " ", "i", " ", "runs", " ", "from", " ", "1", " ", "to", " ", 
+    RowBox[{"qpnumber", "[", 
+     RowBox[{"1", ",", "1", ",", "s"}], "]"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"again", " ", "use", " ", 
+      RowBox[{
+       RowBox[{"qpNO", "[", 
+        RowBox[{"0", ",", "2", ",", "i"}], "]"}], "[", "s", "]"}], " ", "and",
+       " ", 
+      RowBox[{
+       RowBox[{"qpNO", "[", 
+        RowBox[{"2", ",", "0", ",", "i"}], "]"}], "[", "s", "]"}], " ", "in", 
+      " ", "the", " ", "same", " ", 
+      RowBox[{"vein", "."}]}], "\n"}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.639112607804851*^9, 3.639112936202876*^9}, {
+  3.639113055033916*^9, 3.639113074061676*^9}}]
+}, Open  ]]
+},
+WindowSize->{947, 1028},
+WindowMargins->{{-10, Automatic}, {Automatic, -10}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (September 9, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 567, 13, 93, "Title",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+Cell[CellGroupData[{
+Cell[1150, 37, 100, 1, 45, "Subsection"],
+Cell[1253, 40, 189, 4, 31, "Text"],
+Cell[CellGroupData[{
+Cell[1467, 48, 273, 5, 32, "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+Cell[1743, 55, 748, 11, 32, "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2528, 71, 383, 8, 23, "Print"],
+Cell[2914, 81, 120, 1, 23, "Print"]
+}, Open  ]],
+Cell[3049, 85, 111, 1, 31, "Text"],
+Cell[3163, 88, 135, 3, 32, "Input"],
+Cell[3301, 93, 209, 4, 31, "Text"],
+Cell[3513, 99, 573, 11, 32, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4123, 115, 101, 1, 44, "Subsection"],
+Cell[4227, 118, 114, 1, 31, "Text"],
+Cell[4344, 121, 1138, 30, 55, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5519, 156, 176, 2, 45, "Subsection"],
+Cell[5698, 160, 94, 1, 31, "Text"],
+Cell[5795, 163, 650, 20, 77, "Input"],
+Cell[6448, 185, 123, 2, 30, "Text"],
+Cell[6574, 189, 622, 19, 77, "Input"],
+Cell[7199, 210, 97, 1, 31, "Text"],
+Cell[7299, 213, 262, 7, 32, "Input"],
+Cell[7564, 222, 119, 1, 31, "Text"],
+Cell[7686, 225, 345, 10, 55, "Input"],
+Cell[8034, 237, 3787, 88, 408, "Input"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

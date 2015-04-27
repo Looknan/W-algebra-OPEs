@@ -1,0 +1,1230 @@
+qpNO[0, 2, 1][4] = NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]] - 
+    (3*Derivative[2][primaryopWB[0, 2, 1][2]])/10
+ 
+qpNO[0, 2, 1][5] = 
+   (-NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] - 
+      NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[0, 2, 1][2]]])/
+     2 + NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[0, 2, 1][
+       2]]] - Derivative[3][primaryopWB[0, 2, 1][2]]/12
+ 
+qpNO[0, 2, 1][6] = NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][4]] - 
+    Derivative[2][primaryopWB[0, 2, 1][4]]/6
+ 
+qpNO[0, 2, 1][7] = (2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[0, 2, 1][2]]])/11 + 
+    (7*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+        primaryopWB[0, 2, 1][2]]])/22 + 
+    (5*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]])/
+     33 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+      Derivative[1][primaryopWB[0, 2, 1][2]]]] + 
+    NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]]/66 + 
+    (-NO[Derivative[1][primaryopWB[1, 1, 1][2]], NO[primaryopWB[1, 1, 1][2], 
+         primaryopWB[0, 2, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+         primaryopWB[0, 2, 1][2]]]/2 - 
+      NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[0, 2, 1][2]]]/2 - 
+      NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]]/3 - 
+      NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[0, 2, 1][2]]]] - 
+      NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]]/6 + 
+      Derivative[5][primaryopWB[0, 2, 1][2]]/24)/2 + 
+    (-NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]] + 
+      (3*Derivative[5][primaryopWB[0, 2, 1][2]])/20)/12 - 
+    (29*Derivative[5][primaryopWB[0, 2, 1][2]])/1320
+ 
+qpNO[0, 2, 2][5] = (-15*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[0, 2, 1][2]])/8 - 
+    (15*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[0, 2, 1][2]]])/
+     8 + NO[primaryopWB[1, 1, 1][3], primaryopWB[0, 2, 1][2]] - 
+    (5*Derivative[1][primaryopWB[0, 2, 1][4]])/16 - 
+    (5*Derivative[3][primaryopWB[0, 2, 1][2]])/48
+ 
+qpNO[0, 2, 2][6] = -NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]]/3 - 
+    NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]]/6 + 
+    NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+      primaryopWB[0, 2, 1][2]]] - NO[primaryopWB[1, 1, 1][2], 
+      Derivative[2][primaryopWB[0, 2, 1][2]]]/6 - 
+    (3*(NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[0, 2, 1][2]]] - 
+       Derivative[4][primaryopWB[0, 2, 1][2]]/6))/10
+ 
+qpNO[0, 2, 2][7] = (75*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[0, 2, 1][2]]])/44 - 
+    (3*NO[Derivative[1][primaryopWB[1, 1, 1][3]], Derivative[1][
+        primaryopWB[0, 2, 1][2]]])/11 + 
+    (75*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/44 - 
+    (3*NO[Derivative[2][primaryopWB[1, 1, 1][3]], primaryopWB[0, 2, 1][2]])/
+     22 + (25*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[0, 2, 1][2]])/44 + NO[primaryopWB[1, 1, 1][2], 
+     NO[primaryopWB[1, 1, 1][3], primaryopWB[0, 2, 1][2]]] + 
+    (25*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]])/
+     44 - (3*NO[primaryopWB[1, 1, 1][3], Derivative[2][primaryopWB[0, 2, 1][
+         2]]])/22 - (5*(NO[primaryopWB[1, 1, 1][2], Derivative[1][
+         primaryopWB[0, 2, 1][4]]] + Derivative[3][primaryopWB[0, 2, 1][4]]/
+        6))/16 + (25*Derivative[3][primaryopWB[0, 2, 1][4]])/264 - 
+    (5*(NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]] - 
+       (3*Derivative[5][primaryopWB[0, 2, 1][2]])/20))/48 - 
+    (15*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+         primaryopWB[0, 2, 1][2]]] - 
+       NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[0, 2, 1][2]]]/2 - 
+       (2*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][
+           2]])/3 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+         Derivative[1][primaryopWB[0, 2, 1][2]]]] + 
+       (5*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][
+            2]]])/6 - Derivative[5][primaryopWB[0, 2, 1][2]]/12))/8 - 
+    (15*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+        NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]] - 
+       NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[0, 2, 1][2]]]/2 + 
+       NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[0, 2, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+          2]], primaryopWB[0, 2, 1][2]] - 
+       (2*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][
+            2]]])/3 + Derivative[5][primaryopWB[0, 2, 1][2]]/24))/8 - 
+    (7*Derivative[5][primaryopWB[0, 2, 1][2]])/88
+ 
+qpNO[0, 2, 3][6] = -NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+      Derivative[1][primaryopWB[0, 2, 1][2]]] + 
+    (2*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[0, 2, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], primaryopWB[0, 2, 1][2]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[2][primaryopWB[0, 2, 1][2]]]))/9 - 
+    Derivative[4][primaryopWB[0, 2, 1][2]]/42
+ 
+qpNO[0, 2, 3][7] = NO[primaryopWB[1, 1, 1][2], 
+     Derivative[1][primaryopWB[0, 2, 1][4]]] - 
+    (2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][4]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[0, 2, 1][4]]]))/
+     3 - Derivative[3][primaryopWB[0, 2, 1][4]]/30
+ 
+qpNO[0, 2, 4][6] = (-10*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/3 + 
+    (23*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]])/
+     15 - (73*NO[primaryopWB[1, 1, 1][2], Derivative[2][
+        primaryopWB[0, 2, 1][2]]])/15 + NO[primaryopWB[1, 1, 1][4], 
+     primaryopWB[0, 2, 1][2]] - (7*Derivative[2][primaryopWB[0, 2, 1][4]])/
+     6 + (19*Derivative[4][primaryopWB[0, 2, 1][2]])/70
+ 
+qpNO[0, 2, 4][7] = NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+     NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]] + 
+    (5*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+        primaryopWB[0, 2, 1][2]]])/2 + 
+    (5*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+        primaryopWB[0, 2, 1][2]]])/2 + 
+    (5*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]])/
+     6 + (5*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][
+         2]]])/6 - (7*(3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+         Derivative[2][primaryopWB[0, 2, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[0, 2, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+          2]], primaryopWB[0, 2, 1][2]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[3][primaryopWB[0, 2, 1][2]]] - 
+       (3*Derivative[5][primaryopWB[0, 2, 1][2]])/10))/15 - 
+    (3*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+         primaryopWB[0, 2, 1][2]]] - Derivative[5][primaryopWB[0, 2, 1][2]]/
+        60))/10 + (-2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+        NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+        primaryopWB[0, 2, 1][2]]] - NO[Derivative[2][primaryopWB[1, 1, 1][
+         2]], Derivative[1][primaryopWB[0, 2, 1][2]]] - 
+      2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[0, 2, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+           2]], Derivative[1][primaryopWB[0, 2, 1][2]]]) - 
+      (7*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]])/
+       6 - NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[0, 2, 1][2]]]] - 
+      NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]] + 
+      (3*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+           primaryopWB[0, 2, 1][2]]] + NO[primaryopWB[1, 1, 1][2], 
+          Derivative[3][primaryopWB[0, 2, 1][2]]] - 
+         Derivative[5][primaryopWB[0, 2, 1][2]]/6))/10 + 
+      Derivative[5][primaryopWB[0, 2, 1][2]]/12)/3 - 
+    (299*Derivative[5][primaryopWB[0, 2, 1][2]])/1800
+ 
+qpNO[0, 2, 5][6] = (2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/3 - 
+    (3*NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[0, 2, 1][2]])/
+     10 + NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]]/
+     30 + NO[primaryopWB[0, 2, 1][2], NO[primaryopWB[0, 2, 1][2], 
+      primaryopWB[2, 0, 1][2]]] + 
+    (19*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[0, 2, 1][2]]])/
+     30 - (3*NO[primaryopWB[1, 1, 1][3], Derivative[1][primaryopWB[0, 2, 1][
+         2]]])/10 + Derivative[2][primaryopWB[0, 2, 1][4]]/12 + 
+    (3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[0, 2, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[0, 2, 1][2]] + 
+      (3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]])/
+       2 + (3*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[0, 2, 1][
+           2]]])/2 + Derivative[2][primaryopWB[0, 2, 1][4]]/4 - 
+      Derivative[4][primaryopWB[0, 2, 1][2]]/4)/2 - 
+    (3*(NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] + 
+       Derivative[4][primaryopWB[0, 2, 1][2]]/6))/5 + 
+    Derivative[4][primaryopWB[0, 2, 1][2]]/20
+ 
+qpNO[0, 2, 5][7] = (-1303347600*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]])/38759539 - 
+    (11748430548*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[0, 2, 1][2]]])/426354929 - 
+    (43335060*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[0, 2, 1][4]])/5537077 + 
+    (755874480*NO[Derivative[1][primaryopWB[1, 1, 1][3]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/60907847 + 
+    (234540*NO[Derivative[1][primaryopWB[1, 1, 1][4]], 
+       primaryopWB[0, 2, 1][2]])/77987 - 
+    (1919357928*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/426354929 + 
+    (1183481760*NO[Derivative[2][primaryopWB[1, 1, 1][3]], 
+       primaryopWB[0, 2, 1][2]])/60907847 + 
+    (3937284*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[0, 2, 1][2]])/425929 - 
+    (651673800*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[0, 2, 1][2]]]])/38759539 - 
+    (43335060*NO[primaryopWB[1, 1, 1][2], Derivative[1][
+        primaryopWB[0, 2, 1][4]]])/5537077 - 
+    (670445148*NO[primaryopWB[1, 1, 1][2], Derivative[3][
+        primaryopWB[0, 2, 1][2]]])/60907847 - 
+    (427607280*NO[primaryopWB[1, 1, 1][3], Derivative[2][
+        primaryopWB[0, 2, 1][2]]])/60907847 + 
+    (234540*NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[0, 2, 1][
+         2]]])/77987 + NO[primaryopWB[1, 1, 1][5], primaryopWB[0, 2, 1][2]] - 
+    (3*Derivative[1][primaryopWB[0, 2, 1][6]])/8 - 
+    (3700*Derivative[3][primaryopWB[0, 2, 1][4]])/781 + 
+    (79308*Derivative[5][primaryopWB[0, 2, 1][2]])/27335
+ 
+qpNO[0, 2, 6][6] = NO[primaryopWB[1, 1, 1][3], 
+     Derivative[1][primaryopWB[0, 2, 1][2]]] - 
+    (2*(NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[0, 2, 1][2]] + 
+       NO[primaryopWB[1, 1, 1][3], Derivative[1][primaryopWB[0, 2, 1][2]]]))/
+     5 - Derivative[2][primaryopWB[0, 2, 1][4]]/12 + 
+    (-2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[0, 2, 1][2]]] - 
+      NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] - 
+      NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[0, 2, 1][2]]] + 
+      (3*Derivative[4][primaryopWB[0, 2, 1][2]])/10)/2 - 
+    (9*Derivative[4][primaryopWB[0, 2, 1][2]])/35
+ 
+qpNO[0, 2, 6][7] = (-3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]])/2 + 
+    (87*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[0, 2, 1][2]]])/616 + 
+    NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][4]]/8 - 
+    (7*NO[Derivative[1][primaryopWB[1, 1, 1][3]], Derivative[1][
+        primaryopWB[0, 2, 1][2]]])/44 + 
+    (24*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/77 + 
+    NO[Derivative[2][primaryopWB[1, 1, 1][3]], primaryopWB[0, 2, 1][2]]/22 - 
+    (43*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]])/
+     168 - (9*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[0, 2, 1][2]]]])/4 + 
+    NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][3], 
+      primaryopWB[0, 2, 1][2]]] - 
+    (3*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[0, 2, 1][4]]])/
+     8 + (71*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][
+         2]]])/616 - (9*NO[primaryopWB[1, 1, 1][3], 
+       Derivative[2][primaryopWB[0, 2, 1][2]]])/44 + 
+    (29*Derivative[3][primaryopWB[0, 2, 1][4]])/1540 - 
+    (3*(-3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[0, 2, 1][2]]] - 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[0, 2, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          3]], primaryopWB[0, 2, 1][2]] - 
+       NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] - 
+       NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]] - 
+       Derivative[3][primaryopWB[0, 2, 1][4]]/6 + 
+       Derivative[5][primaryopWB[0, 2, 1][2]]/5))/14 + 
+    (87*Derivative[5][primaryopWB[0, 2, 1][2]])/1540
+ 
+qpNO[0, 2, 7][7] = NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+     NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]] + 
+    NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]]/6 + 
+    ((-NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] - 
+        (3*Derivative[5][primaryopWB[0, 2, 1][2]])/20)/6 - 
+      2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+         NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]] + 
+        NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]]/
+         6 - Derivative[5][primaryopWB[0, 2, 1][2]]/40))/2 + 
+    (NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] + 
+      (3*Derivative[5][primaryopWB[0, 2, 1][2]])/20)/12 - 
+    Derivative[5][primaryopWB[0, 2, 1][2]]/40
+ 
+qpNO[0, 2, 8][7] = (-51*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[0, 2, 1][2]]])/616 + 
+    NO[Derivative[1][primaryopWB[1, 1, 1][3]], Derivative[1][
+       primaryopWB[0, 2, 1][2]]]/44 - 
+    (135*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/616 - 
+    (5*NO[Derivative[2][primaryopWB[1, 1, 1][3]], primaryopWB[0, 2, 1][2]])/
+     44 - (527*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[0, 2, 1][2]])/1848 + 
+    (-NO[Derivative[1][primaryopWB[0, 2, 1][2]], NO[primaryopWB[0, 2, 1][2], 
+         primaryopWB[2, 0, 1][2]]] - NO[primaryopWB[0, 2, 1][2], 
+       NO[primaryopWB[0, 2, 1][2], Derivative[1][primaryopWB[2, 0, 1][2]]]])/
+     2 + NO[primaryopWB[0, 2, 1][2], NO[primaryopWB[0, 2, 1][2], 
+      Derivative[1][primaryopWB[2, 0, 1][2]]]] - 
+    (25*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]])/
+     168 + (3*NO[primaryopWB[1, 1, 1][3], Derivative[2][
+        primaryopWB[0, 2, 1][2]]])/22 - 
+    (103*Derivative[3][primaryopWB[0, 2, 1][4]])/6160 + 
+    (-NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] - 
+      (3*Derivative[5][primaryopWB[0, 2, 1][2]])/20)/6 - 
+    (3*(-3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[0, 2, 1][2]]] - 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[0, 2, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          3]], primaryopWB[0, 2, 1][2]] - 
+       NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[0, 2, 1][2]] - 
+       NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]] - 
+       Derivative[3][primaryopWB[0, 2, 1][4]]/6 + 
+       Derivative[5][primaryopWB[0, 2, 1][2]]/5))/28 - 
+    (141*Derivative[5][primaryopWB[0, 2, 1][2]])/6160
+ 
+qpNO[0, 2, 9][7] = (-20462965*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       NO[primaryopWB[1, 1, 1][2], primaryopWB[0, 2, 1][2]]])/545909 + 
+    (84015661*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[0, 2, 1][2]]])/12009998 - 
+    (5535395*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[0, 2, 1][4]])/935844 + 
+    (1185025*NO[Derivative[1][primaryopWB[1, 1, 1][3]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/2573571 + 
+    (130300*NO[Derivative[1][primaryopWB[1, 1, 1][4]], 
+       primaryopWB[0, 2, 1][2]])/77987 + 
+    (211212217*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[0, 2, 1][2]]])/24019996 + 
+    (18686440*NO[Derivative[2][primaryopWB[1, 1, 1][3]], 
+       primaryopWB[0, 2, 1][2]])/2573571 + 
+    (2317151*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[0, 2, 1][2]])/395934 - 
+    (20462965*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[0, 2, 1][2]]]])/1091818 - 
+    (5535395*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[0, 2, 1][
+         4]]])/935844 + (6157993*NO[primaryopWB[1, 1, 1][2], 
+       Derivative[3][primaryopWB[0, 2, 1][2]]])/857857 - 
+    (5833805*NO[primaryopWB[1, 1, 1][3], Derivative[2][primaryopWB[0, 2, 1][
+         2]]])/857857 + NO[primaryopWB[1, 1, 1][3], 
+     primaryopWB[0, 2, 1][4]] + 
+    (130300*NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[0, 2, 1][
+         2]]])/77987 - (5*Derivative[1][primaryopWB[0, 2, 1][6]])/24 - 
+    (515*Derivative[3][primaryopWB[0, 2, 1][4]])/792 + 
+    (2221*Derivative[5][primaryopWB[0, 2, 1][2]])/3080
+ 
+qpNO[0, 2, 10][7] = 
+   (-NO[Derivative[1][primaryopWB[1, 1, 1][4]], primaryopWB[0, 2, 1][2]] - 
+      NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[0, 2, 1][2]]])/
+     3 + NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[0, 2, 1][
+       2]]] - (7*Derivative[3][primaryopWB[0, 2, 1][4]])/15 - 
+    (2*(3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[0, 2, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[0, 2, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+          2]], primaryopWB[0, 2, 1][2]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[3][primaryopWB[0, 2, 1][2]]] - 
+       (3*Derivative[5][primaryopWB[0, 2, 1][2]])/10))/3 - 
+    (64*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[0, 2, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], Derivative[1][primaryopWB[0, 2, 1][2]]] + 
+       (-3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+            primaryopWB[0, 2, 1][2]]] - 
+         3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+            primaryopWB[0, 2, 1][2]]] - NO[Derivative[3][primaryopWB[1, 1, 1][
+            2]], primaryopWB[0, 2, 1][2]] - NO[primaryopWB[1, 1, 1][2], 
+          Derivative[3][primaryopWB[0, 2, 1][2]]])/2 + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[0, 2, 1][2]]] - 
+       Derivative[5][primaryopWB[0, 2, 1][2]]/12))/33 - 
+    (16*Derivative[5][primaryopWB[0, 2, 1][2]])/45
+ 
+qpNO[1, 1, 1][4] = NO[primaryopWB[1, 1, 1][2], primaryopWB[1, 1, 1][2]] - 
+    (3*Derivative[2][primaryopWB[1, 1, 1][2]])/10
+ 
+qpNO[1, 1, 1][5] = NO[primaryopWB[1, 1, 1][2], primaryopWB[1, 1, 1][3]] - 
+    (3*Derivative[2][primaryopWB[1, 1, 1][3]])/14
+ 
+qpNO[1, 1, 1][6] = NO[primaryopWB[1, 1, 1][2], primaryopWB[1, 1, 1][4]] - 
+    Derivative[2][primaryopWB[1, 1, 1][4]]/6
+ 
+qpNO[1, 1, 1][7] = NO[primaryopWB[1, 1, 1][2], primaryopWB[1, 1, 1][5]] - 
+    (3*Derivative[2][primaryopWB[1, 1, 1][5]])/22
+ 
+qpNO[1, 1, 2][4] = NO[primaryopWB[0, 2, 1][2], primaryopWB[2, 0, 1][2]] - 
+    Derivative[1][primaryopWB[1, 1, 1][3]]/2 - 
+    (3*Derivative[2][primaryopWB[1, 1, 1][2]])/5
+ 
+qpNO[1, 1, 2][5] = NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+     primaryopWB[1, 1, 1][2]] + 
+    (-2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]] - 
+      Derivative[3][primaryopWB[1, 1, 1][2]]/6)/2 + 
+    Derivative[3][primaryopWB[1, 1, 1][2]]/12
+ 
+qpNO[1, 1, 2][6] = -NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][2]]]/3 - 
+    (19*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     30 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+      primaryopWB[1, 1, 1][2]]] - Derivative[4][primaryopWB[1, 1, 1][2]]/36
+ 
+qpNO[1, 1, 2][7] = (-3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][3]]])/11 - 
+    (3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]])/
+     22 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+      primaryopWB[1, 1, 1][3]]] - 
+    (3*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][3]]])/
+     22 - (3*(NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][
+          3]]] - Derivative[4][primaryopWB[1, 1, 1][3]]/12))/14 + 
+    Derivative[4][primaryopWB[1, 1, 1][3]]/88
+ 
+qpNO[1, 1, 3][5] = 
+   (-NO[Derivative[1][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]] - 
+      NO[primaryopWB[0, 2, 1][2], Derivative[1][primaryopWB[2, 0, 1][2]]])/
+     2 + NO[primaryopWB[0, 2, 1][2], Derivative[1][primaryopWB[2, 0, 1][
+       2]]] - (3*Derivative[2][primaryopWB[1, 1, 1][3]])/28 - 
+    Derivative[3][primaryopWB[1, 1, 1][2]]/6
+ 
+qpNO[1, 1, 3][6] = -NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]]/3 - 
+    NO[Derivative[2][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]]/6 - 
+    (3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     5 - NO[primaryopWB[0, 2, 1][2], Derivative[2][primaryopWB[2, 0, 1][2]]]/
+     6 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[0, 2, 1][2], 
+      primaryopWB[2, 0, 1][2]]] - NO[primaryopWB[1, 1, 1][2], 
+      Derivative[1][primaryopWB[1, 1, 1][3]]]/2 + 
+    Derivative[3][primaryopWB[1, 1, 1][3]]/12
+ 
+qpNO[1, 1, 3][7] = NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+     NO[primaryopWB[1, 1, 1][2], primaryopWB[1, 1, 1][2]]] + 
+    NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+       primaryopWB[1, 1, 1][2]]]/2 + 
+    (5*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     12 + (-NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+          2]]/6 - 2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+         NO[primaryopWB[1, 1, 1][2], primaryopWB[1, 1, 1][2]]] + 
+        NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+           primaryopWB[1, 1, 1][2]]]/2 + 
+        NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]]/
+         3 + Derivative[5][primaryopWB[1, 1, 1][2]]/60))/2 + 
+    Derivative[5][primaryopWB[1, 1, 1][2]]/60
+ 
+qpNO[1, 1, 4][6] = NO[primaryopWB[1, 1, 1][2], 
+     Derivative[1][primaryopWB[1, 1, 1][3]]] - 
+    (3*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[1, 1, 1][3]]]))/
+     5 - Derivative[3][primaryopWB[1, 1, 1][3]]/20
+ 
+qpNO[1, 1, 4][7] = (2*NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/11 + 
+    (7*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]])/22 + 
+    (5*NO[Derivative[3][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]])/
+     33 - NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]]/
+     6 + NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]]/
+     66 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[0, 2, 1][2], 
+      Derivative[1][primaryopWB[2, 0, 1][2]]]] - 
+    (3*(NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][3]]] - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/12))/28 - 
+    (5*Derivative[4][primaryopWB[1, 1, 1][3]])/88 + 
+    (-NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]]/2 - 
+      NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+         primaryopWB[2, 0, 1][2]]]/2 - 
+      NO[Derivative[3][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]]/6 - 
+      NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]]/6 - 
+      NO[primaryopWB[1, 1, 1][2], NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+        primaryopWB[2, 0, 1][2]]] - NO[primaryopWB[1, 1, 1][2], 
+       NO[primaryopWB[0, 2, 1][2], Derivative[1][primaryopWB[2, 0, 1][2]]]] + 
+      Derivative[4][primaryopWB[1, 1, 1][3]]/8 + 
+      (7*Derivative[5][primaryopWB[1, 1, 1][2]])/60)/2 - 
+    (2*Derivative[5][primaryopWB[1, 1, 1][2]])/33
+ 
+qpNO[1, 1, 5][6] = -NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+      Derivative[1][primaryopWB[1, 1, 1][2]]] + 
+    (2*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][2]]] + 
+       2*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+          2]] + Derivative[4][primaryopWB[1, 1, 1][2]]/6))/9 - 
+    Derivative[4][primaryopWB[1, 1, 1][2]]/42
+ 
+qpNO[1, 1, 5][7] = NO[primaryopWB[1, 1, 1][2], 
+     Derivative[1][primaryopWB[1, 1, 1][4]]] - 
+    (2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][4]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[1, 1, 1][4]]]))/
+     3 - Derivative[3][primaryopWB[1, 1, 1][4]]/30
+ 
+qpNO[1, 1, 6][6] = NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+     Derivative[1][primaryopWB[2, 0, 1][2]]] - 
+    (22*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][2]]])/21 - 
+    (801*NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]])/
+     355 + (7*NO[Derivative[2][primaryopWB[0, 2, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/5 - 
+    (22*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     21 - (2*NO[primaryopWB[0, 2, 1][2], Derivative[2][primaryopWB[2, 0, 1][
+         2]]])/5 + NO[primaryopWB[0, 2, 1][2], primaryopWB[2, 0, 1][4]] - 
+    (801*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[1, 1, 1][3]]])/
+     355 - (3*Derivative[1][primaryopWB[1, 1, 1][5]])/10 - 
+    Derivative[2][primaryopWB[1, 1, 1][4]]/3 + 
+    (126*Derivative[3][primaryopWB[1, 1, 1][3]])/355 + 
+    (22*Derivative[4][primaryopWB[1, 1, 1][2]])/315
+ 
+qpNO[1, 1, 6][7] = (5*NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/2 + 
+    NO[Derivative[1][primaryopWB[1, 1, 1][2]], NO[primaryopWB[0, 2, 1][2], 
+      primaryopWB[2, 0, 1][2]]] + 
+    (5*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]])/2 - 
+    (3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+        primaryopWB[1, 1, 1][2]]])/5 + 
+    (5*NO[Derivative[3][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]])/
+     6 + (5*NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][
+         2]]])/6 + (-NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+        Derivative[1][primaryopWB[1, 1, 1][3]]] - 
+      Derivative[4][primaryopWB[1, 1, 1][3]]/12)/2 - 
+    (3*Derivative[4][primaryopWB[1, 1, 1][3]])/8 - 
+    (7*(3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[3][primaryopWB[0, 2, 1][
+          2]], primaryopWB[2, 0, 1][2]] + NO[primaryopWB[0, 2, 1][2], 
+        Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/2 - 
+       (3*Derivative[5][primaryopWB[1, 1, 1][2]])/5))/15 + 
+    (-NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][2]], NO[primaryopWB[0, 2, 1][2], 
+        primaryopWB[2, 0, 1][2]]] - NO[Derivative[2][primaryopWB[0, 2, 1][
+         2]], Derivative[1][primaryopWB[2, 0, 1][2]]] - 
+      2*(NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[0, 2, 1][
+           2]], Derivative[1][primaryopWB[2, 0, 1][2]]]) - 
+      NO[Derivative[3][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]] + 
+      (3*(NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+           primaryopWB[1, 1, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+            2]], primaryopWB[1, 1, 1][2]]))/5 - NO[primaryopWB[0, 2, 1][2], 
+       Derivative[3][primaryopWB[2, 0, 1][2]]] - NO[primaryopWB[1, 1, 1][2], 
+       NO[Derivative[1][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]]] - 
+      NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[0, 2, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]] + 
+      (NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][3]]] + NO[primaryopWB[1, 1, 1][2], 
+         Derivative[2][primaryopWB[1, 1, 1][3]]])/2 + 
+      Derivative[4][primaryopWB[1, 1, 1][3]]/2 + 
+      Derivative[5][primaryopWB[1, 1, 1][2]]/3)/3 - 
+    (349*Derivative[5][primaryopWB[1, 1, 1][2]])/900
+ 
+qpNO[1, 1, 7][6] = -NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]]/6 - 
+    NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+       primaryopWB[1, 1, 1][2]]]/3 - 
+    (3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]])/
+     10 - (7*NO[Derivative[2][primaryopWB[0, 2, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/30 - 
+    NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]]/3 + 
+    NO[primaryopWB[0, 2, 1][2], Derivative[2][primaryopWB[2, 0, 1][2]]]/15 + 
+    NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[0, 2, 1][2], 
+      primaryopWB[2, 0, 1][2]]] - 
+    (3*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[1, 1, 1][3]]])/
+     10 - Derivative[3][primaryopWB[1, 1, 1][3]]/30 - 
+    (3*(NO[primaryopWB[0, 2, 1][2], Derivative[2][primaryopWB[2, 0, 1][2]]] - 
+       Derivative[3][primaryopWB[1, 1, 1][3]]/3 - 
+       Derivative[4][primaryopWB[1, 1, 1][2]]/3))/10 - 
+    (7*Derivative[4][primaryopWB[1, 1, 1][2]])/90
+ 
+qpNO[1, 1, 7][7] = NO[primaryopWB[1, 1, 1][2], 
+     Derivative[2][primaryopWB[1, 1, 1][3]]] - 
+    (7*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[1, 1, 1][3]]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[2][primaryopWB[1, 1, 1][3]]]))/6 + 
+    (7*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][3]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], primaryopWB[1, 1, 1][3]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[2][primaryopWB[1, 1, 1][3]]]))/22 - 
+    (5*Derivative[4][primaryopWB[1, 1, 1][3]])/396
+ 
+qpNO[1, 1, 8][6] = 7*NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+      Derivative[1][primaryopWB[2, 0, 1][2]]] - 
+    (22*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][2]]])/3 - 
+    (1869*NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+        3]])/355 + (28*NO[Derivative[2][primaryopWB[0, 2, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/5 - 
+    (22*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     3 + (7*NO[primaryopWB[0, 2, 1][2], Derivative[2][primaryopWB[2, 0, 1][
+         2]]])/5 + NO[primaryopWB[0, 2, 1][4], primaryopWB[2, 0, 1][2]] - 
+    (1869*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[1, 1, 1][
+         3]]])/355 - (7*Derivative[1][primaryopWB[1, 1, 1][5]])/10 - 
+    (7*Derivative[2][primaryopWB[1, 1, 1][4]])/3 - 
+    (1897*Derivative[3][primaryopWB[1, 1, 1][3]])/710 - 
+    (41*Derivative[4][primaryopWB[1, 1, 1][2]])/45
+ 
+qpNO[1, 1, 8][7] = (159*NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/220 - 
+    (3*NO[Derivative[1][primaryopWB[0, 2, 1][4]], primaryopWB[2, 0, 1][2]])/
+     8 - (9*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       NO[primaryopWB[0, 2, 1][2], primaryopWB[2, 0, 1][2]]])/4 + 
+    (7589*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][3]]])/3124 - 
+    NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[1, 1, 1][3]]/2 - 
+    (87*NO[Derivative[2][primaryopWB[0, 2, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/440 - 
+    (551*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][2]]])/70 - 
+    (501*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]])/
+     3124 - (109*NO[Derivative[3][primaryopWB[0, 2, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/440 - 
+    (761*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     210 + NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][
+        2]]]/165 + NO[primaryopWB[0, 2, 1][4], Derivative[1][
+       primaryopWB[2, 0, 1][2]]]/8 - 
+    (9*NO[primaryopWB[1, 1, 1][2], NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+        primaryopWB[2, 0, 1][2]]])/4 + 
+    (3*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[0, 2, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]])/4 + 
+    (851*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][3]]])/
+     781 + NO[primaryopWB[1, 1, 1][3], NO[primaryopWB[0, 2, 1][2], 
+      primaryopWB[2, 0, 1][2]]] + (13*Derivative[2][primaryopWB[1, 1, 1][5]])/
+     176 - (41*Derivative[3][primaryopWB[1, 1, 1][4]])/120 - 
+    (3779*Derivative[4][primaryopWB[1, 1, 1][3]])/15620 + 
+    (15*(NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]] - NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], Derivative[1][primaryopWB[1, 1, 1][2]]] + 
+       NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]]/
+        2 - (5*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+          primaryopWB[1, 1, 1][2]])/3 + NO[primaryopWB[0, 2, 1][2], 
+        Derivative[3][primaryopWB[2, 0, 1][2]]] + NO[primaryopWB[1, 1, 1][2], 
+        NO[primaryopWB[0, 2, 1][2], Derivative[1][primaryopWB[2, 0, 1][
+           2]]]] - NO[primaryopWB[1, 1, 1][2], Derivative[2][
+          primaryopWB[1, 1, 1][3]]]/2 - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/3 - 
+       (31*Derivative[5][primaryopWB[1, 1, 1][2]])/60))/8 + 
+    (5*(NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/4 - 
+       (3*Derivative[5][primaryopWB[1, 1, 1][2]])/10))/48 + 
+    (15*(-NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+           primaryopWB[2, 0, 1][2]]]/2 + 
+       NO[Derivative[1][primaryopWB[1, 1, 1][2]], NO[primaryopWB[0, 2, 1][2], 
+         primaryopWB[2, 0, 1][2]]] - NO[Derivative[1][primaryopWB[1, 1, 1][
+          2]], Derivative[1][primaryopWB[1, 1, 1][3]]] + 
+       2*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][2]]] - NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], primaryopWB[1, 1, 1][3]] + 
+       2*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+          2]] - (2*NO[primaryopWB[0, 2, 1][2], Derivative[3][
+           primaryopWB[2, 0, 1][2]]])/3 + 
+       (5*Derivative[4][primaryopWB[1, 1, 1][3]])/24 + 
+       (23*Derivative[5][primaryopWB[1, 1, 1][2]])/60))/8 + 
+    (5*(-3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] - 
+       (534*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+           primaryopWB[1, 1, 1][3]]])/71 + 
+       (22*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+           primaryopWB[1, 1, 1][2]]])/7 - 
+       (267*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+           3]])/71 + NO[Derivative[3][primaryopWB[0, 2, 1][2]], 
+        primaryopWB[2, 0, 1][2]] + 
+       (22*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+           2]])/21 + NO[primaryopWB[0, 2, 1][2], Derivative[1][
+         primaryopWB[2, 0, 1][4]]] - 2*NO[primaryopWB[0, 2, 1][2], 
+         Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       (267*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][
+            3]]])/71 - Derivative[2][primaryopWB[1, 1, 1][5]]/2 + 
+       Derivative[3][primaryopWB[1, 1, 1][4]]/3 + 
+       (323*Derivative[4][primaryopWB[1, 1, 1][3]])/426 + 
+       (157*Derivative[5][primaryopWB[1, 1, 1][2]])/210))/16 - 
+    (1009*Derivative[5][primaryopWB[1, 1, 1][2]])/5775
+ 
+qpNO[1, 1, 9][6] = (-320*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][2]]])/63 - 
+    (320*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     63 + NO[primaryopWB[1, 1, 1][3], primaryopWB[1, 1, 1][3]] - 
+    (5*Derivative[2][primaryopWB[1, 1, 1][4]])/9 + 
+    (10*Derivative[4][primaryopWB[1, 1, 1][2]])/189
+ 
+qpNO[1, 1, 9][7] = NO[primaryopWB[0, 2, 1][2], 
+     Derivative[1][primaryopWB[2, 0, 1][4]]] - 
+    (2*(NO[Derivative[1][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][4]] + 
+       NO[primaryopWB[0, 2, 1][2], Derivative[1][primaryopWB[2, 0, 1][4]]]))/
+     3 - Derivative[2][primaryopWB[1, 1, 1][5]]/22 - 
+    Derivative[3][primaryopWB[1, 1, 1][4]]/15 - 
+    (267*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+         Derivative[1][primaryopWB[1, 1, 1][3]]] + 
+       NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][3]]] - 
+       (3*Derivative[4][primaryopWB[1, 1, 1][3]])/14))/781 - 
+    Derivative[4][primaryopWB[1, 1, 1][3]]/63 + 
+    (3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]] + 
+      3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+         primaryopWB[2, 0, 1][2]]] + 
+      NO[Derivative[3][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]] + 
+      NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+      Derivative[4][primaryopWB[1, 1, 1][3]]/2 - 
+      (3*Derivative[5][primaryopWB[1, 1, 1][2]])/5)/10 - 
+    (3*(2*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[0, 2, 1][
+          2]], Derivative[1][primaryopWB[2, 0, 1][2]]] + 
+       (-3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+            primaryopWB[2, 0, 1][2]]] - 
+         3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+            primaryopWB[2, 0, 1][2]]] - NO[Derivative[3][primaryopWB[0, 2, 1][
+            2]], primaryopWB[2, 0, 1][2]] - NO[primaryopWB[0, 2, 1][2], 
+          Derivative[3][primaryopWB[2, 0, 1][2]]])/2 + 
+       NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       (3*Derivative[4][primaryopWB[1, 1, 1][3]])/28 - 
+       Derivative[5][primaryopWB[1, 1, 1][2]]/6))/11 - 
+    (11*(6*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][2]]] + 
+       2*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+          2]] - Derivative[5][primaryopWB[1, 1, 1][2]]/10))/105
+ 
+qpNO[1, 1, 10][7] = (3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/2 - 
+    NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+     Derivative[1][primaryopWB[1, 1, 1][3]]] + 
+    NO[Derivative[2][primaryopWB[0, 2, 1][2]], 
+     Derivative[1][primaryopWB[2, 0, 1][2]]] + 
+    5*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+      Derivative[1][primaryopWB[1, 1, 1][2]]] - 
+    NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]]/2 + 
+    (5*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     3 + (2*NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][
+         2]]])/3 + NO[primaryopWB[1, 1, 1][2], 
+     NO[Derivative[1][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]]] - 
+    NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][3]]]/2 + 
+    (7*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][3]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], primaryopWB[1, 1, 1][3]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[2][primaryopWB[1, 1, 1][3]]] - 
+       (3*Derivative[4][primaryopWB[1, 1, 1][3]])/14))/33 - 
+    (19*Derivative[4][primaryopWB[1, 1, 1][3]])/72 - 
+    (7*(3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[3][primaryopWB[0, 2, 1][
+          2]], primaryopWB[2, 0, 1][2]] + NO[primaryopWB[0, 2, 1][2], 
+        Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/2 - 
+       (3*Derivative[5][primaryopWB[1, 1, 1][2]])/5))/30 - 
+    (7*(2*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[0, 2, 1][
+          2]], Derivative[1][primaryopWB[2, 0, 1][2]]] + 
+       (-3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+            primaryopWB[2, 0, 1][2]]] - 
+         3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+            primaryopWB[2, 0, 1][2]]] - NO[Derivative[3][primaryopWB[0, 2, 1][
+            2]], primaryopWB[2, 0, 1][2]] - NO[primaryopWB[0, 2, 1][2], 
+          Derivative[3][primaryopWB[2, 0, 1][2]]])/2 + 
+       NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       (3*Derivative[4][primaryopWB[1, 1, 1][3]])/28 - 
+       Derivative[5][primaryopWB[1, 1, 1][2]]/6))/33 - 
+    (7*(6*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][2]]] + 
+       2*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+          2]] - Derivative[5][primaryopWB[1, 1, 1][2]]/10))/15 - 
+    (3*(NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]] - Derivative[4][primaryopWB[1, 1, 1][3]]/
+        12 - Derivative[5][primaryopWB[1, 1, 1][2]]/30))/10 + 
+    (-2*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][2]], NO[primaryopWB[0, 2, 1][2], 
+        primaryopWB[2, 0, 1][2]]] + 
+      2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[1, 1, 1][3]]] - 
+      NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+         2]], primaryopWB[1, 1, 1][3]] - 
+      2*(NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+           2]], primaryopWB[1, 1, 1][2]]) - NO[primaryopWB[0, 2, 1][2], 
+       Derivative[3][primaryopWB[2, 0, 1][2]]] - NO[primaryopWB[1, 1, 1][2], 
+       NO[Derivative[1][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]]] - 
+      NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[0, 2, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]] + 
+      NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][3]]] + 
+      Derivative[4][primaryopWB[1, 1, 1][3]]/2 + 
+      (3*(NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+           primaryopWB[2, 0, 1][2]]] + NO[primaryopWB[0, 2, 1][2], 
+          Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+         Derivative[4][primaryopWB[1, 1, 1][3]]/3 - 
+         Derivative[5][primaryopWB[1, 1, 1][2]]/3))/10 - 
+      2*(2*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+           primaryopWB[1, 1, 1][2]]] + Derivative[5][primaryopWB[1, 1, 1][2]]/
+         60) + Derivative[5][primaryopWB[1, 1, 1][2]]/6)/3 - 
+    (56*Derivative[5][primaryopWB[1, 1, 1][2]])/225
+ 
+qpNO[1, 1, 11][7] = (87*NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/440 - 
+    NO[Derivative[1][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][4]]/8 + 
+    (9*NO[Derivative[1][primaryopWB[1, 1, 1][2]], NO[primaryopWB[0, 2, 1][2], 
+        primaryopWB[2, 0, 1][2]]])/4 - 
+    (9257*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][3]]])/1562 - 
+    NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[1, 1, 1][3]]/2 + 
+    (3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]])/110 - 
+    (172*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][2]]])/35 - 
+    (5019*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+        3]])/1562 + (163*NO[Derivative[3][primaryopWB[0, 2, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/330 - 
+    (172*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]])/
+     105 + (3*NO[primaryopWB[0, 2, 1][2], Derivative[1][
+        primaryopWB[2, 0, 1][4]]])/8 - 
+    NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]]/440 - 
+    (3*NO[primaryopWB[1, 1, 1][2], NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+        primaryopWB[2, 0, 1][2]]])/4 + 
+    (9*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[0, 2, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]])/4 - 
+    (2119*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][
+         3]]])/781 + NO[primaryopWB[1, 1, 1][3], NO[primaryopWB[0, 2, 1][2], 
+      primaryopWB[2, 0, 1][2]]] - (73*Derivative[2][primaryopWB[1, 1, 1][5]])/
+     352 - (43*Derivative[3][primaryopWB[1, 1, 1][4]])/240 - 
+    (2383*Derivative[4][primaryopWB[1, 1, 1][3]])/46860 - 
+    (15*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+        NO[primaryopWB[0, 2, 1][2], primaryopWB[2, 0, 1][2]]] - 
+       NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[1, 1, 1][3]]] + NO[primaryopWB[0, 2, 1][2], 
+         Derivative[3][primaryopWB[2, 0, 1][2]]]/6 - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/24 - 
+       Derivative[5][primaryopWB[1, 1, 1][2]]/20))/8 - 
+    (15*(NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][2]]/
+        3 + NO[primaryopWB[1, 1, 1][2], NO[Derivative[1][primaryopWB[0, 2, 1][
+           2]], primaryopWB[2, 0, 1][2]]] - NO[primaryopWB[1, 1, 1][2], 
+         Derivative[2][primaryopWB[1, 1, 1][3]]]/2 + 
+       Derivative[5][primaryopWB[1, 1, 1][2]]/20))/8 - 
+    (5*(NO[Derivative[1][primaryopWB[0, 2, 1][4]], primaryopWB[2, 0, 1][2]] - 
+       (534*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+           primaryopWB[1, 1, 1][3]]])/71 + 
+       3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] - 
+       (22*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+           primaryopWB[1, 1, 1][2]]])/7 - 
+       (267*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+           3]])/71 + 2*NO[Derivative[3][primaryopWB[0, 2, 1][2]], 
+         primaryopWB[2, 0, 1][2]] - 
+       (22*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+           2]])/21 - NO[primaryopWB[0, 2, 1][2], Derivative[3][
+         primaryopWB[2, 0, 1][2]]] - (267*NO[primaryopWB[1, 1, 1][2], 
+          Derivative[2][primaryopWB[1, 1, 1][3]]])/71 - 
+       Derivative[2][primaryopWB[1, 1, 1][5]]/2 - 
+       Derivative[3][primaryopWB[1, 1, 1][4]]/3 + 
+       (55*Derivative[4][primaryopWB[1, 1, 1][3]])/213 + 
+       (53*Derivative[5][primaryopWB[1, 1, 1][2]])/210))/16 - 
+    (5*(NO[Derivative[3][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]] - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/4 + 
+       (3*Derivative[5][primaryopWB[1, 1, 1][2]])/10))/48 - 
+    (439*Derivative[5][primaryopWB[1, 1, 1][2]])/23100
+ 
+qpNO[1, 1, 12][7] = (-144800*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][3]]])/16401 - 
+    (44960*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[1, 1, 1][3]])/5467 - 
+    (9920*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][
+         3]]])/16401 + NO[primaryopWB[1, 1, 1][3], primaryopWB[1, 1, 1][4]] - 
+    (5*Derivative[2][primaryopWB[1, 1, 1][5]])/11 + 
+    (10840*Derivative[4][primaryopWB[1, 1, 1][3]])/49203
+ 
+qpNO[1, 1, 13][7] = (-95*NO[Derivative[1][primaryopWB[0, 2, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/88 + 
+    (5*NO[Derivative[1][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][4]])/
+     24 - (5*NO[Derivative[1][primaryopWB[0, 2, 1][4]], 
+       primaryopWB[2, 0, 1][2]])/24 - 
+    (705*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[1, 1, 1][3]]])/3124 - 
+    NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[1, 1, 1][3]]/2 - 
+    (235*NO[Derivative[2][primaryopWB[0, 2, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/88 - 
+    (9*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+        primaryopWB[1, 1, 1][2]]])/14 - 
+    (20897*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[1, 1, 1][3]])/15620 - 
+    (125*NO[Derivative[3][primaryopWB[0, 2, 1][2]], primaryopWB[2, 0, 1][2]])/
+     88 - (3*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[1, 1, 1][2]])/14 + 
+    (5*NO[primaryopWB[0, 2, 1][2], Derivative[1][primaryopWB[2, 0, 1][4]]])/
+     24 + (15*NO[primaryopWB[0, 2, 1][2], Derivative[3][
+        primaryopWB[2, 0, 1][2]]])/88 - 
+    (5*NO[primaryopWB[0, 2, 1][4], Derivative[1][primaryopWB[2, 0, 1][2]]])/
+     24 + (400*NO[primaryopWB[1, 1, 1][2], Derivative[2][
+        primaryopWB[1, 1, 1][3]]])/781 + NO[primaryopWB[1, 1, 1][3], 
+     NO[primaryopWB[0, 2, 1][2], primaryopWB[2, 0, 1][2]]] + 
+    (5*Derivative[2][primaryopWB[1, 1, 1][5]])/132 + 
+    Derivative[3][primaryopWB[1, 1, 1][4]]/4 + 
+    (8467*Derivative[4][primaryopWB[1, 1, 1][3]])/28116 + 
+    (19*Derivative[5][primaryopWB[1, 1, 1][2]])/924
+ 
+qpNO[1, 1, 14][7] = 
+   (-NO[Derivative[1][primaryopWB[0, 2, 1][4]], primaryopWB[2, 0, 1][2]] - 
+      NO[primaryopWB[0, 2, 1][4], Derivative[1][primaryopWB[2, 0, 1][2]]])/
+     3 + NO[primaryopWB[0, 2, 1][4], Derivative[1][primaryopWB[2, 0, 1][
+       2]]] - (7*Derivative[2][primaryopWB[1, 1, 1][5]])/33 - 
+    (14*Derivative[3][primaryopWB[1, 1, 1][4]])/15 - 
+    (1246*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+         Derivative[1][primaryopWB[1, 1, 1][3]]] + 
+       NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][3]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[1, 1, 1][3]]] - 
+       (3*Derivative[4][primaryopWB[1, 1, 1][3]])/14))/781 - 
+    (10*Derivative[4][primaryopWB[1, 1, 1][3]])/9 + 
+    (7*(3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[3][primaryopWB[0, 2, 1][
+          2]], primaryopWB[2, 0, 1][2]] + NO[primaryopWB[0, 2, 1][2], 
+        Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       Derivative[4][primaryopWB[1, 1, 1][3]]/2 - 
+       (3*Derivative[5][primaryopWB[1, 1, 1][2]])/5))/5 - 
+    (14*(2*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[0, 2, 1][
+          2]], Derivative[1][primaryopWB[2, 0, 1][2]]] + 
+       (-3*NO[Derivative[1][primaryopWB[0, 2, 1][2]], Derivative[2][
+            primaryopWB[2, 0, 1][2]]] - 
+         3*NO[Derivative[2][primaryopWB[0, 2, 1][2]], Derivative[1][
+            primaryopWB[2, 0, 1][2]]] - NO[Derivative[3][primaryopWB[0, 2, 1][
+            2]], primaryopWB[2, 0, 1][2]] - NO[primaryopWB[0, 2, 1][2], 
+          Derivative[3][primaryopWB[2, 0, 1][2]]])/2 + 
+       NO[primaryopWB[0, 2, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       (3*Derivative[4][primaryopWB[1, 1, 1][3]])/28 - 
+       Derivative[5][primaryopWB[1, 1, 1][2]]/6))/11 - 
+    (22*(6*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[1, 1, 1][2]]] + 
+       2*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[1, 1, 1][
+          2]] - Derivative[5][primaryopWB[1, 1, 1][2]]/10))/15
+ 
+qpNO[2, 0, 1][4] = NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]] - 
+    (3*Derivative[2][primaryopWB[2, 0, 1][2]])/10
+ 
+qpNO[2, 0, 1][5] = 
+   (-NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] - 
+      NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[2, 0, 1][2]]])/
+     2 + NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[2, 0, 1][
+       2]]] - Derivative[3][primaryopWB[2, 0, 1][2]]/12
+ 
+qpNO[2, 0, 1][6] = NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][4]] - 
+    Derivative[2][primaryopWB[2, 0, 1][4]]/6
+ 
+qpNO[2, 0, 1][7] = (2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/11 + 
+    (7*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]])/22 + 
+    (5*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]])/
+     33 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+      Derivative[1][primaryopWB[2, 0, 1][2]]]] + 
+    NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]]/66 + 
+    (-NO[Derivative[1][primaryopWB[1, 1, 1][2]], NO[primaryopWB[1, 1, 1][2], 
+         primaryopWB[2, 0, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]]/2 - 
+      NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[2, 0, 1][2]]]/2 - 
+      NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]]/3 - 
+      NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]] - 
+      NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]]/6 + 
+      Derivative[5][primaryopWB[2, 0, 1][2]]/24)/2 + 
+    (-NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] + 
+      (3*Derivative[5][primaryopWB[2, 0, 1][2]])/20)/12 - 
+    (29*Derivative[5][primaryopWB[2, 0, 1][2]])/1320
+ 
+qpNO[2, 0, 2][5] = (15*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/8 + 
+    (15*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[2, 0, 1][2]]])/
+     8 + NO[primaryopWB[1, 1, 1][3], primaryopWB[2, 0, 1][2]] + 
+    (5*Derivative[1][primaryopWB[2, 0, 1][4]])/16 + 
+    (5*Derivative[3][primaryopWB[2, 0, 1][2]])/48
+ 
+qpNO[2, 0, 2][6] = -NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]]/3 - 
+    NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]]/6 + 
+    NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+      primaryopWB[2, 0, 1][2]]] - NO[primaryopWB[1, 1, 1][2], 
+      Derivative[2][primaryopWB[2, 0, 1][2]]]/6 - 
+    (3*(NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[2, 0, 1][2]]] - 
+       Derivative[4][primaryopWB[2, 0, 1][2]]/6))/10
+ 
+qpNO[2, 0, 2][7] = (-75*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/44 - 
+    (3*NO[Derivative[1][primaryopWB[1, 1, 1][3]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]])/11 - 
+    (75*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/44 - 
+    (3*NO[Derivative[2][primaryopWB[1, 1, 1][3]], primaryopWB[2, 0, 1][2]])/
+     22 - (25*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/44 + NO[primaryopWB[1, 1, 1][2], 
+     NO[primaryopWB[1, 1, 1][3], primaryopWB[2, 0, 1][2]]] - 
+    (25*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]])/
+     44 - (3*NO[primaryopWB[1, 1, 1][3], Derivative[2][primaryopWB[2, 0, 1][
+         2]]])/22 + (5*(NO[primaryopWB[1, 1, 1][2], Derivative[1][
+         primaryopWB[2, 0, 1][4]]] + Derivative[3][primaryopWB[2, 0, 1][4]]/
+        6))/16 - (25*Derivative[3][primaryopWB[2, 0, 1][4]])/264 + 
+    (5*(NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       (3*Derivative[5][primaryopWB[2, 0, 1][2]])/20))/48 + 
+    (15*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]] - 
+       NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]]/2 - 
+       (2*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][
+           2]])/3 + NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+         Derivative[1][primaryopWB[2, 0, 1][2]]]] + 
+       (5*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][
+            2]]])/6 - Derivative[5][primaryopWB[2, 0, 1][2]]/12))/8 + 
+    (15*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+        NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]] - 
+       NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]]/2 + 
+       NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[2, 0, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+          2]], primaryopWB[2, 0, 1][2]] - 
+       (2*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][
+            2]]])/3 + Derivative[5][primaryopWB[2, 0, 1][2]]/24))/8 + 
+    (7*Derivative[5][primaryopWB[2, 0, 1][2]])/88
+ 
+qpNO[2, 0, 3][6] = -NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+      Derivative[1][primaryopWB[2, 0, 1][2]]] + 
+    (2*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], primaryopWB[2, 0, 1][2]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[2][primaryopWB[2, 0, 1][2]]]))/9 - 
+    Derivative[4][primaryopWB[2, 0, 1][2]]/42
+ 
+qpNO[2, 0, 3][7] = NO[primaryopWB[1, 1, 1][2], 
+     Derivative[1][primaryopWB[2, 0, 1][4]]] - 
+    (2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][4]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[2, 0, 1][4]]]))/
+     3 - Derivative[3][primaryopWB[2, 0, 1][4]]/30
+ 
+qpNO[2, 0, 4][6] = (-10*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/3 + 
+    (23*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]])/
+     15 - (73*NO[primaryopWB[1, 1, 1][2], Derivative[2][
+        primaryopWB[2, 0, 1][2]]])/15 + NO[primaryopWB[1, 1, 1][4], 
+     primaryopWB[2, 0, 1][2]] - (7*Derivative[2][primaryopWB[2, 0, 1][4]])/
+     6 + (19*Derivative[4][primaryopWB[2, 0, 1][2]])/70
+ 
+qpNO[2, 0, 4][7] = NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+     NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]] + 
+    (5*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+        primaryopWB[2, 0, 1][2]]])/2 + 
+    (5*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]])/2 + 
+    (5*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]])/
+     6 + (5*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][
+         2]]])/6 - (7*(3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+         Derivative[2][primaryopWB[2, 0, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+          2]], primaryopWB[2, 0, 1][2]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       (3*Derivative[5][primaryopWB[2, 0, 1][2]])/10))/15 - 
+    (3*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+         primaryopWB[2, 0, 1][2]]] - Derivative[5][primaryopWB[2, 0, 1][2]]/
+        60))/10 + (-2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+        NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+        primaryopWB[2, 0, 1][2]]] - NO[Derivative[2][primaryopWB[1, 1, 1][
+         2]], Derivative[1][primaryopWB[2, 0, 1][2]]] - 
+      2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+           2]], Derivative[1][primaryopWB[2, 0, 1][2]]]) - 
+      (7*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]])/
+       6 - NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]] - 
+      NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] + 
+      (3*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+           primaryopWB[2, 0, 1][2]]] + NO[primaryopWB[1, 1, 1][2], 
+          Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+         Derivative[5][primaryopWB[2, 0, 1][2]]/6))/10 + 
+      Derivative[5][primaryopWB[2, 0, 1][2]]/12)/3 - 
+    (299*Derivative[5][primaryopWB[2, 0, 1][2]])/1800
+ 
+qpNO[2, 0, 5][6] = (2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/3 - 
+    (7*NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[2, 0, 1][2]])/
+     10 + NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]]/
+     30 + NO[primaryopWB[0, 2, 1][2], NO[primaryopWB[2, 0, 1][2], 
+      primaryopWB[2, 0, 1][2]]] + 
+    (19*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[2, 0, 1][2]]])/
+     30 + (3*NO[primaryopWB[1, 1, 1][3], Derivative[1][primaryopWB[2, 0, 1][
+         2]]])/10 + Derivative[2][primaryopWB[2, 0, 1][4]]/12 - 
+    (3*(NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] + 
+       Derivative[4][primaryopWB[2, 0, 1][2]]/6))/5 + 
+    (-3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[2, 0, 1][2]]] - 
+      NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[2, 0, 1][2]] - 
+      (3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]])/
+       2 - (3*NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[2, 0, 1][
+           2]]])/2 - Derivative[2][primaryopWB[2, 0, 1][4]]/4 + 
+      Derivative[4][primaryopWB[2, 0, 1][2]]/4)/2 + 
+    Derivative[4][primaryopWB[2, 0, 1][2]]/20
+ 
+qpNO[2, 0, 5][7] = (1303347600*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]])/38759539 + 
+    (11748430548*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/426354929 + 
+    (43335060*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[2, 0, 1][4]])/5537077 + 
+    (755874480*NO[Derivative[1][primaryopWB[1, 1, 1][3]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/60907847 - 
+    (234540*NO[Derivative[1][primaryopWB[1, 1, 1][4]], 
+       primaryopWB[2, 0, 1][2]])/77987 + 
+    (1919357928*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/426354929 + 
+    (1183481760*NO[Derivative[2][primaryopWB[1, 1, 1][3]], 
+       primaryopWB[2, 0, 1][2]])/60907847 - 
+    (3937284*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/425929 + 
+    (651673800*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]])/38759539 + 
+    (43335060*NO[primaryopWB[1, 1, 1][2], Derivative[1][
+        primaryopWB[2, 0, 1][4]]])/5537077 + 
+    (670445148*NO[primaryopWB[1, 1, 1][2], Derivative[3][
+        primaryopWB[2, 0, 1][2]]])/60907847 - 
+    (427607280*NO[primaryopWB[1, 1, 1][3], Derivative[2][
+        primaryopWB[2, 0, 1][2]]])/60907847 - 
+    (234540*NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[2, 0, 1][
+         2]]])/77987 + NO[primaryopWB[1, 1, 1][5], primaryopWB[2, 0, 1][2]] + 
+    (3*Derivative[1][primaryopWB[2, 0, 1][6]])/8 + 
+    (3700*Derivative[3][primaryopWB[2, 0, 1][4]])/781 - 
+    (79308*Derivative[5][primaryopWB[2, 0, 1][2]])/27335
+ 
+qpNO[2, 0, 6][6] = NO[primaryopWB[1, 1, 1][3], 
+     Derivative[1][primaryopWB[2, 0, 1][2]]] - 
+    (2*(NO[Derivative[1][primaryopWB[1, 1, 1][3]], primaryopWB[2, 0, 1][2]] + 
+       NO[primaryopWB[1, 1, 1][3], Derivative[1][primaryopWB[2, 0, 1][2]]]))/
+     5 + Derivative[2][primaryopWB[2, 0, 1][4]]/12 + 
+    (2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[1][
+         primaryopWB[2, 0, 1][2]]] + 
+      NO[Derivative[2][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] + 
+      NO[primaryopWB[1, 1, 1][2], Derivative[2][primaryopWB[2, 0, 1][2]]] - 
+      (3*Derivative[4][primaryopWB[2, 0, 1][2]])/10)/2 + 
+    (9*Derivative[4][primaryopWB[2, 0, 1][2]])/35
+ 
+qpNO[2, 0, 6][7] = (3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]])/2 - 
+    (87*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/616 - 
+    NO[Derivative[1][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][4]]/8 - 
+    (7*NO[Derivative[1][primaryopWB[1, 1, 1][3]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]])/44 - 
+    (24*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/77 + 
+    NO[Derivative[2][primaryopWB[1, 1, 1][3]], primaryopWB[2, 0, 1][2]]/22 + 
+    (43*NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]])/
+     168 + (9*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]])/4 + 
+    NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][3], 
+      primaryopWB[2, 0, 1][2]]] + 
+    (3*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[2, 0, 1][4]]])/
+     8 - (71*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][
+         2]]])/616 - (9*NO[primaryopWB[1, 1, 1][3], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/44 - 
+    (29*Derivative[3][primaryopWB[2, 0, 1][4]])/1540 - 
+    (3*(3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          3]], primaryopWB[2, 0, 1][2]] + 
+       NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] + 
+       Derivative[3][primaryopWB[2, 0, 1][4]]/6 - 
+       Derivative[5][primaryopWB[2, 0, 1][2]]/5))/14 - 
+    (87*Derivative[5][primaryopWB[2, 0, 1][2]])/1540
+ 
+qpNO[2, 0, 7][7] = NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+     NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]] + 
+    NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]]/6 + 
+    ((-NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] - 
+        (3*Derivative[5][primaryopWB[2, 0, 1][2]])/20)/6 - 
+      2*(NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+         NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]] + 
+        NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]]/
+         6 - Derivative[5][primaryopWB[2, 0, 1][2]]/40))/2 + 
+    (NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] + 
+      (3*Derivative[5][primaryopWB[2, 0, 1][2]])/20)/12 - 
+    Derivative[5][primaryopWB[2, 0, 1][2]]/40
+ 
+qpNO[2, 0, 8][7] = (51*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/616 - 
+    (43*NO[Derivative[1][primaryopWB[1, 1, 1][3]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/44 + 
+    (135*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/616 - 
+    (5*NO[Derivative[2][primaryopWB[1, 1, 1][3]], primaryopWB[2, 0, 1][2]])/
+     44 + (527*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/1848 + 
+    (-NO[Derivative[1][primaryopWB[0, 2, 1][2]], NO[primaryopWB[2, 0, 1][2], 
+         primaryopWB[2, 0, 1][2]]] + 
+      NO[Derivative[1][primaryopWB[1, 1, 1][3]], Derivative[1][
+        primaryopWB[2, 0, 1][2]]] + 
+      NO[Derivative[2][primaryopWB[1, 1, 1][3]], primaryopWB[2, 0, 1][2]]/2 - 
+      NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]]/3 - 
+      NO[primaryopWB[0, 2, 1][2], NO[Derivative[1][primaryopWB[2, 0, 1][2]], 
+        primaryopWB[2, 0, 1][2]]])/2 + NO[primaryopWB[0, 2, 1][2], 
+     NO[Derivative[1][primaryopWB[2, 0, 1][2]], primaryopWB[2, 0, 1][2]]] + 
+    (25*NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]])/
+     168 + (3*NO[primaryopWB[1, 1, 1][3], Derivative[2][
+        primaryopWB[2, 0, 1][2]]])/22 + 
+    (103*Derivative[3][primaryopWB[2, 0, 1][4]])/6160 - 
+    (3*(3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          3]], primaryopWB[2, 0, 1][2]] + 
+       NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] + 
+       Derivative[3][primaryopWB[2, 0, 1][4]]/6 - 
+       Derivative[5][primaryopWB[2, 0, 1][2]]/5))/28 + 
+    (-NO[Derivative[3][primaryopWB[1, 1, 1][2]], primaryopWB[2, 0, 1][2]] - 
+      (3*Derivative[5][primaryopWB[2, 0, 1][2]])/20)/6 + 
+    (141*Derivative[5][primaryopWB[2, 0, 1][2]])/6160
+ 
+qpNO[2, 0, 9][7] = (20462965*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       NO[primaryopWB[1, 1, 1][2], primaryopWB[2, 0, 1][2]]])/545909 - 
+    (84015661*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       Derivative[2][primaryopWB[2, 0, 1][2]]])/12009998 + 
+    (5535395*NO[Derivative[1][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[2, 0, 1][4]])/935844 + 
+    (1185025*NO[Derivative[1][primaryopWB[1, 1, 1][3]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/2573571 - 
+    (130300*NO[Derivative[1][primaryopWB[1, 1, 1][4]], 
+       primaryopWB[2, 0, 1][2]])/77987 - 
+    (211212217*NO[Derivative[2][primaryopWB[1, 1, 1][2]], 
+       Derivative[1][primaryopWB[2, 0, 1][2]]])/24019996 + 
+    (18686440*NO[Derivative[2][primaryopWB[1, 1, 1][3]], 
+       primaryopWB[2, 0, 1][2]])/2573571 - 
+    (2317151*NO[Derivative[3][primaryopWB[1, 1, 1][2]], 
+       primaryopWB[2, 0, 1][2]])/395934 + 
+    (20462965*NO[primaryopWB[1, 1, 1][2], NO[primaryopWB[1, 1, 1][2], 
+        Derivative[1][primaryopWB[2, 0, 1][2]]]])/1091818 + 
+    (5535395*NO[primaryopWB[1, 1, 1][2], Derivative[1][primaryopWB[2, 0, 1][
+         4]]])/935844 - (6157993*NO[primaryopWB[1, 1, 1][2], 
+       Derivative[3][primaryopWB[2, 0, 1][2]]])/857857 - 
+    (5833805*NO[primaryopWB[1, 1, 1][3], Derivative[2][primaryopWB[2, 0, 1][
+         2]]])/857857 + NO[primaryopWB[1, 1, 1][3], 
+     primaryopWB[2, 0, 1][4]] - 
+    (130300*NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[2, 0, 1][
+         2]]])/77987 + (5*Derivative[1][primaryopWB[2, 0, 1][6]])/24 + 
+    (515*Derivative[3][primaryopWB[2, 0, 1][4]])/792 - 
+    (2221*Derivative[5][primaryopWB[2, 0, 1][2]])/3080
+ 
+qpNO[2, 0, 10][7] = 
+   (-NO[Derivative[1][primaryopWB[1, 1, 1][4]], primaryopWB[2, 0, 1][2]] - 
+      NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[2, 0, 1][2]]])/
+     3 + NO[primaryopWB[1, 1, 1][4], Derivative[1][primaryopWB[2, 0, 1][
+       2]]] - (7*Derivative[3][primaryopWB[2, 0, 1][4]])/15 - 
+    (2*(3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + 
+       3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[3][primaryopWB[1, 1, 1][
+          2]], primaryopWB[2, 0, 1][2]] + NO[primaryopWB[1, 1, 1][2], 
+        Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       (3*Derivative[5][primaryopWB[2, 0, 1][2]])/10))/3 - 
+    (64*(2*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+          primaryopWB[2, 0, 1][2]]] + NO[Derivative[2][primaryopWB[1, 1, 1][
+          2]], Derivative[1][primaryopWB[2, 0, 1][2]]] + 
+       (-3*NO[Derivative[1][primaryopWB[1, 1, 1][2]], Derivative[2][
+            primaryopWB[2, 0, 1][2]]] - 
+         3*NO[Derivative[2][primaryopWB[1, 1, 1][2]], Derivative[1][
+            primaryopWB[2, 0, 1][2]]] - NO[Derivative[3][primaryopWB[1, 1, 1][
+            2]], primaryopWB[2, 0, 1][2]] - NO[primaryopWB[1, 1, 1][2], 
+          Derivative[3][primaryopWB[2, 0, 1][2]]])/2 + 
+       NO[primaryopWB[1, 1, 1][2], Derivative[3][primaryopWB[2, 0, 1][2]]] - 
+       Derivative[5][primaryopWB[2, 0, 1][2]]/12))/33 - 
+    (16*Derivative[5][primaryopWB[2, 0, 1][2]])/45
